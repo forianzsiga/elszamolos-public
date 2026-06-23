@@ -1,0 +1,77 @@
+.rule-list-root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1;
+  min-height: 0;
+}
+
+.rule-list-header {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid;
+  gap: 16px;
+}
+
+.rule-list-header-checkbox {
+  margin-right: auto;
+}
+
+.system-rules-header {
+  padding: 8px;
+  border-bottom: 1px solid;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  gap: 8px;
+}
+
+/*
+ * Legacy system-rule-item styles. Kept for backwards compatibility
+ * (and referenced by tests / snapshots that may still mention the
+ * class). The unified list renders system rules via
+ * `SortableRuleItem` with `isSystem=true`, so the actual yellow
+ * stripe lives on `.sortable-rule-item--system` in
+ * SortableRuleItem.css.
+ */
+.system-rule-item {
+  margin: 8px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-left: 4px solid;
+  background-color: var(--mui-palette-background-paper);
+  border-color: var(--mui-palette-warning-main);
+}
+
+.system-rule-edit-button {
+  color: var(--mui-palette-primary-main);
+}
+
+.system-rule-delete-button {
+  color: var(--mui-palette-error-main);
+}
+
+.unified-rules-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+.unified-rules-virtuoso {
+  height: 100%;
+  flex: 1;
+}
+
+.unified-row--section-label {
+  margin: 16px 12px;
+  padding: 4px 0;
+}
+
+.unified-row--header-placeholder {
+  /* Reserved class for future use; the real header is rendered inline. */
+}

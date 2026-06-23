@@ -1,0 +1,14 @@
+{
+  "en": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "add": "Add"
+  },
+  "hu": {
+    "edit": "Szerkesztés",
+    "delete": "Törlés",
+    "save": "Mentés",
+    "add": "Hozzáadás"
+  }
+}

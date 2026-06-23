@@ -1,0 +1,61 @@
+.jobManagerContainer {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hiddenInput {
+    display: none;
+}
+
+.filterAlert {
+    flex-shrink: 0;
+}
+
+.tablePaper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+@media (min-width: 900px) {
+    .tablePaper {
+        min-height: 0;
+    }
+}
+
+@media (max-width: 899px) {
+    .tablePaper {
+        min-height: 550px;
+    }
+}
+
+.footerControls {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+}
+
+.invoiceFormControl {
+    flex: 1;
+    min-width: 200px;
+}
+
+.addButton {
+    min-width: 120px;
+}
+
+.footerControls.demoMode {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.notificationAlert {
+    width: 100%;
+}

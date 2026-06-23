@@ -1,0 +1,485 @@
+[
+  {
+    "id": "05b4238a-9726-4a8c-8b04-a1c5643244b8",
+    "name": "asdf",
+    "label": "asdf",
+    "priority": 45,
+    "conditions": [
+      {
+        "field": "doctorName",
+        "operator": "contains",
+        "value": "Karin"
+      },
+      {
+        "field": "type",
+        "operator": "equals",
+        "value": "AnatomicCrown"
+      }
+    ],
+    "kind": "jobExtra",
+    "action": {
+      "value": 1000,
+      "currency": "HUF"
+    },
+    "isSystem": false,
+    "isVisibleInInvoice": true
+  },
+  {
+    "id": "0a5b3de6-b9a3-4be9-bf48-12b876575c01",
+    "name": "Frézelt Implantátum",
+    "label": "Cemented Implant",
+    "priority": 29,
+    "conditions": [
+      {
+        "field": "doctorName",
+        "operator": "contains",
+        "value": "Niki"
+      },
+      {
+        "field": "isScrewRetained",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "field": "type",
+        "operator": "equals",
+        "value": "Coping"
+      }
+    ],
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 100,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "0c1b2c87-bbe5-4f64-88cb-8d088dd30eff",
+    "name": "PMMA Ideiglenes",
+    "label": "PMMA Temp",
+    "priority": 27,
+    "conditions": [
+      {
+        "field": "doctorName",
+        "operator": "contains",
+        "value": "Karin"
+      },
+      {
+        "field": "material",
+        "operator": "contains",
+        "value": "Acrylic/PMMA"
+      }
+    ],
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 23,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "31311979-598b-4e41-8f9a-4e0353781421",
+    "name": "Fémkerámia Hídtag",
+    "label": "Metal-Ceramic Pontic",
+    "priority": 32,
+    "conditions": [
+      {
+        "field": "doctorName",
+        "operator": "contains",
+        "value": "Niki"
+      },
+      {
+        "field": "material",
+        "operator": "isOneOf",
+        "value": [
+          "Composite",
+          "Composite"
+        ]
+      },
+      {
+        "field": "type",
+        "operator": "equals",
+        "value": "AnatomicCrown"
+      }
+    ],
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 55,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "3c7828c5-d762-472d-b5eb-112f8e7516c2",
+    "name": "Csavaros Implantátum",
+    "label": "Screw-Retained Implant",
+    "priority": 21,
+    "conditions": [
+      {
+        "field": "doctorName",
+        "operator": "contains",
+        "value": "Karin"
+      },
+      {
+        "field": "type",
+        "operator": "equals",
+        "value": "Coping"
+      }
+    ],
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 71,
+      "currency": "EUR"
+    },
+    "isSystem": false,
+    "isVisibleInInvoice": true
+  },
+  {
+    "id": "4a03da83-7862-4d33-b5c0-76a2599c4b70",
+    "name": "Frézelt Implantátum",
+    "label": "Cemented Implant",
+    "priority": 22,
+    "conditions": [
+      {
+        "field": "doctorName",
+        "operator": "contains",
+        "value": "Karin"
+      },
+      {
+        "field": "isScrewRetained",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "field": "type",
+        "operator": "equals",
+        "value": "Coping"
+      }
+    ],
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 75,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "4be44507-51b8-45fe-8f2e-8601b84f9555",
+    "name": "Mélyhúzott sín",
+    "label": "Splint",
+    "priority": 35,
+    "conditions": [
+      {
+        "field": "doctorName",
+        "operator": "contains",
+        "value": "Niki"
+      },
+      {
+        "field": "type",
+        "operator": "contains",
+        "value": "Coping"
+      }
+    ],
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 30,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "5c92b303-7c41-4d6b-b5b9-df99c42e8cce",
+    "name": "Cerasmart Inlay",
+    "label": "Inlay/Onlay",
+    "priority": 34,
+    "conditions": [
+      {
+        "field": "doctorName",
+        "operator": "contains",
+        "value": "Niki"
+      },
+      {
+        "field": "type",
+        "operator": "isOneOf",
+        "value": [
+          "AnatomicCrown",
+          "AnatomicCrown"
+        ]
+      }
+    ],
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 90,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "5e0a79f2-55cc-4f9a-b3ec-9c6266a3ccc9",
+    "name": "Fémkerámia Korona",
+    "label": "Metal-Ceramic Crown",
+    "priority": 31,
+    "conditions": [
+      {
+        "field": "doctorName",
+        "operator": "contains",
+        "value": "Niki"
+      },
+      {
+        "field": "material",
+        "operator": "isOneOf",
+        "value": [
+          "Composite"
+        ]
+      },
+      {
+        "field": "type",
+        "operator": "equals",
+        "value": "AnatomicCrown"
+      }
+    ],
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 55,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "606ef8d4-c7e5-4b7b-9e74-9ae3ceb875a5",
+    "name": "E.max Héj",
+    "label": "E.max Veneer",
+    "priority": 33,
+    "conditions": [
+      {
+        "field": "doctorName",
+        "operator": "contains",
+        "value": "Niki"
+      },
+      {
+        "field": "material",
+        "operator": "contains",
+        "value": "Zirconia Multilayer"
+      },
+      {
+        "field": "type",
+        "operator": "equals",
+        "value": "Veneer"
+      }
+    ],
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 120,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "6a94ae67-0509-4203-a1c8-ec30b833781c",
+    "name": "Flexibilis fogsor",
+    "label": "Flexible Denture",
+    "priority": 36,
+    "conditions": [
+      {
+        "field": "doctorName",
+        "operator": "contains",
+        "value": "Niki"
+      },
+      {
+        "field": "type",
+        "operator": "contains",
+        "value": "AnatomicCrown"
+      },
+      {
+        "field": "material",
+        "operator": "contains",
+        "value": "Composite"
+      }
+    ],
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 280,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "79b0b954-2125-457a-a638-5dd5c9830da4",
+    "name": "PMMA Ideiglenes",
+    "label": "PMMA Temp",
+    "priority": 37,
+    "conditions": [
+      {
+        "field": "doctorName",
+        "operator": "contains",
+        "value": "Niki"
+      },
+      {
+        "field": "material",
+        "operator": "contains",
+        "value": "Acrylic/PMMA"
+      }
+    ],
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 23,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "7bc446f4-dd18-4c36-8e35-6765ac0e55ec",
+    "name": "Csavaros Implantátum",
+    "label": "Screw-Retained Implant",
+    "priority": 28,
+    "conditions": [
+      {
+        "field": "doctorName",
+        "operator": "contains",
+        "value": "Niki"
+      },
+      {
+        "field": "isScrewRetained",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "field": "type",
+        "operator": "equals",
+        "value": "Coping"
+      }
+    ],
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 100,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "7f169182-caba-46f3-81dd-725ee3da7967",
+    "name": "Fémkerámia Korona",
+    "label": "Metal-Ceramic Crown",
+    "priority": 24,
+    "conditions": [
+      {
+        "field": "doctorName",
+        "operator": "contains",
+        "value": "Karin"
+      },
+      {
+        "field": "material",
+        "operator": "isOneOf",
+        "value": [
+          "Composite"
+        ]
+      },
+      {
+        "field": "type",
+        "operator": "equals",
+        "value": "AnatomicCrown"
+      }
+    ],
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 42,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "8cca9e0a-7e6d-4077-982f-8ddbd1285be4",
+    "name": "Cerasmart Inlay",
+    "label": "Inlay/Onlay",
+    "priority": 26,
+    "conditions": [
+      {
+        "field": "doctorName",
+        "operator": "contains",
+        "value": "Karin"
+      },
+      {
+        "field": "type",
+        "operator": "isOneOf",
+        "value": [
+          "AnatomicCrown",
+          "AnatomicCrown"
+        ]
+      }
+    ],
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 72,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "bdd2a9e5-968f-4254-baf5-7988a52add64",
+    "name": "Leplezett Cirkonium Korona",
+    "label": "Zircon Crown",
+    "priority": 23,
+    "conditions": [
+      {
+        "field": "doctorName",
+        "operator": "contains",
+        "value": "Karin"
+      },
+      {
+        "field": "type",
+        "operator": "equals",
+        "value": "AnatomicCrown"
+      }
+    ],
+    "kind": "base",
+    "action": {
+      "value": 95,
+      "currency": "EUR"
+    },
+    "isSystem": false,
+    "isVisibleInInvoice": true
+  },
+  {
+    "id": "e4a168bf-e380-419b-b060-b38b4522f1f4",
+    "name": "Leplezett Cirkonium Korona",
+    "label": "Zircon Crown",
+    "priority": 30,
+    "conditions": [
+      {
+        "field": "doctorName",
+        "operator": "contains",
+        "value": "Niki"
+      },
+      {
+        "field": "type",
+        "operator": "equals",
+        "value": "AnatomicCrown"
+      }
+    ],
+    "kind": "toothExtra",
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 100,
+      "currency": "EUR"
+    },
+    "isSystem": false,
+    "isVisibleInInvoice": true
+  },
+  {
+    "id": "edd741e8-c4c9-4013-bc5b-8df1af8ea8be",
+    "name": "E.max Héj",
+    "label": "E.max Veneer",
+    "priority": 25,
+    "conditions": [
+      {
+        "field": "doctorName",
+        "operator": "contains",
+        "value": "Karin"
+      },
+      {
+        "field": "material",
+        "operator": "contains",
+        "value": "Zirconia Multilayer"
+      },
+      {
+        "field": "type",
+        "operator": "equals",
+        "value": "Veneer"
+      }
+    ],
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 95,
+      "currency": "EUR"
+    },
+    "isSystem": false,
+    "isVisibleInInvoice": true
+  }
+]

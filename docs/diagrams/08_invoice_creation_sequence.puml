@@ -1,0 +1,101 @@
+@startuml Invoice Creation Sequence
+!theme plain
+skinparam backgroundColor white
+skinparam sequenceMessageAlign center
+
+title DentalRaktar - Invoice Creation Sequence Diagram
+
+actor "User" as U
+participant "InvoicesPage" as IP
+participant "JobManagerPage" as JMP
+participant "InvoiceContext" as IC
+participant "JobContext" as JC
+participant "dbService" as DB
+database "IndexedDB" as IDB
+
+== Select Jobs for Invoice ==
+U -> JMP: Select jobs (checkbox)
+activate JMP
+JMP -> JMP: Update selectedIds Set
+JMP --> U: Visual selection feedback
+deactivate JMP
+
+== Validate Selection ==
+U -> JMP: Click "Add to Invoice"
+activate JMP
+
+JMP -> JMP: Filter selected jobs
+JMP -> JMP: Validate status == 'Calculated'
+
+alt Invalid jobs selected
+    JMP --> U: Error: "Only calculated jobs\ncan be invoiced"
+else Jobs already invoiced
+    JMP --> U: Error: "Jobs already\nbelonging to an invoice"
+else Valid selection
+    
+    == Create or Select Invoice ==
+    alt Create new invoice
+        JMP -> JMP: Generate invoice number\n(INV-YYYY-NNN)
+        JMP -> JMP: Calculate totals
+        
+        JMP -> IC: dispatch(ADD_INVOICE)
+        activate IC
+        IC -> DB: addInvoice(invoice)
+        DB -> IDB: put(invoice)
+        IDB --> DB: OK
+        DB --> IC: OK
+        IC --> JMP: Invoice created
+        deactivate IC
+    else Add to existing invoice
+        JMP -> IC: Get selected invoice
+        JMP -> IC: dispatch(UPDATE_INVOICE)
+    end
+    
+    == Update Jobs ==
+    loop For each selected job
+        JMP -> JMP: Set job.parentInvoiceId
+        JMP -> JMP: Set job.status = 'Invoiced'
+        
+        loop For each tooth in job
+            JMP -> JMP: Set tooth.parentInvoiceId
+            JMP -> JMP: Set tooth.status = 'Invoiced'
+        end
+    end
+    
+    JMP -> JC: dispatch(UPDATE_JOBS)
+    activate JC
+    JC -> DB: updateJobs(jobs)
+    DB -> IDB: put(jobs)
+    IDB --> DB: OK
+    DB --> JC: OK
+    JC --> JMP: Jobs updated
+    deactivate JC
+    
+    JMP -> JMP: Clear selection
+    JMP --> U: Success notification
+end
+
+deactivate JMP
+
+== View Invoice ==
+U -> IP: Navigate to Invoices
+activate IP
+IP -> IC: useInvoices()
+IC --> IP: invoices[]
+
+U -> IP: Select invoice
+IP -> IP: Render InvoicePreview
+IP -> JC: useJobs()
+JC --> IP: jobs[]
+IP -> IP: Filter jobs by parentInvoiceId
+IP --> U: Display invoice with jobs
+
+== Print Invoice ==
+U -> IP: Click "Print"
+IP -> IP: Render PrintableInvoice
+IP -> IP: window.print()
+IP --> U: Print dialog
+
+deactivate IP
+
+@enduml

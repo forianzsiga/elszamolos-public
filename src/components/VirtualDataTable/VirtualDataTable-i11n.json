@@ -1,0 +1,16 @@
+{
+  "en": {
+    "noEntries": "No entries available",
+    "visibleColumns": "Visible Columns",
+    "selectRow": "Select row",
+    "resetZoom": "Reset zoom",
+    "toggleColumn": "Toggle column"
+  },
+  "hu": {
+    "noEntries": "Nincsenek elérhető bejegyzések",
+    "visibleColumns": "Látható oszlopok",
+    "selectRow": "Sor kijelölése",
+    "resetZoom": "Nagyítás alaphelyzetbe",
+    "toggleColumn": "Oszlop váltása"
+  }
+}

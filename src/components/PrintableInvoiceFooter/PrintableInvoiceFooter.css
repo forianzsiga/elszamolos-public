@@ -1,0 +1,26 @@
+.totalsSection {
+    margin-top: 16px;
+    margin-left: auto;
+    width: 250px;
+    border-top: 2px solid #e2e8f0;
+    padding-top: 8px;
+}
+
+.grandTotalBox {
+    font-weight: 700;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    color: #0f172a;
+    margin-top: 4px;
+}
+
+.disclaimer {
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top: 1px dashed #cbd5e1;
+    text-align: center;
+    font-size: 0.7rem;
+    color: #94a3b8;
+    font-style: italic;
+}

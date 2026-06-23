@@ -1,0 +1,6 @@
+.teeth-list-popover-container {
+    padding: 16px;
+    max-width: 400px;
+    max-height: 400px;
+    overflow: auto;
+}

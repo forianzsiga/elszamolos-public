@@ -1,0 +1,32 @@
+{
+  "en": {
+    "jumpToJobTooltip": "Navigate to the job",
+    "removeExclusionTooltip": "Remove this exclusion",
+    "systemRuleTooltip": "It is to filter logically invalid jobs or tag jobs to be manually revisioned.",
+    "activeTitle": "Active Exclusions and Applications",
+    "exclusions": "Exclusions",
+    "entireJob": "Entire Job (Project: {{projectId}})",
+    "tooth": "Tooth {{toothNumber}} (Project: {{projectId}})",
+    "patientDoctor": "Patient: {{patientName}} • Doctor: {{doctorName}}",
+    "jumpToJob": "Jump to Job",
+    "removeExclusion": "Remove Exclusion",
+    "applications": "Applications",
+    "ruleDoesNotCalculate": "This rule does not make a unit calculated by default",
+    "recalculating": "Recalculating…"
+  },
+  "hu": {
+    "jumpToJobTooltip": "Ugrás a munkához",
+    "removeExclusionTooltip": "Kizárás eltávolítása",
+    "systemRuleTooltip": "Logikailag érvénytelen munkák szűrésére vagy manuális felülvizsgálatra szoruló munkák megjelölésére szolgál.",
+    "activeTitle": "Aktív kizárások és alkalmazások",
+    "exclusions": "Kizárások",
+    "entireJob": "Teljes munka (Projekt: {{projectId}})",
+    "tooth": "Fog {{toothNumber}} (Projekt: {{projectId}})",
+    "patientDoctor": "Páciens: {{patientName}} • Orvos: {{doctorName}}",
+    "jumpToJob": "Ugrás a munkához",
+    "removeExclusion": "Kizárás eltávolítása",
+    "applications": "Alkalmazások",
+    "ruleDoesNotCalculate": "Ez a szabály alapértelmezetten nem számolja ki az egységet",
+    "recalculating": "Újraszámítás…"
+  }
+}

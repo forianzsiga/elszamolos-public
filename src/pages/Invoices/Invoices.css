@@ -1,0 +1,74 @@
+.invoices-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.invoices-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.no-invoices-paper {
+    padding: 32px;
+    text-align: center;
+    color: var(--mui-palette-text-secondary);
+}
+
+.invoice-accordion {
+    margin-bottom: 8px;
+}
+
+.accordion-summary {
+    flex-direction: row-reverse;
+}
+
+.accordion-summary .MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+    transform: rotate(90deg);
+}
+
+.accordion-summary .MuiAccordionSummary-content {
+    margin-left: 8px;
+}
+
+.accordion-item-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 16px;
+}
+
+.invoice-number {
+    width: 25%;
+}
+
+.invoice-date {
+    width: 25%;
+    color: var(--mui-palette-text-secondary);
+}
+
+.invoice-job-count {
+    width: 15%;
+}
+
+.invoice-amount {
+    width: 15%;
+    text-align: right;
+}
+
+.invoice-actions {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.accordion-details {
+    padding: 16px;
+    background-color: var(--mui-palette-background-default);
+}
+
+.hidden-print-container {
+    display: none;
+}

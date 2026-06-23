@@ -1,0 +1,143 @@
+.number-container {
+  padding-left: 8px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-left-style: solid;
+  border-left-width: 4px;
+  border-left-color: var(--accent-color);
+}
+
+.number-label {
+  padding: 4px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+  width: fit-content;
+  background-color: var(--number-bg-color);
+  color: var(--accent-color);
+}
+
+.excluded-base-number-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  line-height: 1.1;
+}
+
+.excluded-base-old {
+  text-decoration: line-through;
+  opacity: 0.5;
+  font-size: 0.75em;
+  white-space: nowrap;
+}
+
+.excluded-base-new {
+  font-size: 0.85em;
+  white-space: nowrap;
+}
+
+.status-chip {
+  height: 20px;
+  font-size: 0.7rem;
+}
+
+.hidden-chip {
+    margin-left: 8px;
+    height: 20px;
+    font-size: 0.6rem;
+}
+
+.applied-rules-count {
+    display: block;
+    margin-top: 2px;
+    font-size: 0.65rem;
+    line-height: 1.2;
+}
+
+.extra-fee-chip {
+  height: 20px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #fff;
+  border-color: #fff;
+  background-color: transparent;
+}
+
+.rule-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+}
+
+.rule-label {
+  max-width: 150px;
+  display: block;
+  font-size: 1rem;
+}
+
+.rule-label-hidden {
+  font-style: italic;
+  opacity: 0.6;
+}
+
+.rule-count-label {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.rule-count-label-excluded {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.rule-icon-button {
+  padding: 2px;
+}
+
+.rule-icon {
+  font-size: 14px;
+}
+
+.create-rule-button {
+  text-transform: none;
+  font-size: 0.65rem;
+  padding: 2px 8px;
+  min-width: auto;
+  color: text.secondary;
+  border-color: divider;
+  background-color: action.hover;
+}
+
+.create-rule-button:hover {
+  border-color: text.secondary;
+  background-color: action.selected;
+}
+
+.extra-rule-label {
+  max-width: 180px;
+  display: block;
+  font-weight: 400;
+}
+
+.priority-chip {
+  height: 20px;
+  font-size: 0.7rem;
+}
+
+.price-text {
+  font-weight: 700;
+}
+
+.rule-generated-text {
+  font-style: italic;
+}
+
+.actions-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}

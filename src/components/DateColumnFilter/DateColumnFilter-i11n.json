@@ -1,0 +1,20 @@
+{
+  "en": {
+    "from": "From",
+    "to": "To",
+    "clear": "Clear",
+    "apply": "Apply",
+    "openFilter": "Open date filter",
+    "clearFilter": "Clear filter",
+    "applyFilter": "Apply filter"
+  },
+  "hu": {
+    "from": "Kezdő dátum",
+    "to": "Záró dátum",
+    "clear": "Törlés",
+    "apply": "Alkalmaz",
+    "openFilter": "Dátumszűrő megnyitása",
+    "clearFilter": "Szűrő törlése",
+    "applyFilter": "Szűrő alkalmazása"
+  }
+}

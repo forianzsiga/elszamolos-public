@@ -1,0 +1,32 @@
+{
+  "en": {
+    "expandRules": "Show applied rules",
+    "collapseRules": "Hide applied rules",
+    "noAppliedRules": "No rules applied to this unit.",
+    "ruleKind.base": "Base price",
+    "ruleKind.unitExtra": "Unit extra",
+    "ruleKind.jobExtra": "Job extra",
+    "ruleKind.ignoreUnit": "Ignored",
+    "ruleKind.invalid": "Invalid",
+    "ruleKind.review": "Review",
+    "jobScope": "Job-level",
+    "excludeRule": "Exclude this rule for this unit",
+    "reincludeRule": "Re-include this rule for this unit",
+    "editRule": "Edit rule"
+  },
+  "hu": {
+    "expandRules": "Alkalmazott szabályok mutatása",
+    "collapseRules": "Alkalmazott szabályok elrejtése",
+    "noAppliedRules": "Nincsenek alkalmazott szabályok erre az egységre.",
+    "ruleKind.base": "Alapár",
+    "ruleKind.unitExtra": "Egység extra",
+    "ruleKind.jobExtra": "Munka extra",
+    "ruleKind.ignoreUnit": "Figyelmen kívül hagyva",
+    "ruleKind.invalid": "Érvénytelen",
+    "ruleKind.review": "Átnézendő",
+    "jobScope": "Munka-szintű",
+    "excludeRule": "Szabály kizárása erre az egységre",
+    "reincludeRule": "Szabály visszahelyezése erre az egységre",
+    "editRule": "Szabály szerkesztése"
+  }
+}

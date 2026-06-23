@@ -1,0 +1,145 @@
+[
+  {
+    "id": "26906fcb-479f-4529-9a68-d1bce838f1ef",
+    "name": "Rule for Niki Szabó/2 Keszegh Viktória, Healthy Antagonist",
+    "label": "Rule for Niki Szabó/2 Keszegh Viktória, Healthy Antagonist",
+    "priority": 43,
+    "conditions": [
+      {
+        "field": "material",
+        "operator": "equals",
+        "value": "Healthy"
+      },
+      {
+        "field": "type",
+        "operator": "equals",
+        "value": "Antagonist"
+      },
+      {
+        "field": "doctorName",
+        "operator": "equals",
+        "value": "Niki Szabó"
+      },
+      {
+        "field": "patientName",
+        "operator": "equals",
+        "value": "2 Keszegh Viktória"
+      }
+    ],
+    "kind": "base",
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 0,
+      "currency": "HUF"
+    },
+    "isSystem": true,
+    "isVisibleInInvoice": false
+  },
+  {
+    "id": "2cb403ce-64f2-455a-b929-01845ae7efea",
+    "name": "Antagonist Hidden",
+    "label": "Antagonist Hidden",
+    "priority": 20,
+    "conditions": [
+      {
+        "field": "type",
+        "operator": "equals",
+        "value": "Antagonist"
+      }
+    ],
+    "kind": "base",
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 0,
+      "currency": "HUF"
+    },
+    "isSystem": true,
+    "isVisibleInInvoice": false
+  },
+  {
+    "id": "2f57f76d-f8b4-4b63-8acb-7e3a2413a642",
+    "name": "System: Invalid Screw Retained Material",
+    "label": "Invalid Material",
+    "priority": 19,
+    "isSystem": true,
+    "conditions": [
+      {
+        "field": "isScrewRetained",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "field": "type",
+        "operator": "equals",
+        "value": "AnatomicCrown"
+      },
+      {
+        "field": "material",
+        "operator": "notOneOf",
+        "value": [
+          "Zirconia",
+          "Zirconia Multilayer",
+          "Acrylic/PMMA",
+          "Composite"
+        ]
+      }
+    ],
+    "action": {
+      "type": "setInvalid",
+      "value": 0
+    }
+  },
+  {
+    "id": "35549605-a741-4575-b8b5-265a82fa4a9b",
+    "name": "exclude die",
+    "label": "exclude die",
+    "priority": 44,
+    "conditions": [
+      {
+        "field": "type",
+        "operator": "equals",
+        "value": "3D Model"
+      },
+      {
+        "field": "material",
+        "operator": "contains",
+        "value": "die"
+      }
+    ],
+    "kind": "base",
+    "action": {
+      "type": "setPricePerUnit",
+      "value": 0,
+      "currency": "HUF"
+    },
+    "isSystem": true,
+    "isVisibleInInvoice": false
+  },
+  {
+    "id": "905b0b9a-1dc5-4296-b689-76763a6b4592",
+    "name": "System: Invalid Screw Retained Type",
+    "label": "Invalid Configuration",
+    "priority": 18,
+    "isSystem": true,
+    "conditions": [
+      {
+        "field": "isScrewRetained",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "field": "type",
+        "operator": "notOneOf",
+        "value": [
+          "Coping",
+          "OffsetCoping",
+          "AnatomicCrown"
+        ]
+      }
+    ],
+    "action": {
+      "type": "setInvalid",
+      "value": 0
+    }
+  }
+]

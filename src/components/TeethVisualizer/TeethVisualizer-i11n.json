@@ -1,0 +1,14 @@
+{
+  "en": {
+    "tooth": "Tooth",
+    "noTeeth": "No teeth to display",
+    "models": "Models",
+    "modelTooltip": "3D Model: {name}"
+  },
+  "hu": {
+    "tooth": "Fog",
+    "noTeeth": "Nincs megjeleníthető fog",
+    "models": "Modellek",
+    "modelTooltip": "3D Modell: {name}"
+  }
+}

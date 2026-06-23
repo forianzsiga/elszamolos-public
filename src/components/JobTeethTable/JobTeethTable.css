@@ -1,0 +1,26 @@
+.job-teeth-table-paper {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.job-teeth-table-paper.full-height {
+    height: 100%;
+}
+
+.job-teeth-table-content {
+    width: 100%;
+    max-width: 100%;
+}
+
+.job-teeth-table-content.full-height {
+    height: 100%;
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+

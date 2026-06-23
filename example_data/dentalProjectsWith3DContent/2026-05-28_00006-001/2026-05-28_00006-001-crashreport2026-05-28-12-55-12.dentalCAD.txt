@@ -1,0 +1,889 @@
+DentalCAD-Version 3.2 Elefsina Engine build 8820 (2024-02-24)
+
+GraphicsCard:GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: Quadro M2000/PCIe/SSE2
+GL_VERSION: 4.6.0 NVIDIA 582.41
+CPU-Count: 6/6
+GL_SHADING_LANGUAGE_VERSION: 4.60 NVIDIA
+Video Memory: 4096MB
+
+GraphicsShader:On
+
+ViewerInstanceCount:3
+ViewerInstance(1):Id=1,IsMainScene, IsInitialized,Visible,Width=1800,Height=1040,Class=DentalData.Scene
+ViewerInstance(2):Id=2,NotInitialized,Class=DentalData.Scene
+ViewerInstance(3):Id=3,NotInitialized,Class=DentalData.Scene
+
+
+DisplayAdapterInfo:  NVIDIA_Quadro_M2000#VideoController1#NVIDIA_Quadro_M2000#32.0.15.8241#20260306000000.000000-000#Quadro_M2000#4293918720#3#
+
+Number of CPUs:  1
+CPU Information(1):  Manufacturer=GenuineIntel, Name=Intel(R)_Core(TM)_i5-9600K_CPU_@_3.70GHz, NumberOfCores=6, NumberOfLogicalProcessors=6, Other=, ProcessorId=BFEBFBFF000906ED, UniqueId=
+
+Operating System Version:  Microsoft Windows NT 10.0.19045.0 [64bit]
+Microsoft Windows Update History:  KB5064400,KB5064399,KB5011048,KB5011060,KB5015684,KB5066198,KB5014032,KB5032907,KB5063979,KB5066411
+Microsoft .Net Compile Version:  NET6
+Microsoft .Net Runtime Version:  8.0.7
+Microsoft .Net Framework Description:  .NET 8.0.7
+Microsoft .Net Version Installed:  4.8 or later
+Microsoft .Net Update History:  Microsoft .NET Framework 4 Client Profile:KB2468871, KB2468871v2, KB2478063, KB2533523, KB2544514, KB2600211, KB2600217|Microsoft .NET Framework 4 Extended:KB2468871, KB2468871v2, KB2478063, KB2533523, KB2544514, KB2600211, KB2600217|
+
+MemoryInfo:
+Memory in use  : 27%
+Total Physical : 16298mb
+Free  Physical : 11814mb
+Free  Page     : 12350mb
+Total Virtual  : 134217727mb
+Free  Virtual  : 131848936mb
+Free Extended  : 0mb
+
+VirtualMemoryInfo:Total : 134217727mb / Free  : 131848936mb
+
+BuildsystemBranchName: release3.2
+
+
+
+------------- START OF DETAILED INFO---------------------------
+SessionEventLog : 1: [2026-05-28-12-47-18] SessionLogInit
+2: [2026-05-28-12-47-18] SessionLogInitCommandLine(C:\exocad-DentalCAD3.2-2024-02-24\DentalCADApp\bin\DentalCADApp.dll C:\exocad-DentalCAD3.2-2024-02-24\CAD-Data\2026-05-28_00006-001\2026-05-28_00006-001.dentalProject /MultiDiePluginName=C:\exocad-DentalCAD3.2-2024-02-24\DentalDB\bin\\MultiDiePlugin.015.dll)
+3: SessionProductNameOnStart(exocad DentalCAD 3.2 Elefsina 8820 [DentalCAD-Version 3.2 Engine build 8820])
+4: SessionEngineBuildString(DentalCAD-Version 3.2 Elefsina Engine build 8820 (2024-02-24))
+5: SessionBuildSystemString(exocad GmbH, Dental CAD, Build System, Date: 2024-02-24-22:00:00, BuildDay: 8820, Type: generic-lab-net6, Compiler: VC2022-64bit MSBuild: 17.6.3.22601 CL: 19.36.32545 CSC: 4.6.0-3.23329.3, DotNetVersion: 6.0, VSSolution: DentalCAD/DentalCADWithDentalBaseForScanners.sln, VSConfiguration: ReleaseNET6|x64, BranchName: release3.2, Revisions: exdc/buildscripts.git@a72b8bc7b5bf55ed669e1614e68a4a2026aa3d09 exdc/dentalbase.git@21f1611502a523bc7de09ddf2d048e24f43597bd exdc/dentalbase.snk.git@79f7b9f95286951e0ccff7218b53156f3f86f12a exdc/DentalBaseDotNetCSharp.git@2c4334e1d53dc988de9ec0deff38e099ce508a86 exdc/dentalcad.git@2f3c38f6f9a65d37b09a38d864fb7e5af7c8ae38 exdc/DentalCADAppLibraryTester.git@11d998973275764baec9ed281200bc7b23d98783 exdc/DentalCADexocam.git@f25de05e2583d5770698bd2bc8227a7a6305d270 exdc/DentalCADLibrary.git@ff506771a750e9d8b375b25e045ded91da17dd0b exdc/dentalconfig.git@0595fd1a545086973189f7be97d8d2efd50f685a exdc/DentalConfigControl.git@8f69f10cc661402772c3bae7fadc4d3a3ba2fa86 exdc/dentalscanners.git@af2d440aee206d7e00fb226b5ea16fa77c016483 exdc/DLL.git@cd04004e7cadb23a6593f634312559f95bcbe311 exdc/encryption.git@aa2763b4f3401a468bdea21c8f8a6a41810984ad exdc/exocadlicenseclientcsharp.git@b4f05494fe8d57427c754f3e332a49c34b42a63c exdc/exocsclientwebportal.git@987b0957e3e4f61a24f0d6d7b3038314bed133ca exdc/exoImplantEditor.git@dd3568cb7a01d2b4129ca4bea420219dd0c66e6f exdc/opensource.dll-licenses.git@d67b3574acfc83070af1f56bb907ca83193bd828 exdc/Skins.git@7cb1eb48ab66b1645cdb41ea1ce559de469a0935 exdc/snk.git@68095f78bf417ff470d5c0baaa78e73dce524c7e exdc/toolselectioncontrolbinaries.git@1cb7cc497288a8f5b51fdf9a4fe1bfe8ebbdc53f exdc/webviewExport.git@5d01a79061f6f6b120f23d0b6af12814f4fb08b7 extools/dentalcadapplaunchers.git@2488d035b95d478ab455e87215a9fe2136d8f54a extools/themida.git@4118cbfd66881c6c83f3ea68a5f972ad9ee61aad)
+6: [2026-05-28-12-47-19] RangeImageGPUAvailabilityCheckSucceeded(AlgorithmType=2,GraphicsCard:GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: Quadro M2000/PCIe/SSE2
+GL_VERSION: 4.6.0 NVIDIA 582.41
+CPU-Count: 6/6
+GL_SHADING_LANGUAGE_VERSION: 4.60 NVIDIA
+Video Memory: 4096MB
+)
+7: [2026-05-28-12-47-20] MainWindowConstructor.ProcessorsLoadedFromFile(Target=Wizard, FileName="wizard.xml")
+8: [2026-05-28-12-47-20] MainWindowConstructor.ProcessorsLoadedFromFile(Target=Buttons, FileName="buttons.xml")
+9: [2026-05-28-12-47-21] MainWindowConstructor.ProcessorsLoadedFromFile(Target=ContextMenu, FileName="contextmenu.xml")
+10: [2026-05-28-12-47-21] MainWindowConstructor.ProcessorsLoadedFromFile(Target=WizardContextMenu, FileName="contextmenu-wizard.xml")
+11: [2026-05-28-12-47-21] ExoSplashScreen.Closed
+12: [2026-05-28-12-47-21] ApplicationDeactivatedEvent
+13: [2026-05-28-12-47-21] DentalToolWindowConstructed(TitleKeyword=DentalGUIHelper.NotificationBell.Title, Title=DentalGUIHelper.NotificationBell.Title, ControlType=DentalGUIHelper.NotificationBell,  Keyword=DentalGUIHelper.NotificationBell, Owner=exocad DentalCAD 3.2 Elefsina 8820 [DentalCAD-Version 3.2 Engine build 8820])
+14: [2026-05-28-12-47-21] DentalToolWindowSourceInitialized(Title=DentalGUIHelper.NotificationBell.Title, ControlType=DentalGUIHelper.NotificationBell,  Keyword=DentalGUIHelper.NotificationBell, AutomationTitle="ExocadWindowOfType_DentalToolWindow_Title_DentalGUIHelper_NotificationBell_Title")
+15: [2026-05-28-12-47-21] StatisticsLogUsageIncrement(ToolWindowControl_DentalGUIHelper.NotificationBell, Sum = 1)
+16: [2026-05-28-12-47-21] StatisticsLogUsageIncrement(ToolWindowKeyword_DentalGUIHelper.NotificationBell, Sum = 1)
+17: [2026-05-28-12-47-21] ApplicationActivatedEvent
+18: [2026-05-28-12-47-21] UserInputIdleStarted(UnidleTime=0.18s)
+19: [2026-05-28-12-47-21] UserInputIdleStopped(IdleTime=0.13s)
+20: [2026-05-28-12-47-21] ToolWindowRenderForFirstTime(Title=DentalGUIHelper.NotificationBell.Title, Keyword=DentalGUIHelper.NotificationBell)
+21: [2026-05-28-12-47-21] ToolWindowRenderForFirstTime(Title=exocad DentalCAD 3.2 Elefsina 8820 [DentalCAD-Version 3.2 Engine build 8820], Keyword=MainWindow)
+22: [2026-05-28-12-47-21] ImportProjectOrJaw(C:\exocad-DentalCAD3.2-2024-02-24\CAD-Data\2026-05-28_00006-001\2026-05-28_00006-001.dentalProject)
+23: [2026-05-28-12-47-21] ExoNotificationEnvironmentChange(New=ExoNotificationEnvironment(Id=2, Status=SomethingIsStillLoading, ProjectName=C:\exocad-DentalCAD3.2-2024-02-24\CAD-Data\2026-05-28_00006-001\2026-05-28_00006-001.dentalProject, SceneName=, TimeStampUtc=05/28/2026 10:47:21, NEGuid=615f5ce2-4f9b-4e8c-a9db-0e0a041efb65), Old=, Sender=DentalCADApp.MainWindow)
+24: [2026-05-28-12-47-21] ImportingJawStart(projectFile=C:\exocad-DentalCAD3.2-2024-02-24\CAD-Data\2026-05-28_00006-001\2026-05-28_00006-001.dentalProject)...
+25: [2026-05-28-12-47-21] DentalProjectDeserializedDentalProjectTreatmentFile(FileName=C:\exocad-DentalCAD3.2-2024-02-24\CAD-Data\2026-05-28_00006-001\2026-05-28_00006-001.dentalProject, WorkParamsSHA=vK7GOrDaukc8RLXVciEJTmpbJro=, ToothCount=8, DentalDBProductName =exocad DentalDB 3.2 Elefsina 8820 [Version 3.2 Engine build 8820] [<64-Bit>] , DentalDBBuildDate=2024-02-24, DentalProjectFileHashSHA256=a888aa78ab4cdc39d3ae601e656da99789bdc42567259e07da841e5a186ae836)
+26: [2026-05-28-12-47-21] StatisticsLogUsageIncrement(DentalProjectFileReader, Sum = 1)
+27: [2026-05-28-12-47-21] StatisticsLogUsageIncrement(DentalProjectFileReader_WorkParamsSHA_vK7GOrDaukc8RLXVciEJTmpbJro=, Sum = 1)
+28: [2026-05-28-12-47-21] StatisticsLogUsageIncrement(DentalProjectFileReader_DentalDBProduct_exocad DentalDB 3.2 Elefsina 8820 [Version 3.2 Engine build 8820] [<64-Bit>] , Sum = 1)
+29: [2026-05-28-12-47-21] StatisticsLogUsageIncrement(DentalProjectFileReader_DentalDBBuildDate_2024-02-24, Sum = 1)
+30: [2026-05-28-12-47-21] StatisticsLogUsageIncrement(DentalProjectFileReader_DentalDBBuildDate_WorkParamsSHA_2024-02-24_vK7GOrDaukc8RLXVciEJTmpbJro=, Sum = 1)
+31: [2026-05-28-12-47-22] DentalProjectSetApproximateAxes(PartsAreSuitableForSettingAxes=True)
+32: [2026-05-28-12-47-22] ImportingJawSetApproximateAxes...
+33: [2026-05-28-12-47-22] ImportJawPartMissingMeshes(nParts=2:Antagonist(33-32-31-41),UnsegmentedJaw(11-21-22-23))
+34: [2026-05-28-12-47-22] ImportingJawEnd(projectFile=C:\exocad-DentalCAD3.2-2024-02-24\CAD-Data\2026-05-28_00006-001\2026-05-28_00006-001.dentalProject)
+35: [2026-05-28-12-47-22] ToolWindowCloseButDidNotSavedPosition(Title=Please wait until the operation is finished, Keyword=)
+36: [2026-05-28-12-47-22] LoadedProject(Project=2026-05-28_00006-001, ProjectGUID=66396f6e-b46d-4b49-b1cd-a0d76fb097ea, DesignGUID=4db9fd8f-beb8-4f45-9498-f2515f501a69, DatabaseGUID=6b05413b-0c46-41d2-a3d1-a558ec3c5339)
+37: [2026-05-28-12-47-25] StatisticsLogUsageIncrement(MOC, Sum = 1)
+38: [2026-05-28-12-47-25] StatisticsLogUsageIncrement(MClientStart, Sum = 1)
+39: [2026-05-28-12-47-25] StatisticsLogUsageIncrement(MClient.ErrorWebReceive, Sum = 1)
+40: [2026-05-28-12-47-25] StatisticsLogUsageIncrement(MClient.ErrorWebReceive_URLID_0, Sum = 1)
+41: [2026-05-28-12-47-25] StatisticsLogUsageIncrement(MClient.ErrorWebReceive_URL_http://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 1)
+42: [2026-05-28-12-47-25] StatisticsLogUsageIncrement(MClient.Failed_URLID_0, Sum = 1)
+43: [2026-05-28-12-47-25] StatisticsLogUsageIncrement(MClient.Failed_URL_http://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 1)
+44: [2026-05-28-12-47-25] StatisticsLogUsageIncrement(MClient.ErrorWebReceive, Sum = 2)
+45: [2026-05-28-12-47-25] StatisticsLogUsageIncrement(MClient.ErrorWebReceive_URLID_1, Sum = 1)
+46: [2026-05-28-12-47-25] StatisticsLogUsageIncrement(MClient.ErrorWebReceive_URL_https://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 1)
+47: [2026-05-28-12-47-25] StatisticsLogUsageIncrement(MClient.Failed_URLID_1, Sum = 1)
+48: [2026-05-28-12-47-25] StatisticsLogUsageIncrement(MClient.Failed_URL_https://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 1)
+49: [2026-05-28-12-47-25] StatisticsLogUsageIncrement(MOC.NoResult, Sum = 1)
+50: [2026-05-28-12-47-42] LoadedMeshFromMissingMeshList(UnsegmentedJaw(D:\Mészáros Réka\Meszaros reka UpperJawScan.ply:11-21-22-23))
+51: [2026-05-28-12-47-43] StatisticsLogUsageIncrement(DongleActivation.Tries, Sum = 1)
+52: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MOC, Sum = 2)
+53: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClientStart, Sum = 2)
+54: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.NT, Sum = 1)
+55: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive, Sum = 3)
+56: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive_URLID_0, Sum = 2)
+57: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive_URL_http://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 2)
+58: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive.NT, Sum = 1)
+59: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive.NT_URLID_0, Sum = 1)
+60: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive.NT_URL_http://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 1)
+61: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.Failed_URLID_0, Sum = 2)
+62: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.Failed_URL_http://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 2)
+63: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive, Sum = 4)
+64: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive_URLID_1, Sum = 2)
+65: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive_URL_https://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 2)
+66: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive.NT, Sum = 2)
+67: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive.NT_URLID_1, Sum = 1)
+68: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive.NT_URL_https://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 1)
+69: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.Failed_URLID_1, Sum = 2)
+70: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.Failed_URL_https://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 2)
+71: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClientStart, Sum = 3)
+72: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.NT, Sum = 2)
+73: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive, Sum = 5)
+74: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive_URLID_0, Sum = 3)
+75: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive_URL_http://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 3)
+76: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive.NT, Sum = 3)
+77: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive.NT_URLID_0, Sum = 2)
+78: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive.NT_URL_http://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 2)
+79: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.Failed_URLID_0, Sum = 3)
+80: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.Failed_URL_http://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 3)
+81: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive, Sum = 6)
+82: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive_URLID_1, Sum = 3)
+83: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive_URL_https://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 3)
+84: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive.NT, Sum = 4)
+85: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive.NT_URLID_1, Sum = 2)
+86: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.ErrorWebReceive.NT_URL_https://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 2)
+87: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.Failed_URLID_1, Sum = 3)
+88: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MClient.Failed_URL_https://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 3)
+89: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(MOC.NoResult, Sum = 2)
+90: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(DongleActivation.TriesInvalid, Sum = 1)
+91: [2026-05-28-12-47-44] StatisticsLogUsageIncrement(OnlineUpdateBackgroundChecks, Sum = 1)
+92: [2026-05-28-12-47-46] LoadedMeshFromMissingMeshList(Antagonist(D:\Mészáros Réka\Meszaros reka LowerJawScan.ply:33-32-31-41))
+93: [2026-05-28-12-47-46] DentalToolWindowConstructed(TitleKeyword=Show/Hide Groups, Title=Show/Hide Groups, ControlType=DentalProcessorControls.GroupSelector,  Keyword=DentalProcessorControls.GroupSelector, Owner=Mészáros Réka - 2026-05-28_00006-001 - exocad DentalCAD 3.2 Elefsina 8820 [DentalCAD-Version 3.2 Engine build 8820])
+94: [2026-05-28-12-47-46] DentalToolWindowSourceInitialized(Title=Show/Hide Groups, ControlType=DentalProcessorControls.GroupSelector,  Keyword=DentalProcessorControls.GroupSelector, AutomationTitle="ExocadWindowOfType_DentalToolWindow_Title_Show/Hide_Groups")
+95: [2026-05-28-12-47-46] StatisticsLogUsageIncrement(ToolWindowControl_DentalProcessorControls.GroupSelector, Sum = 1)
+96: [2026-05-28-12-47-46] StatisticsLogUsageIncrement(ToolWindowKeyword_DentalProcessorControls.GroupSelector, Sum = 1)
+97: [2026-05-28-12-47-46] StatisticsLogUsageIncrement(MOC, Sum = 3)
+98: [2026-05-28-12-47-46] StatisticsLogUsageIncrement(MClientStart, Sum = 4)
+99: [2026-05-28-12-47-47] StatisticsLogUsageIncrement(MClient.ErrorWebReceive, Sum = 7)
+100: [2026-05-28-12-47-47] StatisticsLogUsageIncrement(MClient.ErrorWebReceive_URLID_0, Sum = 4)
+101: [2026-05-28-12-47-47] StatisticsLogUsageIncrement(MClient.ErrorWebReceive_URL_http://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 4)
+102: [2026-05-28-12-47-47] StatisticsLogUsageIncrement(MClient.Failed_URLID_0, Sum = 4)
+103: [2026-05-28-12-47-47] StatisticsLogUsageIncrement(MClient.Failed_URL_http://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 4)
+104: [2026-05-28-12-47-47] DentalToolWindowConstructed(TitleKeyword=Wizard, Title=Wizard, ControlType=DentalProcessorControls.ControlHostWizard,  Keyword=DentalProcessorControls.ControlHostWizard, Owner=Mészáros Réka - 2026-05-28_00006-001 - exocad DentalCAD 3.2 Elefsina 8820 [DentalCAD-Version 3.2 Engine build 8820])
+105: [2026-05-28-12-47-47] StatisticsLogUsageIncrement(MClient.ErrorWebReceive, Sum = 8)
+106: [2026-05-28-12-47-47] StatisticsLogUsageIncrement(MClient.ErrorWebReceive_URLID_1, Sum = 4)
+107: [2026-05-28-12-47-47] StatisticsLogUsageIncrement(MClient.ErrorWebReceive_URL_https://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 4)
+108: [2026-05-28-12-47-47] StatisticsLogUsageIncrement(MClient.Failed_URLID_1, Sum = 4)
+109: [2026-05-28-12-47-47] StatisticsLogUsageIncrement(MClient.Failed_URL_https://update.exocad.net/dentalcadappmaintenanceservice2023/, Sum = 4)
+110: [2026-05-28-12-47-47] StatisticsLogUsageIncrement(MOC.NoResult, Sum = 3)
+111: [2026-05-28-12-47-47] DentalToolWindowSourceInitialized(Title=Wizard, ControlType=DentalProcessorControls.ControlHostWizard,  Keyword=DentalProcessorControls.ControlHostWizard, AutomationTitle="ExocadWindowOfType_DentalToolWindow_Title_Wizard")
+112: [2026-05-28-12-47-47] StatisticsLogUsageIncrement(ToolWindowControl_DentalProcessorControls.ControlHostWizard, Sum = 1)
+113: [2026-05-28-12-47-47] StatisticsLogUsageIncrement(ToolWindowKeyword_DentalProcessorControls.ControlHostWizard, Sum = 1)
+114: [2026-05-28-12-47-47] Wizard_Run(None->DentalProcessors.TiltProjectProcessor)
+115: [2026-05-28-12-47-47] StatisticsLogUsageIncrement(DPCClass.TiltProject, Sum = 1)
+116: [2026-05-28-12-47-47] CreateControlAndProcessor_DentalProcessors.TiltProjectProcessor
+117: [2026-05-28-12-47-47] ToolWindowRenderForFirstTime(Title=Show/Hide Groups, Keyword=DentalProcessorControls.GroupSelector)
+118: [2026-05-28-12-47-47] ToolWindowRenderForFirstTime(Title=Wizard - Adjust Scan Data Orientation, Keyword=DentalProcessorControls.ControlHostWizard)
+119: [2026-05-28-12-47-47] IsActiveProcessor(DentalProcessors.TiltProjectProcessor)
+120: [2026-05-28-12-47-47] StatisticsLogUsageIncrement(DPPrepare.TiltProject, Sum = 1)
+121: [2026-05-28-12-47-47] Processor.PrepareAction(Type=DentalProcessors.TiltProjectProcessor, ApplicableTeeth=null, Teeth=11-21-22-23-33-32-31-41)
+122: [2026-05-28-12-47-53] TiltProjectByAdjustScanDataOrientation
+123: [2026-05-28-12-47-53] TiltProjectMatrixChange(Relative(_00=-0.9027874565245004_01=-0.3868526770007018_02=0.1879356662249447_03=0.0000000000000000_10=0.0000000000000000_11=0.4369713011374776_12=0.8994754482375936_13=0.0000000000000000_20=-0.4300869776475721_21=0.8120351521206521_22=-0.3944922095281047_23=0.0000000000000000_30=0.0349622424873648_31=-3.6373226648085923_32=5.8187651594158645_33=1.0000000000000000), Now(_00=-0.9027874565245004_01=-0.3868526770007018_02=0.1879356662249447_03=0.0000000000000000_10=0.0000000000000000_11=0.4369713011374776_12=0.8994754482375936_13=0.0000000000000000_20=-0.4300869776475721_21=0.8120351521206521_22=-0.3944922095281047_23=0.0000000000000000_30=0.0349622424873648_31=-3.6373226648085923_32=5.8187651594158645_33=1.0000000000000000 )
+124: [2026-05-28-12-47-53] Wizard_Run(DentalProcessors.TiltProjectProcessor->DentalProcessors.StartSmileDesignProcessor)
+125: [2026-05-28-12-47-53] StatisticsLogUsageIncrement(DPCClass.StartSmileDesign, Sum = 1)
+126: [2026-05-28-12-47-53] CreateControlAndProcessor_DentalProcessors.StartSmileDesignProcessor
+127: [2026-05-28-12-47-53] LastProcessorControl_UnloadedEvent_StartDentalProcessorControls.TiltProjectProcessorControl)
+128: [2026-05-28-12-47-53] LastProcessorControl_UnloadedEvent_EndedDentalProcessorControls.TiltProjectProcessorControl)
+129: [2026-05-28-12-47-54] IsActiveProcessor(DentalProcessors.StartSmileDesignProcessor)
+130: [2026-05-28-12-47-54] StatisticsLogUsageIncrement(DPPrepare.StartSmileDesign, Sum = 1)
+131: [2026-05-28-12-47-54] Processor.PrepareAction(Type=DentalProcessors.StartSmileDesignProcessor, ApplicableTeeth=11-21-22-23, Teeth=11-21-22-23-33-32-31-41)
+132: [2026-05-28-12-47-57] Processor.FinalizeAction(Type=DentalProcessors.StartSmileDesignProcessor, ApplicableTeeth=11-21-22-23, Teeth=11-21-22-23-33-32-31-41)
+133: [2026-05-28-12-47-57] StatisticsLogUsageIncrement(DPFinalize.StartSmileDesign, Sum = 1)
+134: [2026-05-28-12-47-57] StatisticsLogUsageIncrement(SmileCreator.SkippedInMainWizard, Sum = 1)
+135: [2026-05-28-12-47-57] Wizard_AbortControl(None)
+136: [2026-05-28-12-47-57] ToolWindowCloseAndSavedPosition(Title=Wizard - Start Smile Creator, Keyword=DentalProcessorControls.ControlHostWizard)
+137: [2026-05-28-12-47-57] DentalToolWindowClosing(Title=Wizard - Start Smile Creator, Cancel=False, Keyword=DentalProcessorControls.ControlHostWizard)
+138: [2026-05-28-12-47-57] DentalToolWindowClosed(Title=Wizard - Start Smile Creator, ControlType=DentalProcessorControls.ControlHostWizard,  Keyword=DentalProcessorControls.ControlHostWizard)
+139: [2026-05-28-12-47-57] LastProcessorControl_UnloadedEvent_StartDentalProcessorControls.StartSmileDesignProcessorControl)
+140: [2026-05-28-12-47-57] LastProcessorControl_UnloadedEvent_EndedDentalProcessorControls.StartSmileDesignProcessorControl)
+141: [2026-05-28-12-47-59] StatisticsLogUsageIncrement(DPCClass.MeshEdit, Sum = 1)
+142: [2026-05-28-12-47-59] CreateControlAndProcessor_DentalProcessors.MeshEditProcessor
+143: [2026-05-28-12-47-59] IsActiveProcessor(DentalProcessors.MeshEditProcessor)
+144: [2026-05-28-12-47-59] DentalToolWindowConstructed(TitleKeyword=3D Data Editor, Title=3D Data Editor, ControlType=DentalProcessorControls.ControlHostDialog,  Keyword=DentalProcessorControls.ControlHostDialog, Owner=Mészáros Réka - 2026-05-28_00006-001 - exocad DentalCAD 3.2 Elefsina 8820 [DentalCAD-Version 3.2 Engine build 8820])
+145: [2026-05-28-12-47-59] ToolWindowRenderForFirstTime(Title=3D Data Editor, Keyword=DentalProcessorControls.ControlHostDialog)
+146: [2026-05-28-12-47-59] DentalToolWindowSourceInitialized(Title=3D Data Editor, ControlType=DentalProcessorControls.ControlHostDialog,  Keyword=DentalProcessorControls.ControlHostDialog, AutomationTitle="ExocadWindowOfType_DentalToolWindow_Title_3D_Data_Editor")
+147: [2026-05-28-12-47-59] StatisticsLogUsageIncrement(ToolWindowControl_DentalProcessorControls.ControlHostDialog, Sum = 1)
+148: [2026-05-28-12-47-59] StatisticsLogUsageIncrement(ToolWindowKeyword_DentalProcessorControls.ControlHostDialog, Sum = 1)
+149: [2026-05-28-12-47-59] StatisticsLogUsageIncrement(DPPrepare.MeshEdit, Sum = 1)
+150: [2026-05-28-12-47-59] Processor.PrepareAction(Type=DentalProcessors.MeshEditProcessor, ApplicableTeeth=33-32-31-41, Teeth=33-32-31-41)
+151: [2026-05-28-12-48-25] StatisticsLogUsageIncrement(MeshEditor, Sum = 1)
+152: [2026-05-28-12-48-25] Processor.FinalizeAction(Type=DentalProcessors.MeshEditProcessor, ApplicableTeeth=33-32-31-41, Teeth=33-32-31-41)
+153: [2026-05-28-12-48-25] StatisticsLogUsageIncrement(DPFinalize.MeshEdit, Sum = 1)
+154: [2026-05-28-12-48-25] MeshEditProcessorUpdatedModifiedPart(PartType=Antagonist, Teeth=33-32-31-41, Name="Antagonist")
+155: [2026-05-28-12-48-25] ToolWindowCloseAndSavedPosition(Title=3D Data Editor, Keyword=DentalProcessorControls.ControlHostDialog)
+156: [2026-05-28-12-48-25] DentalToolWindowClosing(Title=3D Data Editor, Cancel=False, Keyword=DentalProcessorControls.ControlHostDialog)
+157: [2026-05-28-12-48-25] DentalToolWindowClosed(Title=3D Data Editor, ControlType=DentalProcessorControls.ControlHostDialog,  Keyword=DentalProcessorControls.ControlHostDialog)
+158: [2026-05-28-12-48-25] LastProcessorControl_UnloadedEvent_StartDentalProcessorControls.MeshEditProcessorControl)
+159: [2026-05-28-12-48-25] LastProcessorControl_UnloadedEvent_EndedDentalProcessorControls.MeshEditProcessorControl)
+160: [2026-05-28-12-48-31] DentalToolWindowConstructed(TitleKeyword=Wizard, Title=Wizard, ControlType=DentalProcessorControls.ControlHostWizard,  Keyword=DentalProcessorControls.ControlHostWizard, Owner=Mészáros Réka - 2026-05-28_00006-001 - exocad DentalCAD 3.2 Elefsina 8820 [DentalCAD-Version 3.2 Engine build 8820])
+161: [2026-05-28-12-48-31] DentalToolWindowSourceInitialized(Title=Wizard, ControlType=DentalProcessorControls.ControlHostWizard,  Keyword=DentalProcessorControls.ControlHostWizard, AutomationTitle="ExocadWindowOfType_DentalToolWindow_Title_Wizard")
+162: [2026-05-28-12-48-31] StatisticsLogUsageIncrement(ToolWindowControl_DentalProcessorControls.ControlHostWizard, Sum = 2)
+163: [2026-05-28-12-48-31] StatisticsLogUsageIncrement(ToolWindowKeyword_DentalProcessorControls.ControlHostWizard, Sum = 2)
+164: [2026-05-28-12-48-31] IsActiveProcessor(DentalProcessors.StartSmileDesignProcessor)
+165: [2026-05-28-12-48-31] StatisticsLogUsageIncrement(DPCClass.StartSmileDesign, Sum = 2)
+166: [2026-05-28-12-48-31] CreateControlForExistingProcessor_DentalProcessors.StartSmileDesignProcessor
+167: [2026-05-28-12-48-31] StatisticsLogUsageIncrement(DPPrepare.StartSmileDesign, Sum = 2)
+168: [2026-05-28-12-48-31] Processor.PrepareAction(Type=DentalProcessors.StartSmileDesignProcessor, ApplicableTeeth=11-21-22-23, Teeth=11-21-22-23-33-32-31-41)
+169: [2026-05-28-12-48-31] Wizard_Back(DentalProcessors.StartSmileDesignProcessor->None)
+170: [2026-05-28-12-48-31] ToolWindowRenderForFirstTime(Title=Wizard - Start Smile Creator, Keyword=DentalProcessorControls.ControlHostWizard)
+171: [2026-05-28-12-48-34] Processor.FinalizeAction(Type=DentalProcessors.StartSmileDesignProcessor, ApplicableTeeth=11-21-22-23, Teeth=11-21-22-23-33-32-31-41)
+172: [2026-05-28-12-48-34] StatisticsLogUsageIncrement(DPFinalize.StartSmileDesign, Sum = 2)
+173: [2026-05-28-12-48-34] StatisticsLogUsageIncrement(SmileCreator.SkippedInMainWizard, Sum = 2)
+174: [2026-05-28-12-48-34] Wizard_Run(DentalProcessors.StartSmileDesignProcessor->DentalProcessors.PreparationMarginProcessor)
+175: [2026-05-28-12-48-34] StatisticsLogUsageIncrement(DPCClass.PreparationMargin, Sum = 1)
+176: [2026-05-28-12-48-34] CreateControlAndProcessor_DentalProcessors.PreparationMarginProcessor
+177: [2026-05-28-12-48-34] LastProcessorControl_UnloadedEvent_StartDentalProcessorControls.StartSmileDesignProcessorControl)
+178: [2026-05-28-12-48-34] LastProcessorControl_UnloadedEvent_EndedDentalProcessorControls.StartSmileDesignProcessorControl)
+179: [2026-05-28-12-48-34] IsActiveProcessor(DentalProcessors.PreparationMarginProcessor)
+180: [2026-05-28-12-48-34] StatisticsLogUsageIncrement(DPPrepare.PreparationMargin, Sum = 1)
+181: [2026-05-28-12-48-34] Processor.PrepareAction(Type=DentalProcessors.PreparationMarginProcessor, ApplicableTeeth=11-21-23, Teeth=11-21-22-23-33-32-31-41)
+182: [2026-05-28-12-48-34] StatisticsLogUsageIncrement(MarginDefinitionStart_ForType_CrownPreparation, Sum = 1)
+183: [2026-05-28-12-48-34] StatisticsLogUsageIncrement(MarginDetectorFor_ForType_CrownPreparation, Sum = 1)
+184: [2026-05-28-12-48-34] StatisticsLogUsageIncrement(MarginDetectorFor_ForType_CrownPreparation_MPType_10, Sum = 1)
+185: [2026-05-28-12-48-40] StatisticsLogUsageIncrement(MarginDefinitionDrawByFeatureLineUnchecked_ForType_CrownPreparation, Sum = 1)
+186: [2026-05-28-12-48-53] StatisticsLogUsageIncrement(MarginDefinitionFreedrawAcceptWithoutClosed_CrownPreparation, Sum = 1)
+187: [2026-05-28-12-50-32] StatisticsLogUsageIncrement(MarginDefinitionHideNeighborsOff_CrownPreparation, Sum = 1)
+188: [2026-05-28-12-50-32] Processor.FinalizeAction(Type=DentalProcessors.PreparationMarginProcessor, ApplicableTeeth=11-21-23, Teeth=11-21-22-23-33-32-31-41)
+189: [2026-05-28-12-50-32] StatisticsLogUsageIncrement(DPFinalize.PreparationMargin, Sum = 1)
+190: [2026-05-28-12-50-32] StatisticsLogUsageIncrement(MarginDefinitionHideNeighborsOff_CrownPreparation, Sum = 2)
+191: [2026-05-28-12-50-32] Wizard_Run(DentalProcessors.PreparationMarginProcessor->DentalProcessors.PreparationMarginProcessor)
+192: [2026-05-28-12-50-32] StatisticsLogUsageIncrement(DPCClass.PreparationMargin, Sum = 2)
+193: [2026-05-28-12-50-32] CreateControlAndProcessor_DentalProcessors.PreparationMarginProcessor
+194: [2026-05-28-12-50-32] LastProcessorControl_UnloadedEvent_StartDentalProcessorControls.PreparationMarginProcessorControl)
+195: [2026-05-28-12-50-32] LastProcessorControl_UnloadedEvent_EndedDentalProcessorControls.PreparationMarginProcessorControl)
+196: [2026-05-28-12-50-32] IsActiveProcessor(DentalProcessors.PreparationMarginProcessor)
+197: [2026-05-28-12-50-32] StatisticsLogUsageIncrement(DPPrepare.PreparationMargin, Sum = 2)
+198: [2026-05-28-12-50-32] Processor.PrepareAction(Type=DentalProcessors.PreparationMarginProcessor, ApplicableTeeth=21-23, Teeth=11-21-22-23)
+199: [2026-05-28-12-50-32] StatisticsLogUsageIncrement(MarginDefinitionStart_ForType_CrownPreparation, Sum = 2)
+200: [2026-05-28-12-50-32] StatisticsLogUsageIncrement(MarginDetectorFor_ForType_CrownPreparation, Sum = 2)
+201: [2026-05-28-12-50-32] StatisticsLogUsageIncrement(MarginDetectorFor_ForType_CrownPreparation_MPType_10, Sum = 2)
+202: [2026-05-28-12-50-33] StatisticsLogUsageIncrement(MarginDefinitionStartInFreedraw_ForType_CrownPreparation, Sum = 1)
+203: [2026-05-28-12-50-33] StatisticsLogUsageIncrement(MarginDefinitionSubgingivalDeactivatedByUser_CrownPreparation, Sum = 1)
+204: [2026-05-28-12-50-33] StatisticsLogUsageIncrement(MarginDetectorFor_ForType_CrownPreparation_FreeDraw, Sum = 1)
+205: [2026-05-28-12-50-33] StatisticsLogUsageIncrement(MarginDetectorFor_ForType_CrownPreparation_FreeDraw_MPType_10, Sum = 1)
+206: [2026-05-28-12-51-05] UserInputIdleStarted(UnidleTime=193.16s)
+207: [2026-05-28-12-51-10] UserInputIdleStopped(IdleTime=35.63s)
+208: [2026-05-28-12-51-33] StatisticsLogUsageIncrement(MarginDefinitionFreedrawAcceptWithoutClosed_CrownPreparation, Sum = 2)
+209: [2026-05-28-12-52-43] StatisticsLogUsageIncrement(MarginDefinitionHideNeighborsOff_CrownPreparation, Sum = 3)
+210: [2026-05-28-12-52-43] Processor.FinalizeAction(Type=DentalProcessors.PreparationMarginProcessor, ApplicableTeeth=21-23, Teeth=11-21-22-23)
+211: [2026-05-28-12-52-43] StatisticsLogUsageIncrement(DPFinalize.PreparationMargin, Sum = 2)
+212: [2026-05-28-12-52-43] StatisticsLogUsageIncrement(MarginDefinitionHideNeighborsOff_CrownPreparation, Sum = 4)
+213: [2026-05-28-12-52-43] Wizard_Run(DentalProcessors.PreparationMarginProcessor->DentalProcessors.PreparationMarginProcessor)
+214: [2026-05-28-12-52-43] StatisticsLogUsageIncrement(DPCClass.PreparationMargin, Sum = 3)
+215: [2026-05-28-12-52-43] CreateControlAndProcessor_DentalProcessors.PreparationMarginProcessor
+216: [2026-05-28-12-52-43] LastProcessorControl_UnloadedEvent_StartDentalProcessorControls.PreparationMarginProcessorControl)
+217: [2026-05-28-12-52-43] LastProcessorControl_UnloadedEvent_EndedDentalProcessorControls.PreparationMarginProcessorControl)
+218: [2026-05-28-12-52-43] IsActiveProcessor(DentalProcessors.PreparationMarginProcessor)
+219: [2026-05-28-12-52-43] StatisticsLogUsageIncrement(DPPrepare.PreparationMargin, Sum = 3)
+220: [2026-05-28-12-52-43] Processor.PrepareAction(Type=DentalProcessors.PreparationMarginProcessor, ApplicableTeeth=23, Teeth=11-21-22-23)
+221: [2026-05-28-12-52-43] StatisticsLogUsageIncrement(MarginDefinitionStart_ForType_CrownPreparation, Sum = 3)
+222: [2026-05-28-12-52-43] StatisticsLogUsageIncrement(MarginDetectorFor_ForType_CrownPreparation, Sum = 3)
+223: [2026-05-28-12-52-43] StatisticsLogUsageIncrement(MarginDetectorFor_ForType_CrownPreparation_MPType_10, Sum = 3)
+224: [2026-05-28-12-52-43] StatisticsLogUsageIncrement(MarginDefinitionStartInFreedraw_ForType_CrownPreparation, Sum = 2)
+225: [2026-05-28-12-52-43] StatisticsLogUsageIncrement(MarginDefinitionSubgingivalDeactivatedByUser_CrownPreparation, Sum = 2)
+226: [2026-05-28-12-52-43] StatisticsLogUsageIncrement(MarginDetectorFor_ForType_CrownPreparation_FreeDraw, Sum = 2)
+227: [2026-05-28-12-52-43] StatisticsLogUsageIncrement(MarginDetectorFor_ForType_CrownPreparation_FreeDraw_MPType_10, Sum = 2)
+228: [2026-05-28-12-52-59] StatisticsLogUsageIncrement(MarginDefinitionFreedrawAcceptWithoutClosed_CrownPreparation, Sum = 3)
+229: [2026-05-28-12-54-17] StatisticsLogUsageIncrement(MarginDefinitionHideNeighborsOff_CrownPreparation, Sum = 5)
+230: [2026-05-28-12-54-17] Processor.FinalizeAction(Type=DentalProcessors.PreparationMarginProcessor, ApplicableTeeth=23, Teeth=11-21-22-23)
+231: [2026-05-28-12-54-17] StatisticsLogUsageIncrement(DPFinalize.PreparationMargin, Sum = 3)
+232: [2026-05-28-12-54-17] StatisticsLogUsageIncrement(MarginDefinitionHideNeighborsOff_CrownPreparation, Sum = 6)
+233: [2026-05-28-12-54-17] Wizard_Run(DentalProcessors.PreparationMarginProcessor->DentalProcessors.CrownBottomProcessor)
+234: [2026-05-28-12-54-17] StatisticsLogUsageIncrement(DPCClass.CrownBottom, Sum = 1)
+235: [2026-05-28-12-54-17] CreateControlAndProcessor_DentalProcessors.CrownBottomProcessor
+236: [2026-05-28-12-54-17] LastProcessorControl_UnloadedEvent_StartDentalProcessorControls.PreparationMarginProcessorControl)
+237: [2026-05-28-12-54-17] LastProcessorControl_UnloadedEvent_EndedDentalProcessorControls.PreparationMarginProcessorControl)
+238: [2026-05-28-12-54-18] IsActiveProcessor(DentalProcessors.CrownBottomProcessor)
+239: [2026-05-28-12-54-18] StatisticsLogUsageIncrement(DPPrepare.CrownBottom, Sum = 1)
+240: [2026-05-28-12-54-18] Processor.PrepareAction(Type=DentalProcessors.CrownBottomProcessor, ApplicableTeeth=11-21-23, Teeth=11-21-22-23-33-32-31-41)
+241: [2026-05-28-12-54-21] Processor.FinalizeAction(Type=DentalProcessors.CrownBottomProcessor, ApplicableTeeth=11-21-23, Teeth=11-21-22-23-33-32-31-41)
+242: [2026-05-28-12-54-21] StatisticsLogUsageIncrement(DPFinalize.CrownBottom, Sum = 1)
+243: [2026-05-28-12-54-30] Processor.FinalizeAction(Type=DentalProcessors.CrownBottomProcessor, ApplicableTeeth=11-21-23, Teeth=11-21-22-23-33-32-31-41)
+244: [2026-05-28-12-54-30] StatisticsLogUsageIncrement(DPFinalize.CrownBottom, Sum = 2)
+245: [2026-05-28-12-54-31] Processor.FinalizeAction(Type=DentalProcessors.CrownBottomProcessor, ApplicableTeeth=11-21-23, Teeth=11-21-22-23-33-32-31-41)
+246: [2026-05-28-12-54-31] StatisticsLogUsageIncrement(DPFinalize.CrownBottom, Sum = 3)
+247: [2026-05-28-12-54-32] Processor.FinalizeAction(Type=DentalProcessors.CrownBottomProcessor, ApplicableTeeth=11-21-23, Teeth=11-21-22-23-33-32-31-41)
+248: [2026-05-28-12-54-32] StatisticsLogUsageIncrement(DPFinalize.CrownBottom, Sum = 4)
+249: [2026-05-28-12-54-34] Processor.FinalizeAction(Type=DentalProcessors.CrownBottomProcessor, ApplicableTeeth=11-21-23, Teeth=11-21-22-23-33-32-31-41)
+250: [2026-05-28-12-54-34] StatisticsLogUsageIncrement(DPFinalize.CrownBottom, Sum = 5)
+251: [2026-05-28-12-54-35] Processor.FinalizeAction(Type=DentalProcessors.CrownBottomProcessor, ApplicableTeeth=11-21-23, Teeth=11-21-22-23-33-32-31-41)
+252: [2026-05-28-12-54-35] StatisticsLogUsageIncrement(DPFinalize.CrownBottom, Sum = 6)
+253: [2026-05-28-12-54-37] Processor.FinalizeAction(Type=DentalProcessors.CrownBottomProcessor, ApplicableTeeth=11-21-23, Teeth=11-21-22-23-33-32-31-41)
+254: [2026-05-28-12-54-37] StatisticsLogUsageIncrement(DPFinalize.CrownBottom, Sum = 7)
+255: [2026-05-28-12-54-39] Processor.FinalizeAction(Type=DentalProcessors.CrownBottomProcessor, ApplicableTeeth=11-21-23, Teeth=11-21-22-23-33-32-31-41)
+256: [2026-05-28-12-54-39] StatisticsLogUsageIncrement(DPFinalize.CrownBottom, Sum = 8)
+257: [2026-05-28-12-54-42] Processor.FinalizeAction(Type=DentalProcessors.CrownBottomProcessor, ApplicableTeeth=11-21-23, Teeth=11-21-22-23-33-32-31-41)
+258: [2026-05-28-12-54-42] StatisticsLogUsageIncrement(DPFinalize.CrownBottom, Sum = 9)
+259: [2026-05-28-12-54-48] Processor.FinalizeAction(Type=DentalProcessors.CrownBottomProcessor, ApplicableTeeth=11-21-23, Teeth=11-21-22-23-33-32-31-41)
+260: [2026-05-28-12-54-48] StatisticsLogUsageIncrement(DPFinalize.CrownBottom, Sum = 10)
+261: [2026-05-28-12-54-51] Wizard_Run(DentalProcessors.CrownBottomProcessor->DentalProcessors.LoadToothmodelProcessor)
+262: [2026-05-28-12-54-51] LastProcessorControl_UnloadedEvent_StartDentalProcessorControls.CrownBottomProcessorControl)
+263: [2026-05-28-12-54-51] LastProcessorControl_UnloadedEvent_EndedDentalProcessorControls.CrownBottomProcessorControl)
+264: [2026-05-28-12-54-51] IsActiveProcessor(DentalProcessors.LoadToothmodelProcessor)
+265: [2026-05-28-12-54-51] StatisticsLogUsageIncrement(DPPrepare.LoadToothmodel, Sum = 1)
+266: [2026-05-28-12-54-51] Processor.PrepareAction(Type=DentalProcessors.LoadToothmodelProcessor, ApplicableTeeth=null, Teeth=11-21-22-23-33-32-31-41)
+267: [2026-05-28-12-54-52] DentalToolWindowConstructed(TitleKeyword=Distance to Antagonists, Title=Distance to Antagonists, ControlType=DentalProcessorControls.DistanceToAntagonists,  Keyword=DentalProcessorControls.DistanceToAntagonists, Owner=Mészáros Réka - 2026-05-28_00006-001 - exocad DentalCAD 3.2 Elefsina 8820 [DentalCAD-Version 3.2 Engine build 8820])
+268: [2026-05-28-12-54-52] IDistanceToAntagonistsCreated
+269: [2026-05-28-12-54-52] IDistanceToAntagonistsInitializedWithGPUAccelerationEnabled
+270: [2026-05-28-12-54-52] IDistanceToAntagonist.LastVisualizationModeWithActualColoredPartsChanged(Old=, New=IntersectionsOnly)
+271: [2026-05-28-12-54-52] StatisticsLogUsageIncrement(DistanceToAntagonistVisualizationMode_IntersectionsOnly, Sum = 1)
+272: [2026-05-28-12-54-52] DentalToolWindowSourceInitialized(Title=Distance to Antagonists, ControlType=DentalProcessorControls.DistanceToAntagonists,  Keyword=DentalProcessorControls.DistanceToAntagonists, AutomationTitle="ExocadWindowOfType_DentalToolWindow_Title_Distance_to_Antagonists")
+273: [2026-05-28-12-54-52] StatisticsLogUsageIncrement(ToolWindowControl_DentalProcessorControls.DistanceToAntagonists, Sum = 1)
+274: [2026-05-28-12-54-52] StatisticsLogUsageIncrement(ToolWindowKeyword_DentalProcessorControls.DistanceToAntagonists, Sum = 1)
+275: [2026-05-28-12-54-52] Wizard_Run(DentalProcessors.LoadToothmodelProcessor->DentalProcessors.CorrectPlacementProcessorNew)
+276: [2026-05-28-12-54-52] StatisticsLogUsageIncrement(DPCClass.CorrectPlacementNew, Sum = 1)
+277: [2026-05-28-12-54-52] CreateControlAndProcessor_DentalProcessors.CorrectPlacementProcessorNew
+278: [2026-05-28-12-54-52] ToolWindowRenderForFirstTime(Title=Distance to Antagonists, Keyword=DentalProcessorControls.DistanceToAntagonists)
+279: [2026-05-28-12-54-52] IsActiveProcessor(DentalProcessors.CorrectPlacementProcessorNew)
+280: [2026-05-28-12-54-52] StatisticsLogUsageIncrement(DPPrepare.CorrectPlacementNew, Sum = 1)
+281: [2026-05-28-12-54-52] Processor.PrepareAction(Type=DentalProcessors.CorrectPlacementProcessorNew, ApplicableTeeth=11-21-22-23, Teeth=11-21-22-23-33-32-31-41)
+282: [2026-05-28-12-55-10] CorrectPlacementToothLibrarySwitch(Mode=FitEachIndividualToothSeparately, Teeth=11-21-22-23, NewLibrary=zirkonzahnAIDA, OldLibraryName=generic)
+283: [2026-05-28-12-55-12] ToothLibrarySwitchLoadAndReplaceTeethFromLibraryForJaw(Mode=FitEachIndividualToothSeparately, Teeth=11-21-22-23, NewLibrary=zirkonzahnAIDA, OldLibrary=generic)
+284: [2026-05-28-12-55-12] StatisticsLogUsageIncrement(ToothLibrarySwitch_LoadAndReplaceTeethFromLibraryForJaw_Mode_FitEachIndividualToothSeparately, Sum = 1)
+285: [2026-05-28-12-55-12] StatisticsLogUsageIncrement(ToothLibrarySwitch_ToLibrary_zirkonzahnAIDA, Sum = 1)
+286: [2026-05-28-12-55-12] ErrorReportingException: Object reference not set to an instance of an object.<newline> on 2026-05-28-12-55-12-468
+287: [2026-05-28-12-55-12] ErrorReportingExceptionDetails(2026-05-28-12-55-12-468): ExceptionType: System.NullReferenceException<newline><newline>ExceptionMessage: Object reference not set to an instance of an object.<newline>ExceptionStack:    at HelperToothLibrarySwitch.HelperToothLibrarySwitch.LoadAndReplaceTeethFromLibraryForJaw(List`1 teethInOneJaw, List`1 tpsInOneJaw, String libName, Scene scene, Boolean fitEachIndividualToothSeparately, Int32 fitEachIndividualToothSeparatelyApproach)<newline>   at HelperToothLibrarySwitch.HelperToothLibrarySwitch.SwitchLibrary_FitEachIndividualToothSeparately(List`1 appTeethToConsider, List`1 refTPs, String switchToLibName)<newline>   at HelperToothLibrarySwitch.HelperToothLibrarySwitch.SwitchToothLibrary(List`1 applicableTeethToConsider, List`1 referenceTPsInScene, String switchToLibName)<newline>   at DentalProcessorControls.CorrectPlacementProcessorControlNew.HelperToothLibSwitch_librarySelectionBox_SelectionChanged(Object sender, SelectionChangedEventArgs e)<newline>ErrorCodeFromStack: A9403CE199483A8B18E8FC66DC2B4A797C7E49CDC99611BD748E4D966DCA0C6C<newline>ErrorCodeFromStackAndMessage: 6635E3BEE4B653D2090504E1B4BF44C602BC6F7B2F88D69F65D29F35B6C8F7FC<newline> on 2026-05-28-12-55-12-468
+288: [2026-05-28-12-55-12] ErrorExceptionSavingSceneName:2026-05-28_00006-001-crashreport2026-05-28-12-55-12.dentalCAD
+
+SessionStatisticLog : { "AppTime": 474, "AppTimeIdle": 36, "AppTimeUnidle": 30, "DentalProjectFileReader": 1, "DentalProjectFileReader_DentalDBBuildDate_2024-02-24": 1, "DentalProjectFileReader_DentalDBBuildDate_WorkParamsSHA_2024-02-24_vK7GOrDaukc8RLXVciEJTmpbJro=": 1, "DentalProjectFileReader_DentalDBProduct_exocad DentalDB 3.2 Elefsina 8820 [Version 3.2 Engine build 8820] [<64-Bit>] ": 1, "DentalProjectFileReader_WorkParamsSHA_vK7GOrDaukc8RLXVciEJTmpbJro=": 1, "DistanceToAntagonistVisualizationMode_IntersectionsOnly": 1, "DongleActivation.Tries": 1, "DongleActivation.TriesInvalid": 1, "DPCClass.CorrectPlacementNew": 1, "DPCClass.CrownBottom": 1, "DPCClass.MeshEdit": 1, "DPCClass.PreparationMargin": 3, "DPCClass.StartSmileDesign": 2, "DPCClass.TiltProject": 1, "DPFinalize.CrownBottom": 10, "DPFinalize.MeshEdit": 1, "DPFinalize.PreparationMargin": 3, "DPFinalize.StartSmileDesign": 2, "DPPrepare.CorrectPlacementNew": 1, "DPPrepare.CrownBottom": 1, "DPPrepare.LoadToothmodel": 1, "DPPrepare.MeshEdit": 1, "DPPrepare.PreparationMargin": 3, "DPPrepare.StartSmileDesign": 2, "DPPrepare.TiltProject": 1, "MarginDefinitionDrawByFeatureLineUnchecked_ForType_CrownPreparation": 1, "MarginDefinitionFreedrawAcceptWithoutClosed_CrownPreparation": 3, "MarginDefinitionHideNeighborsOff_CrownPreparation": 6, "MarginDefinitionStart_ForType_CrownPreparation": 3, "MarginDefinitionStartInFreedraw_ForType_CrownPreparation": 2, "MarginDefinitionSubgingivalDeactivatedByUser_CrownPreparation": 2, "MarginDetectorFor_ForType_CrownPreparation": 3, "MarginDetectorFor_ForType_CrownPreparation_FreeDraw": 2, "MarginDetectorFor_ForType_CrownPreparation_FreeDraw_MPType_10": 2, "MarginDetectorFor_ForType_CrownPreparation_MPType_10": 3, "MClient.ErrorWebReceive": 8, "MClient.ErrorWebReceive_URL_http://update.exocad.net/dentalcadappmaintenanceservice2023/": 4, "MClient.ErrorWebReceive_URL_https://update.exocad.net/dentalcadappmaintenanceservice2023/": 4, "MClient.ErrorWebReceive_URLID_0": 4, "MClient.ErrorWebReceive_URLID_1": 4, "MClient.ErrorWebReceive.NT": 4, "MClient.ErrorWebReceive.NT_URL_http://update.exocad.net/dentalcadappmaintenanceservice2023/": 2, "MClient.ErrorWebReceive.NT_URL_https://update.exocad.net/dentalcadappmaintenanceservice2023/": 2, "MClient.ErrorWebReceive.NT_URLID_0": 2, "MClient.ErrorWebReceive.NT_URLID_1": 2, "MClient.Failed_URL_http://update.exocad.net/dentalcadappmaintenanceservice2023/": 4, "MClient.Failed_URL_https://update.exocad.net/dentalcadappmaintenanceservice2023/": 4, "MClient.Failed_URLID_0": 4, "MClient.Failed_URLID_1": 4, "MClient.NT": 2, "MClientStart": 4, "MeshEditor": 1, "MOC": 3, "MOC.NoResult": 3, "OnlineUpdateBackgroundChecks": 1, "SmileCreator.SkippedInMainWizard": 2, "ToolWindowControl_DentalGUIHelper.NotificationBell": 1, "ToolWindowControl_DentalProcessorControls.ControlHostDialog": 1, "ToolWindowControl_DentalProcessorControls.ControlHostWizard": 2, "ToolWindowControl_DentalProcessorControls.DistanceToAntagonists": 1, "ToolWindowControl_DentalProcessorControls.GroupSelector": 1, "ToolWindowKeyword_DentalGUIHelper.NotificationBell": 1, "ToolWindowKeyword_DentalProcessorControls.ControlHostDialog": 1, "ToolWindowKeyword_DentalProcessorControls.ControlHostWizard": 2, "ToolWindowKeyword_DentalProcessorControls.DistanceToAntagonists": 1, "ToolWindowKeyword_DentalProcessorControls.GroupSelector": 1, "ToothLibrarySwitch_LoadAndReplaceTeethFromLibraryForJaw_Mode_FitEachIndividualToothSeparately": 1, "ToothLibrarySwitch_ToLibrary_zirkonzahnAIDA": 1 } 
+SessionTime : 474
+_OSVersion : Microsoft Windows NT 10.0.19045.0
+_RuntimeVersion : 8.0.7
+Application : DentalCADApp.App
+ApplicationProductName : DentalCAD
+ApplicationSetting_ActivateIncognitoMode : False
+ApplicationSetting_AlwaysApplyMillingDiameterBeforeBlockOut : True
+ApplicationSetting_AlwaysShowExtendedPlacementDialog : True
+ApplicationSetting_AutodetectRequiredConnectors : False
+ApplicationSetting_BackgroundImagePosition : LowerRight
+ApplicationSetting_HideHelpButton : False
+ApplicationSetting_ModelBuilderDefaultLibraryEntry : 0bPlatelessModel/cdies
+ApplicationSetting_ModelBuilderDefaultLibraryEntryWithMockupTeeth : 0gWaxupModel
+ApplicationSetting_MultiDiePluginName : C:\exocad-DentalCAD3.2-2024-02-24\DentalDB\bin\\MultiDiePlugin.015.dll
+ApplicationSetting_ShowWizard : True
+ApplicationSetting_SkinFile : generic\Theme.xaml
+ApplicationSetting_ToothCutViewDefaultAutoRotationMode : 2
+ApplicationSetting_ToothCutViewIntersectionLineContrast : 1.5
+ApplicationSetting_ViewerDefaultBackgroundColor : 
+ApplicationSetting_ViewerRendererSettings_Shader : 1
+ApplicationSetting_VisualizeScaleInViewer : True
+ApplicationSetting_VisualizeScaleInViewerWithGrid : True
+AppType : DentalCAD
+AreLongPathNamesSupported : true
+Assembly_DentalBaseDotNet : DentalBaseDotNet, Version=3.2.0.0, Culture=neutral, PublicKeyToken=b6cd393629e1b91c
+Assembly_DentalConfig : DentalConfig, Version=3.2.0.0, Culture=neutral, PublicKeyToken=42e8eb9cd41af0bc
+Assembly_DentalData : DentalData, Version=3.2.0.0, Culture=neutral, PublicKeyToken=42e8eb9cd41af0bc
+Assembly_DentalProcessorControls : DentalProcessorControls, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+Assembly_DentalProcessors : DentalProcessors, Version=3.2.0.0, Culture=neutral, PublicKeyToken=42e8eb9cd41af0bc
+BuildInfo : Build:Mar 21 2024 20:36:12 Thu Mar 21 20:12:40 2024  MSC: 1936 64bit  CustomerID:6(Generic)  BuildNumberDay:8820 BuildSystemInfo:exocad GmbH, Dental CAD, Build System, Date: 2024-02-24-22:00:00, BuildDay: 8820, Type: generic-lab-net6, Compiler: VC2022-64bit MSBuild: 17.6.3.22601 CL: 19.36.32545 CSC: 4.6.0-3.23329.3, DotNetVersion: 6.0, VSSolution: DentalCAD/DentalCADWithDentalBaseForScanners.sln, VSConfiguration: ReleaseNET6|x64, BranchName: release3.2, Revisions: exdc/buildscripts.git@a72b8bc7b5bf55ed669e1614e68a4a2026aa3d09 exdc/dentalbase.git@21f1611502a523bc7de09ddf2d048e24f43597bd exdc/dentalbase.snk.git@79f7b9f95286951e0ccff7218b53156f3f86f12a exdc/DentalBaseDotNetCSharp.git@2c4334e1d53dc988de9ec0deff38e099ce508a86 exdc/dentalcad.git@2f3c38f6f9a65d37b09a38d864fb7e5af7c8ae38 exdc/DentalCADAppLibraryTester.git@11d998973275764baec9ed281200bc7b23d98783 exdc/DentalCADexocam.git@f25de05e2583d5770698bd2bc8227a7a6305d270 exdc/DentalCADLibrary.git@ff506771a750e9d8b375b25e045ded91da17dd0b exdc/dentalconfig.git@0595fd1a545086973189f7be97d8d2efd50f685a exdc/DentalConfigControl.git@8f69f10cc661402772c3bae7fadc4d3a3ba2fa86 exdc/dentalscanners.git@af2d440aee206d7e00fb226b5ea16fa77c016483 exdc/DLL.git@cd04004e7cadb23a6593f634312559f95bcbe311 exdc/encryption.git@aa2763b4f3401a468bdea21c8f8a6a41810984ad exdc/exocadlicenseclientcsharp.git@b4f05494fe8d57427c754f3e332a49c34b42a63c exdc/exocsclientwebportal.git@987b0957e3e4f61a24f0d6d7b3038314bed133ca exdc/exoImplantEditor.git@dd3568cb7a01d2b4129ca4bea420219dd0c66e6f exdc/opensource.dll-licenses.git@d67b3574acfc83070af1f56bb907ca83193bd828 exdc/Skins.git@7cb1eb48ab66b1645cdb41ea1ce559de469a0935 exdc/snk.git@68095f78bf417ff470d5c0baaa78e73dce524c7e exdc/toolselectioncontrolbinaries.git@1cb7cc497288a8f5b51fdf9a4fe1bfe8ebbdc53f exdc/webviewExport.git@5d01a79061f6f6b120f23d0b6af12814f4fb08b7 extools/dentalcadapplaunchers.git@2488d035b95d478ab455e87215a9fe2136d8f54a extools/themida.git@4118cbfd66881c6c83f3ea68a5f972ad9ee61aad BuildDongleType:2
+BuildsystemBranchName : release3.2
+BuildsystemWasUsed : true
+CheckData : 0810697EA86EA3B0DD829190822A753652A9C100083AFC5A3BF1AAC521DA0719
+CmdLine : C:\exocad-DentalCAD3.2-2024-02-24\DentalCADApp\bin\DentalCADApp.dll C:\exocad-DentalCAD3.2-2024-02-24\CAD-Data\2026-05-28_00006-001\2026-05-28_00006-001.dentalProject /MultiDiePluginName=C:\exocad-DentalCAD3.2-2024-02-24\DentalDB\bin\\MultiDiePlugin.015.dll
+ConfigBaseInitialized : true
+CPUInfo1 : Manufacturer=GenuineIntel, Name=Intel(R)_Core(TM)_i5-9600K_CPU_@_3.70GHz, NumberOfCores=6, NumberOfLogicalProcessors=6, Other=, ProcessorId=BFEBFBFF000906ED, UniqueId=
+CPUInfoCount : 1
+CultureInfo : hu-HU
+CultureInfoSystem : hu-HU
+CultureInfoUI : hu-HU
+Customer : Generic
+DentalAppMode : CAD
+DentalBase_Compiler : VS2022OrNewer
+DentalBase_MSC_VER : 1936
+DentalConfigBuildInfo : exocad GmbH, Dental CAD, Build System, Date: 2024-02-24-22:00:00, BuildDay: 8820, Type: generic-lab-net6, Compiler: VC2022-64bit MSBuild: 17.6.3.22601 CL: 19.36.32545 CSC: 4.6.0-3.23329.3, DotNetVersion: 6.0, VSSolution: DentalCAD/DentalCADWithDentalBaseForScanners.sln, VSConfiguration: ReleaseNET6|x64, BranchName: release3.2, Revisions: exdc/buildscripts.git@a72b8bc7b5bf55ed669e1614e68a4a2026aa3d09 exdc/dentalbase.git@21f1611502a523bc7de09ddf2d048e24f43597bd exdc/dentalbase.snk.git@79f7b9f95286951e0ccff7218b53156f3f86f12a exdc/DentalBaseDotNetCSharp.git@2c4334e1d53dc988de9ec0deff38e099ce508a86 exdc/dentalcad.git@2f3c38f6f9a65d37b09a38d864fb7e5af7c8ae38 exdc/DentalCADAppLibraryTester.git@11d998973275764baec9ed281200bc7b23d98783 exdc/DentalCADexocam.git@f25de05e2583d5770698bd2bc8227a7a6305d270 exdc/DentalCADLibrary.git@ff506771a750e9d8b375b25e045ded91da17dd0b exdc/dentalconfig.git@0595fd1a545086973189f7be97d8d2efd50f685a exdc/DentalConfigControl.git@8f69f10cc661402772c3bae7fadc4d3a3ba2fa86 exdc/dentalscanners.git@af2d440aee206d7e00fb226b5ea16fa77c016483 exdc/DLL.git@cd04004e7cadb23a6593f634312559f95bcbe311 exdc/encryption.git@aa2763b4f3401a468bdea21c8f8a6a41810984ad exdc/exocadlicenseclientcsharp.git@b4f05494fe8d57427c754f3e332a49c34b42a63c exdc/exocsclientwebportal.git@987b0957e3e4f61a24f0d6d7b3038314bed133ca exdc/exoImplantEditor.git@dd3568cb7a01d2b4129ca4bea420219dd0c66e6f exdc/opensource.dll-licenses.git@d67b3574acfc83070af1f56bb907ca83193bd828 exdc/Skins.git@7cb1eb48ab66b1645cdb41ea1ce559de469a0935 exdc/snk.git@68095f78bf417ff470d5c0baaa78e73dce524c7e exdc/toolselectioncontrolbinaries.git@1cb7cc497288a8f5b51fdf9a4fe1bfe8ebbdc53f exdc/webviewExport.git@5d01a79061f6f6b120f23d0b6af12814f4fb08b7 extools/dentalcadapplaunchers.git@2488d035b95d478ab455e87215a9fe2136d8f54a extools/themida.git@4118cbfd66881c6c83f3ea68a5f972ad9ee61aad
+DentalConfigBuildNumberDay : 8820
+DentalProcessors_Compiler : VS2022OrNewer
+DentalProcessors_MSC_VER : 1936
+DicomViewerSupported : 1
+DisplayAdapterInfo : NVIDIA_Quadro_M2000#VideoController1#NVIDIA_Quadro_M2000#32.0.15.8241#20260306000000.000000-000#Quadro_M2000#4293918720#3#
+
+DisplayScreen1 : Screen(Id=1, Name=\\.\DISPLAY1, Size={X=0,Y=0,Width=1920,Height=1080}, Primary=True, WorkingArea={X=0,Y=0,Width=1920,Height=1040}, BPPX=32)
+DisplayScreenCount : 1
+DisplayScreenMainWindowWpfPixelScaling : 1
+DpiOfProcess : 96
+DpiOSSupport : 1
+EngineBuildString : DentalCAD-Version 3.2 Elefsina Engine build 8820 (2024-02-24)
+EngineBuildStringShort : v3.2-8820/64
+ErrorReportingException(2026-05-28-12-55-12-468) : ExceptionType: System.NullReferenceException<newline><newline>ExceptionMessage: Object reference not set to an instance of an object.<newline>ExceptionStack:    at HelperToothLibrarySwitch.HelperToothLibrarySwitch.LoadAndReplaceTeethFromLibraryForJaw(List`1 teethInOneJaw, List`1 tpsInOneJaw, String libName, Scene scene, Boolean fitEachIndividualToothSeparately, Int32 fitEachIndividualToothSeparatelyApproach)<newline>   at HelperToothLibrarySwitch.HelperToothLibrarySwitch.SwitchLibrary_FitEachIndividualToothSeparately(List`1 appTeethToConsider, List`1 refTPs, String switchToLibName)<newline>   at HelperToothLibrarySwitch.HelperToothLibrarySwitch.SwitchToothLibrary(List`1 applicableTeethToConsider, List`1 referenceTPsInScene, String switchToLibName)<newline>   at DentalProcessorControls.CorrectPlacementProcessorControlNew.HelperToothLibSwitch_librarySelectionBox_SelectionChanged(Object sender, SelectionChangedEventArgs e)<newline>ErrorCodeFromStack: A9403CE199483A8B18E8FC66DC2B4A797C7E49CDC99611BD748E4D966DCA0C6C<newline>ErrorCodeFromStackAndMessage: 6635E3BEE4B653D2090504E1B4BF44C602BC6F7B2F88D69F65D29F35B6C8F7FC<newline> on 2026-05-28-12-55-12-468
+ErrorReportingInvariantCulture : 1
+ErrorReportingStaticInfo : exocad GmbH, Dental CAD, Build System, Date: 2024-02-24-22:00:00, BuildDay: 8820, Type: generic-lab-net6, Compiler: VC2022-64bit MSBuild: 17.6.3.22601 CL: 19.36.32545 CSC: 4.6.0-3.23329.3, DotNetVersion: 6.0, VSSolution: DentalCAD/DentalCADWithDentalBaseForScanners.sln, VSConfiguration: ReleaseNET6|x64, BranchName: release3.2, Revisions: exdc/buildscripts.git@a72b8bc7b5bf55ed669e1614e68a4a2026aa3d09 exdc/dentalbase.git@21f1611502a523bc7de09ddf2d048e24f43597bd exdc/dentalbase.snk.git@79f7b9f95286951e0ccff7218b53156f3f86f12a exdc/DentalBaseDotNetCSharp.git@2c4334e1d53dc988de9ec0deff38e099ce508a86 exdc/dentalcad.git@2f3c38f6f9a65d37b09a38d864fb7e5af7c8ae38 exdc/DentalCADAppLibraryTester.git@11d998973275764baec9ed281200bc7b23d98783 exdc/DentalCADexocam.git@f25de05e2583d5770698bd2bc8227a7a6305d270 exdc/DentalCADLibrary.git@ff506771a750e9d8b375b25e045ded91da17dd0b exdc/dentalconfig.git@0595fd1a545086973189f7be97d8d2efd50f685a exdc/DentalConfigControl.git@8f69f10cc661402772c3bae7fadc4d3a3ba2fa86 exdc/dentalscanners.git@af2d440aee206d7e00fb226b5ea16fa77c016483 exdc/DLL.git@cd04004e7cadb23a6593f634312559f95bcbe311 exdc/encryption.git@aa2763b4f3401a468bdea21c8f8a6a41810984ad exdc/exocadlicenseclientcsharp.git@b4f05494fe8d57427c754f3e332a49c34b42a63c exdc/exocsclientwebportal.git@987b0957e3e4f61a24f0d6d7b3038314bed133ca exdc/exoImplantEditor.git@dd3568cb7a01d2b4129ca4bea420219dd0c66e6f exdc/opensource.dll-licenses.git@d67b3574acfc83070af1f56bb907ca83193bd828 exdc/Skins.git@7cb1eb48ab66b1645cdb41ea1ce559de469a0935 exdc/snk.git@68095f78bf417ff470d5c0baaa78e73dce524c7e exdc/toolselectioncontrolbinaries.git@1cb7cc497288a8f5b51fdf9a4fe1bfe8ebbdc53f exdc/webviewExport.git@5d01a79061f6f6b120f23d0b6af12814f4fb08b7 extools/dentalcadapplaunchers.git@2488d035b95d478ab455e87215a9fe2136d8f54a extools/themida.git@4118cbfd66881c6c83f3ea68a5f972ad9ee61aad into build-folder DentalCADApp-generic-3.2-SR1-P1-64bit-net6-2024-02-24T22-00-8820-release3.2
+FileExtensionsPointcloud : .ply;.alfexo.zip;.draco;.drc;.dcm;.xyz;.xyzn;.xyznb;.xyzc;.asc
+FileExtensionsTriangulated : .stl;.off;.eoff;.obj;.ply;.alfexo.zip;.draco;.drc;.dcm;.lcsdfa
+FirstUsageDateAnyCAD : 2025-10-10-23-52-23
+FirstUsageDateDongle : 2026-04-18-00-32-24
+FirstUsageDateInstallPath : 2025-10-10-23-52-23
+GCTotalMemory : 245580192
+GeneratedProductVersion : 3.2 Elefsina 8820
+I18nProviderFiles : english\DentalCADApp-english.xml|filenames.xml|english\ConfigControl-english.xml|OnlineHelp-english.xml|english\Dicom-english.xml|english\Nesting-english.xml|english\scanmanager-english.xml|english\CAMReader-english.xml|english\ModelCreator-english.xml|english\PrepInspect-english.xml|english\ModuleActivations-english.xml|english\TotalProsthesis-english.xml|english\Ortho-english.xml|english\SmileDesign-english.xml|english\DentalServices-english.xml|english\ScanImport01ShareWithDoctor-english.xml|customer.xml|english\customer-english.xml|multilingual.xml
+I18nProviderLoadedFirstFile : C:\exocad-DentalCAD3.2-2024-02-24\DentalCADApp\languages\english\DentalCADApp-english.xml
+I18nProviderLoadedLastFile : C:\exocad-DentalCAD3.2-2024-02-24\DentalCADApp\languages\multilingual.xml
+ImplantPlanningSupported : 1
+Is64BitOperatingSystem : True
+Is64BitSoftware : True
+IsDPIAwarePerMonitor : True
+IsModernUI : True
+IsRunningAsAdminUACElevated : false
+IsWin8StyleUI : True
+LastProcessor : DentalProcessors.LoadToothmodelProcessor ( IC= 647 )
+LastProcessorControl : DentalProcessorControls.CorrectPlacementProcessorControlNew
+LastProcessorControl_Loaded : DentalProcessorControls.CorrectPlacementProcessorControlNew
+LastProcessorControl_Unloaded : DentalProcessorControls.CrownBottomProcessorControl
+LoadedDll_001 : Name="App\bin\AlphaFS.dll" Version="2.3.0" Framework=".NETStandard,Version=v2.0"
+LoadedDll_002 : Name="App\bin\DentalBaseDicom64.dll" Version="2.0.0.2"
+LoadedDll_003 : Name="App\bin\DentalBaseDotNet.dll" Version="3.2.8820.39600" Framework=".NETCoreApp,Version=v6.0"
+LoadedDll_004 : Name="App\bin\DentalBaseExternals64.dll" Version="3.2.1.22"
+LoadedDll_005 : Name="App\bin\DentalBaseNative64.dll" Version="3.2.8820.39600"
+LoadedDll_006 : Name="App\bin\DentalCADApp.dll" Version="3.2.8820.39600" Framework=".NETCoreApp,Version=v6.0"
+LoadedDll_007 : Name="App\bin\DentalCADApp.exe" Version="3.2.8820.39600"
+LoadedDll_008 : Name="App\bin\DentalCADApp.Skins.dll" Version="1.0.0.0"
+LoadedDll_009 : Name="App\bin\DentalCADExternals64.dll" Version="1.4.16.621"
+LoadedDll_010 : Name="App\bin\DentalConfig.dll" Version="3.2.8820.39600" Framework=".NETCoreApp,Version=v6.0"
+LoadedDll_011 : Name="App\bin\DentalConfig.XmlSerializers.dll" Version="3.2.8820.39600"
+LoadedDll_012 : Name="App\bin\DentalConfigControl.dll" Version="3.2.8820.39600" Framework=".NETCoreApp,Version=v6.0"
+LoadedDll_013 : Name="App\bin\DentalData.dll" Version="3.2.8820.39600" Framework=".NETCoreApp,Version=v6.0"
+LoadedDll_014 : Name="App\bin\DentalData.XmlSerializers.dll" Version="3.2.8820.39600"
+LoadedDll_015 : Name="App\bin\DentalHelperLib.dll" Version="3.2.8820.39600" Framework=".NETCoreApp,Version=v6.0"
+LoadedDll_016 : Name="App\bin\DentalHelperLib.XmlSerializers.dll" Version="3.2.8820.39600"
+LoadedDll_017 : Name="App\bin\DentalProcessorControls.dll" Version="3.2.8820.39600" Framework=".NETCoreApp,Version=v6.0"
+LoadedDll_018 : Name="App\bin\DentalProcessors.dll" Version="3.2.8820.39600" Framework=".NETCoreApp,Version=v6.0"
+LoadedDll_019 : Name="App\bin\DentalServices.dll" Version="0.0.0.0" Framework=".NETCoreApp,Version=v6.0"
+LoadedDll_020 : Name="App\bin\Exocad.WebPortalClient.dll" Version="2.2.8820.39600" Framework=".NETCoreApp,Version=v6.0"
+LoadedDll_021 : Name="App\bin\GalaSoft.MvvmLight.dll" Version="5.4.1.0" Framework=".NETCoreApp,Version=v6.0"
+LoadedDll_022 : Name="App\bin\GalaSoft.MvvmLight.Extras.dll" Version="5.4.1.0" Framework=".NETCoreApp,Version=v6.0"
+LoadedDll_023 : Name="App\bin\hostfxr.dll" Version="6,0,1923,31806 @Commit: e37fab9fc9f7bce120a7165491ed392a73f8ab51"
+LoadedDll_024 : Name="App\bin\ijwhost.dll" Version="6,0,2724,6912 @Commit: 80de56dadb3864aec7e8edd3ae32a23aeda08285"
+LoadedDll_025 : Name="App\bin\libiomp5md.dll" Version="20200504"
+LoadedDll_026 : Name="App\bin\MaterialDesignThemes.Wpf.dll" Version="1.0.8152.27313" Framework=".NETFramework,Version=v4.8"
+LoadedDll_027 : Name="App\bin\patcher.dll" Version=" (FileVersion=null)"
+LoadedDll_028 : Name="App\bin\System.Management.dll" Version="6.0.21.52210" Framework=".NETCoreApp,Version=v6.0" (.NET Framework Assembly)
+LoadedDll_029 : Name="App\bin\System.Windows.Interactivity.dll" Version="2.0.20525.0" Framework=".NETFramework,Version=v4.0"
+LoadedDll_030 : Name="App\bin\WPFToothSelectionControlv2.dll" Version="3.2.8742.15998" Framework=".NETCoreApp,Version=v6.0"
+LoadedDll_031 : Name="App\bin\WPFToothSelectionControlv2Base.dll" Version="1, 4, 12, 723"
+LoadedDll_032 : Name="Windows\assembly\NativeImages_v4.0.30319_64\mscorlib\8967064a93c70884749ad00de74dd7a1\mscorlib.ni.dll" Version="4.8.9310.0 built by: NET481REL1LAST_C"
+LoadedDll_033 : Name="Windows\assembly\NativeImages_v4.0.30319_64\System.Configuration\a7b2cabc57f7b253104bc52407e7b7c0\System.Configuration.ni.dll" Version="4.8.9037.0 built by: NET481REL1"
+LoadedDll_034 : Name="Windows\assembly\NativeImages_v4.0.30319_64\System.Core\56bbf3309e9061cdc1a3076928de7bcc\System.Core.ni.dll" Version="4.8.9316.0 built by: NET481REL1LAST_C"
+LoadedDll_035 : Name="Windows\assembly\NativeImages_v4.0.30319_64\System.Drawing\34c8b2ebd3970acedafd0aa43ce6af68\System.Drawing.ni.dll" Version="4.8.9037.0 built by: NET481REL1"
+LoadedDll_036 : Name="Windows\assembly\NativeImages_v4.0.30319_64\System.Xml\11878ca3c2b7148bb44e82ad2e35c433\System.Xml.ni.dll" Version="4.8.9037.0 built by: NET481REL1"
+LoadedDll_037 : Name="Windows\assembly\NativeImages_v4.0.30319_64\System\38ec7cdda997194850af73f2af3f7cc2\System.ni.dll" Version="4.8.9310.0 built by: NET481REL1LAST_C"
+LoadedDll_038 : Name="Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll" Version="4.8.9310.0 built by: NET481REL1LAST_C"
+LoadedDll_039 : Name="Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll" Version="4.8.9310.0 built by: NET481REL1LAST_C"
+LoadedDll_040 : Name="Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll" Version="4.8.9093.0 built by: NET481REL1LAST_C"
+LoadedDll_041 : Name="Windows\Microsoft.NET\Framework64\v4.0.30319\wminet_utils.dll" Version="4.8.9037.0 built by: NET481REL1"
+LoadedDll_042 : Name="Windows\System32\ActXPrxy.dll" Version="10.0.19041.6157 (WinBuild.160101.0800)"
+LoadedDll_043 : Name="Windows\System32\ADVAPI32.dll" Version="10.0.19041.5678 (WinBuild.160101.0800)"
+LoadedDll_044 : Name="Windows\SYSTEM32\amsi.dll" Version="10.0.19041.4355 (WinBuild.160101.0800)"
+LoadedDll_045 : Name="Windows\SYSTEM32\apphelp.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_046 : Name="Windows\System32\AppXDeploymentClient.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_047 : Name="Windows\SYSTEM32\atlthunk.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_048 : Name="Windows\System32\Bcp47Langs.dll" Version="10.0.19041.5794 (WinBuild.160101.0800)"
+LoadedDll_049 : Name="Windows\System32\bcp47mrm.dll" Version="10.0.19041.4355 (WinBuild.160101.0800)"
+LoadedDll_050 : Name="Windows\System32\bcrypt.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_051 : Name="Windows\System32\bcryptPrimitives.dll" Version="10.0.19041.5007 (WinBuild.160101.0800)"
+LoadedDll_052 : Name="Windows\System32\cfgmgr32.dll" Version="10.0.19041.3996 (WinBuild.160101.0800)"
+LoadedDll_053 : Name="Windows\System32\clbcatq.dll" Version="2001.12.10941.16384 (WinBuild.160101.0800)"
+LoadedDll_054 : Name="Windows\System32\cldapi.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_055 : Name="Windows\SYSTEM32\ColorAdapterClient.dll" Version="10.0.19041.5129 (WinBuild.160101.0800)"
+LoadedDll_056 : Name="Windows\System32\combase.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_057 : Name="Windows\System32\comdlg32.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_058 : Name="Windows\System32\coml2.dll" Version="10.0.19041.4355 (WinBuild.160101.0800)"
+LoadedDll_059 : Name="Windows\System32\CoreMessaging.dll" Version="10.0.19041.5915"
+LoadedDll_060 : Name="Windows\System32\CoreUIComponents.dll" Version="10.0.19041.3636"
+LoadedDll_061 : Name="Windows\System32\CRYPT32.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_062 : Name="Windows\SYSTEM32\CRYPTBASE.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_063 : Name="Windows\SYSTEM32\cryptnet.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_064 : Name="Windows\SYSTEM32\CRYPTSP.dll" Version="10.0.19041.5856 (WinBuild.160101.0800)"
+LoadedDll_065 : Name="Windows\SYSTEM32\cscapi.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_066 : Name="Windows\system32\d2d1.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_067 : Name="Windows\SYSTEM32\d3d11.dll" Version="10.0.19041.5794 (WinBuild.160101.0800)"
+LoadedDll_068 : Name="Windows\SYSTEM32\d3d9.dll" Version="10.0.19041.5794 (WinBuild.160101.0800)"
+LoadedDll_069 : Name="Windows\system32\dataexchange.dll" Version="10.0.19041.5794 (WinBuild.160101.0800)"
+LoadedDll_070 : Name="Windows\System32\davclnt.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_071 : Name="Windows\System32\DAVHLPR.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_072 : Name="Windows\system32\dcomp.dll" Version="10.0.19041.6157 (WinBuild.160101.0800)"
+LoadedDll_073 : Name="Windows\System32\DevDispItemProvider.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_074 : Name="Windows\SYSTEM32\devobj.dll" Version="10.0.19041.5794 (WinBuild.160101.0800)"
+LoadedDll_075 : Name="Windows\SYSTEM32\dhcpcsvc.DLL" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_076 : Name="Windows\SYSTEM32\dhcpcsvc6.DLL" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_077 : Name="Windows\System32\dlnashext.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_078 : Name="Windows\SYSTEM32\DNSAPI.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_079 : Name="Windows\System32\DriverStore\FileRepository\nv_dispwi.inf_amd64_e6ebaf4ab60fd076\nvd3dumx.dll" Version="32.0.15.8241"
+LoadedDll_080 : Name="Windows\System32\DriverStore\FileRepository\nv_dispwi.inf_amd64_e6ebaf4ab60fd076\nvgpucomp64.dll" Version="32.0.15.8241"
+LoadedDll_081 : Name="Windows\System32\DriverStore\FileRepository\nv_dispwi.inf_amd64_e6ebaf4ab60fd076\nvldumdx.dll" Version="32.0.15.8241"
+LoadedDll_082 : Name="Windows\System32\DriverStore\FileRepository\nv_dispwi.inf_amd64_e6ebaf4ab60fd076\NvMemMapStoragex.dll" Version=" (FileVersion=null)"
+LoadedDll_083 : Name="Windows\System32\DriverStore\FileRepository\nv_dispwi.inf_amd64_e6ebaf4ab60fd076\nvoglv64.dll" Version="32.0.15.8241"
+LoadedDll_084 : Name="Windows\System32\DriverStore\FileRepository\nv_dispwi.inf_amd64_e6ebaf4ab60fd076\nvppex.dll" Version="32.0.15.8241"
+LoadedDll_085 : Name="Windows\System32\drprov.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_086 : Name="Windows\SYSTEM32\drvstore.dll" Version="10.0.19041.5794 (WinBuild.160101.0800)"
+LoadedDll_087 : Name="Windows\SYSTEM32\DUI70.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_088 : Name="Windows\SYSTEM32\DUser.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_089 : Name="Windows\SYSTEM32\dwmapi.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_090 : Name="Windows\SYSTEM32\dwrite.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_091 : Name="Windows\SYSTEM32\dxcore.dll" Version="10.0.19041.5794 (WinBuild.160101.0800)"
+LoadedDll_092 : Name="Windows\SYSTEM32\dxgi.dll" Version="10.0.19041.5794 (WinBuild.160101.0800)"
+LoadedDll_093 : Name="Windows\SYSTEM32\edputil.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_094 : Name="Windows\System32\EhStorAPI.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_095 : Name="Windows\System32\EhStorShell.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_096 : Name="Windows\system32\explorerframe.dll" Version="10.0.19041.4842 (WinBuild.160101.0800)"
+LoadedDll_097 : Name="Windows\System32\FLTLIB.DLL" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_098 : Name="Windows\System32\GDI32.dll" Version="10.0.19041.6157 (WinBuild.160101.0800)"
+LoadedDll_099 : Name="Windows\System32\gdi32full.dll" Version="10.0.19041.6157 (WinBuild.160101.0800)"
+LoadedDll_100 : Name="Windows\SYSTEM32\globinputhost.dll" Version="10.0.19041.5794 (WinBuild.160101.0800)"
+LoadedDll_101 : Name="Windows\SYSTEM32\glu32.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_102 : Name="Windows\SYSTEM32\gpapi.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_103 : Name="Windows\SYSTEM32\HID.DLL" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_104 : Name="Windows\SYSTEM32\icm32.dll" Version="10.0.19041.5129 (WinBuild.160101.0800)"
+LoadedDll_105 : Name="Windows\SYSTEM32\icu.dll" Version="64, 2, 0, 0 (WinBuild.160101.0800)"
+LoadedDll_106 : Name="Windows\SYSTEM32\iertutil.dll" Version="11.00.19041.1 (WinBuild.160101.0800)"
+LoadedDll_107 : Name="Windows\System32\imagehlp.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_108 : Name="Windows\System32\IMM32.DLL" Version="10.0.19041.6157 (WinBuild.160101.0800)"
+LoadedDll_109 : Name="Windows\SYSTEM32\IPHLPAPI.DLL" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_110 : Name="Windows\SYSTEM32\kernel.appcore.dll" Version="10.0.19041.3758 (WinBuild.160101.0800)"
+LoadedDll_111 : Name="Windows\System32\KERNEL32.DLL" Version="10.0.19041.5915 (WinBuild.160101.0800)"
+LoadedDll_112 : Name="Windows\System32\KERNELBASE.dll" Version="10.0.19041.5915 (WinBuild.160101.0800)"
+LoadedDll_113 : Name="Windows\SYSTEM32\LINKINFO.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_114 : Name="Windows\system32\mlang.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_115 : Name="Windows\System32\MMDevApi.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_116 : Name="Windows\SYSTEM32\MPR.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_117 : Name="Windows\System32\MrmCoreR.dll" Version="10.0.19041.5915 (WinBuild.160101.0800)"
+LoadedDll_118 : Name="Windows\System32\MSASN1.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_119 : Name="Windows\SYSTEM32\mscms.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_120 : Name="Windows\SYSTEM32\mscoree.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_121 : Name="Windows\System32\MSCTF.dll" Version="10.0.19041.5848 (WinBuild.160101.0800)"
+LoadedDll_122 : Name="Windows\system32\msctfui.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_123 : Name="Windows\SYSTEM32\msimg32.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_124 : Name="Windows\System32\msvcp_win.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_125 : Name="Windows\SYSTEM32\MSVCP140.dll" Version="14.40.33810.0"
+LoadedDll_126 : Name="Windows\SYSTEM32\MSVCR120.dll" Version="12.00.40664.0 built by: VSULDR"
+LoadedDll_127 : Name="Windows\System32\msvcrt.dll" Version="7.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_128 : Name="Windows\system32\mswsock.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_129 : Name="Windows\System32\msxml6.dll" Version="6.30.19041.5794"
+LoadedDll_130 : Name="Windows\system32\napinsp.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_131 : Name="Windows\SYSTEM32\netutils.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_132 : Name="Windows\system32\NetworkExplorer.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_133 : Name="Windows\system32\NLAapi.dll" Version="10.0.19041.4123 (WinBuild.160101.0800)"
+LoadedDll_134 : Name="Windows\System32\NSI.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_135 : Name="Windows\SYSTEM32\ntdll.dll" Version="10.0.19041.4842 (WinBuild.160101.0800)"
+LoadedDll_136 : Name="Windows\System32\ntlanman.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_137 : Name="Windows\SYSTEM32\ntmarta.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_138 : Name="Windows\SYSTEM32\ntshrui.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_139 : Name="Windows\System32\ole32.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_140 : Name="Windows\System32\oleaut32.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_141 : Name="Windows\System32\OneCoreCommonProxyStub.dll" Version="10.0.19041.4597 (WinBuild.160101.0800)"
+LoadedDll_142 : Name="Windows\System32\OneCoreUAPCommonProxyStub.dll" Version="10.0.19041.5915 (WinBuild.160101.0800)"
+LoadedDll_143 : Name="Windows\SYSTEM32\OPENGL32.dll" Version="10.0.19041.5794 (WinBuild.160101.0800)"
+LoadedDll_144 : Name="Windows\System32\PlayToDevice.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_145 : Name="Windows\system32\pnrpnsp.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_146 : Name="Windows\System32\PortableDeviceApi.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_147 : Name="Windows\System32\PortableDeviceTypes.dll" Version="10.0.19041.5553 (WinBuild.160101.0800)"
+LoadedDll_148 : Name="Windows\SYSTEM32\POWRPROF.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_149 : Name="Windows\SYSTEM32\profapi.dll" Version="10.0.19041.6033 (WinBuild.160101.0800)"
+LoadedDll_150 : Name="Windows\SYSTEM32\PROPSYS.dll" Version="7.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_151 : Name="Windows\System32\psapi.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_152 : Name="Windows\System32\rasadhlp.dll" Version="10.0.19041.6328 (WinBuild.160101.0800)"
+LoadedDll_153 : Name="Windows\System32\RPCRT4.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_154 : Name="Windows\system32\rsaenh.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_155 : Name="Windows\system32\schannel.DLL" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_156 : Name="Windows\System32\sechost.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_157 : Name="Windows\SYSTEM32\Secur32.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_158 : Name="Windows\System32\SETUPAPI.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_159 : Name="Windows\System32\SHCORE.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_160 : Name="Windows\System32\SHELL32.dll" Version="10.0.19041.5678 (WinBuild.160101.0800)"
+LoadedDll_161 : Name="Windows\SYSTEM32\SHFolder.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_162 : Name="Windows\System32\shlwapi.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_163 : Name="Windows\SYSTEM32\srvcli.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_164 : Name="Windows\SYSTEM32\SSPICLI.DLL" Version="10.0.19041.6328 (WinBuild.160101.0800)"
+LoadedDll_165 : Name="Windows\System32\StructuredQuery.dll" Version="7.0.19041.5553 (WinBuild.160101.0800)"
+LoadedDll_166 : Name="Windows\SYSTEM32\sxs.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_167 : Name="Windows\SYSTEM32\textinputframework.dll" Version="10.0.19041.6157 (WinBuild.160101.0800)"
+LoadedDll_168 : Name="Windows\SYSTEM32\TextShaping.dll" Version=" (FileVersion=null)"
+LoadedDll_169 : Name="Windows\System32\thumbcache.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_170 : Name="Windows\system32\twinapi.appcore.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_171 : Name="Windows\System32\twinapi.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_172 : Name="Windows\SYSTEM32\ucrtbase_clr0400.dll" Version="14.32.31326.0"
+LoadedDll_173 : Name="Windows\System32\ucrtbase.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_174 : Name="Windows\SYSTEM32\UIAutomationCore.dll" Version="7.2.19041.1 (WinBuild.160101.0800)"
+LoadedDll_175 : Name="Windows\SYSTEM32\UMPDC.dll" Version=" (FileVersion=null)"
+LoadedDll_176 : Name="Windows\SYSTEM32\urlmon.dll" Version="11.00.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_177 : Name="Windows\System32\USER32.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_178 : Name="Windows\SYSTEM32\USERENV.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_179 : Name="Windows\SYSTEM32\uxtheme.dll" Version="10.0.19041.4529 (WinBuild.160101.0800)"
+LoadedDll_180 : Name="Windows\SYSTEM32\VCOMP140.DLL" Version="14.40.33810.0"
+LoadedDll_181 : Name="Windows\SYSTEM32\VCRUNTIME140_1_CLR0400.dll" Version="14.32.31326.0"
+LoadedDll_182 : Name="Windows\SYSTEM32\VCRUNTIME140_1.dll" Version="14.40.33810.0"
+LoadedDll_183 : Name="Windows\SYSTEM32\VCRUNTIME140_CLR0400.dll" Version="14.32.31326.0"
+LoadedDll_184 : Name="Windows\SYSTEM32\vcruntime140.dll" Version="14.40.33810.0"
+LoadedDll_185 : Name="Windows\SYSTEM32\version.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_186 : Name="Windows\system32\wbem\fastprox.dll" Version="10.0.19041.5794 (WinBuild.160101.0800)"
+LoadedDll_187 : Name="Windows\system32\wbem\wbemprox.dll" Version="10.0.19041.4474 (WinBuild.160101.0800)"
+LoadedDll_188 : Name="Windows\system32\wbem\wbemsvc.dll" Version="10.0.19041.4474 (WinBuild.160101.0800)"
+LoadedDll_189 : Name="Windows\system32\wbem\wmiutils.dll" Version="10.0.19041.3758 (WinBuild.160101.0800)"
+LoadedDll_190 : Name="Windows\SYSTEM32\wbemcomn.dll" Version="10.0.19041.5794 (WinBuild.160101.0800)"
+LoadedDll_191 : Name="Windows\SYSTEM32\webio.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_192 : Name="Windows\System32\win32u.dll" Version="10.0.19041.6280 (WinBuild.160101.0800)"
+LoadedDll_193 : Name="Windows\System32\Windows.FileExplorer.Common.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_194 : Name="Windows\System32\Windows.Globalization.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_195 : Name="Windows\SYSTEM32\windows.staterepositorycore.dll" Version="10.0.19041.6093 (WinBuild.160101.0800)"
+LoadedDll_196 : Name="Windows\System32\Windows.StateRepositoryPS.dll" Version="10.0.19041.6093 (WinBuild.160101.0800)"
+LoadedDll_197 : Name="Windows\SYSTEM32\windows.storage.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_198 : Name="Windows\system32\Windows.Storage.Search.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_199 : Name="Windows\SYSTEM32\WindowsCodecs.dll" Version="10.0.19041.6328 (WinBuild.160101.0800)"
+LoadedDll_200 : Name="Windows\SYSTEM32\WindowsCodecsExt.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_201 : Name="Windows\SYSTEM32\WINHTTP.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_202 : Name="Windows\SYSTEM32\WININET.dll" Version="11.00.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_203 : Name="Windows\SYSTEM32\WINMM.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_204 : Name="Windows\SYSTEM32\WINNSI.DLL" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_205 : Name="Windows\System32\winrnr.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_206 : Name="Windows\SYSTEM32\WINSTA.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_207 : Name="Windows\System32\wintrust.dll" Version="10.0.19041.6157 (WinBuild.160101.0800)"
+LoadedDll_208 : Name="Windows\SYSTEM32\wintypes.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_209 : Name="Windows\System32\wkscli.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_210 : Name="Windows\SYSTEM32\Wldp.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_211 : Name="Windows\system32\wpdshext.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_212 : Name="Windows\System32\WS2_32.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_213 : Name="Windows\system32\wshbth.dll" Version="10.0.19041.5848 (WinBuild.160101.0800)"
+LoadedDll_214 : Name="Windows\system32\wshunix.dll" Version="10.0.19041.5438 (WinBuild.160101.0800)"
+LoadedDll_215 : Name="Windows\SYSTEM32\wtsapi32.dll" Version="10.0.19041.3636 (WinBuild.160101.0800)"
+LoadedDll_216 : Name="Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.6280_none_792d7c952443c49a\comctl32.dll" Version="5.82 (WinBuild.160101.0800)"
+LoadedDll_217 : Name="Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.6280_none_60bc30a171f2f3f3\comctl32.dll" Version="6.10 (WinBuild.160101.0800)"
+LoadedDll_218 : Name="Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.6216_none_919f98d0cc8c5626\gdiplus.dll" Version="10.0.19041.6216 (WinBuild.160101.0800)"
+LoadedDll_219 : Name="ProgramFiles\Common Files\microsoft shared\ink\tiptsf.dll" Version="10.0.19041.1 (WinBuild.160101.0800)"
+LoadedDll_220 : Name="NET\clrjit.dll" Version="8,0,724,31311 @Commit: 2aade6beb02ea367fd97c4070a4198802fe61c03"
+LoadedDll_221 : Name="NET\coreclr.dll" Version="8,0,724,31311 @Commit: 2aade6beb02ea367fd97c4070a4198802fe61c03"
+LoadedDll_222 : Name="NET\hostpolicy.dll" Version="8,0,724,31311 @Commit: 2aade6beb02ea367fd97c4070a4198802fe61c03"
+LoadedDll_223 : Name="NET\Microsoft.DiaSymReader.Native.amd64.dll" Version="14.40.33810.0"
+LoadedDll_224 : Name="NET\Microsoft.Win32.Primitives.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_225 : Name="NET\Microsoft.Win32.Registry.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_226 : Name="NET\mscorlib.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_227 : Name="NET\netstandard.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_228 : Name="NET\System.Collections.Concurrent.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_229 : Name="NET\System.Collections.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_230 : Name="NET\System.Collections.Immutable.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_231 : Name="NET\System.Collections.NonGeneric.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_232 : Name="NET\System.Collections.Specialized.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_233 : Name="NET\System.ComponentModel.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_234 : Name="NET\System.ComponentModel.EventBasedAsync.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_235 : Name="NET\System.ComponentModel.Primitives.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_236 : Name="NET\System.ComponentModel.TypeConverter.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_237 : Name="NET\System.Console.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_238 : Name="NET\System.Core.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_239 : Name="NET\System.Diagnostics.Debug.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_240 : Name="NET\System.Diagnostics.DiagnosticSource.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_241 : Name="NET\System.Diagnostics.FileVersionInfo.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_242 : Name="NET\System.Diagnostics.Process.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_243 : Name="NET\System.Diagnostics.StackTrace.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_244 : Name="NET\System.Diagnostics.TextWriterTraceListener.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_245 : Name="NET\System.Diagnostics.TraceSource.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_246 : Name="NET\System.Diagnostics.Tracing.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_247 : Name="NET\System.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_248 : Name="NET\System.Drawing.Primitives.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_249 : Name="NET\System.IO.Compression.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_250 : Name="NET\System.IO.Compression.Native.dll" Version="8,0,724,31311 @Commit: 2aade6beb02ea367fd97c4070a4198802fe61c03"
+LoadedDll_251 : Name="NET\System.IO.FileSystem.AccessControl.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_252 : Name="NET\System.IO.FileSystem.DriveInfo.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_253 : Name="NET\System.IO.MemoryMappedFiles.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_254 : Name="NET\System.Linq.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_255 : Name="NET\System.Linq.Expressions.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_256 : Name="NET\System.Linq.Parallel.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_257 : Name="NET\System.Memory.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_258 : Name="NET\System.Net.Http.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_259 : Name="NET\System.Net.NameResolution.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_260 : Name="NET\System.Net.Primitives.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_261 : Name="NET\System.Net.Requests.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_262 : Name="NET\System.Net.Security.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_263 : Name="NET\System.Net.ServicePoint.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_264 : Name="NET\System.Net.Sockets.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_265 : Name="NET\System.Net.WebClient.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_266 : Name="NET\System.Net.WebHeaderCollection.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_267 : Name="NET\System.Numerics.Vectors.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_268 : Name="NET\System.ObjectModel.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_269 : Name="NET\System.Private.CoreLib.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_270 : Name="NET\System.Private.Uri.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_271 : Name="NET\System.Private.Xml.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_272 : Name="NET\System.Private.Xml.Linq.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_273 : Name="NET\System.Reflection.Emit.ILGeneration.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_274 : Name="NET\System.Reflection.Emit.Lightweight.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_275 : Name="NET\System.Reflection.Metadata.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_276 : Name="NET\System.Reflection.Primitives.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_277 : Name="NET\System.Runtime.CompilerServices.VisualC.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_278 : Name="NET\System.Runtime.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_279 : Name="NET\System.Runtime.Extensions.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_280 : Name="NET\System.Runtime.InteropServices.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_281 : Name="NET\System.Runtime.InteropServices.RuntimeInformation.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_282 : Name="NET\System.Runtime.Intrinsics.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_283 : Name="NET\System.Runtime.Loader.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_284 : Name="NET\System.Runtime.Numerics.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_285 : Name="NET\System.Runtime.Serialization.Formatters.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_286 : Name="NET\System.Security.AccessControl.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_287 : Name="NET\System.Security.Claims.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_288 : Name="NET\System.Security.Cryptography.Algorithms.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_289 : Name="NET\System.Security.Cryptography.Csp.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_290 : Name="NET\System.Security.Cryptography.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_291 : Name="NET\System.Security.Cryptography.Primitives.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_292 : Name="NET\System.Security.Cryptography.X509Certificates.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_293 : Name="NET\System.Security.Principal.Windows.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_294 : Name="NET\System.Text.Encoding.CodePages.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_295 : Name="NET\System.Text.Encoding.Extensions.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_296 : Name="NET\System.Text.Encodings.Web.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_297 : Name="NET\System.Text.Json.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_298 : Name="NET\System.Text.RegularExpressions.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_299 : Name="NET\System.Threading.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_300 : Name="NET\System.Threading.Overlapped.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_301 : Name="NET\System.Threading.Tasks.Parallel.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_302 : Name="NET\System.Threading.Thread.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_303 : Name="NET\System.Threading.ThreadPool.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_304 : Name="NET\System.Web.HttpUtility.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_305 : Name="NET\System.Xml.Linq.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_306 : Name="NET\System.Xml.ReaderWriter.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_307 : Name="NET\System.Xml.XDocument.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_308 : Name="NET\System.Xml.XmlSerializer.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_309 : Name="NETWPF\Accessibility.dll" Version="8.0.724.31308" (.NET Framework Assembly)
+LoadedDll_310 : Name="NETWPF\D3DCompiler_47_cor3.dll" Version="10.0.22621.3233 (WinBuild.160101.0800)"
+LoadedDll_311 : Name="NETWPF\DirectWriteForwarder.dll" Version="8,0,724,31307 @Commit: 43bb8cc831c2658e1117415019264bfe6f644f94" Framework=".NETCoreApp,Version=8.0"
+LoadedDll_312 : Name="NETWPF\Microsoft.VisualBasic.Forms.dll" Version="8.0.724.31308" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_313 : Name="NETWPF\Microsoft.Win32.SystemEvents.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_314 : Name="NETWPF\PresentationCore.dll" Version="8.0.724.31307" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_315 : Name="NETWPF\PresentationFramework-SystemXml.dll" Version="8.0.724.31307" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_316 : Name="NETWPF\PresentationFramework-SystemXmlLinq.dll" Version="8.0.724.31307" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_317 : Name="NETWPF\PresentationFramework.Aero.dll" Version="8.0.724.31307" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_318 : Name="NETWPF\PresentationFramework.Aero2.dll" Version="8.0.724.31307" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_319 : Name="NETWPF\PresentationFramework.dll" Version="8.0.724.31307" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_320 : Name="NETWPF\PresentationNative_cor3.dll" Version="8,0,24,17801 @Commit: 089c9b660a07fad070d3d442b7f49c8e1001a0b3"
+LoadedDll_321 : Name="NETWPF\System.Configuration.ConfigurationManager.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_322 : Name="NETWPF\System.Drawing.Common.dll" Version="8.0.724.31308" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_323 : Name="NETWPF\System.Drawing.dll" Version="8.0.724.31308" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_324 : Name="NETWPF\System.IO.Packaging.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_325 : Name="NETWPF\System.Resources.Extensions.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_326 : Name="NETWPF\System.Threading.AccessControl.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_327 : Name="NETWPF\System.Windows.Controls.Ribbon.dll" Version="8.0.724.31307" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_328 : Name="NETWPF\System.Windows.Extensions.dll" Version="8.0.724.31311" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_329 : Name="NETWPF\System.Windows.Forms.dll" Version="8.0.724.31308" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_330 : Name="NETWPF\System.Windows.Forms.Primitives.dll" Version="8.0.724.31308" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_331 : Name="NETWPF\System.Xaml.dll" Version="8.0.724.31307" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_332 : Name="NETWPF\UIAutomationProvider.dll" Version="8.0.724.31307" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_333 : Name="NETWPF\UIAutomationTypes.dll" Version="8.0.724.31307" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_334 : Name="NETWPF\WindowsBase.dll" Version="8.0.724.31307" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_335 : Name="NETWPF\WindowsFormsIntegration.dll" Version="8.0.724.31307" Framework=".NETCoreApp,Version=v8.0"
+LoadedDll_336 : Name="NETWPF\wpfgfx_cor3.dll" Version="8,0,724,31307 @Commit: 43bb8cc831c2658e1117415019264bfe6f644f94"
+LoadedDll_337 : Name="ProgramFiles\Intel\OptaneShellExtensions\iaStorAfsServiceApi.dll" Version="17.2.11.1033"
+LoadedDll_338 : Name="C:\ProgramData\Microsoft\Windows Defender\platform\4.18.25080.5-0\MpOav.dll" Version="4.18.25080.5 (aec027e97d1d7ab25370672d0fb4548480483a83)"
+LoadedDll_339 : Name="C:\Users\user\AppData\Local\Microsoft\OneDrive\21.220.1024.0005\amd64\FileSyncShell64.dll" Version="21.220.1024.0005"
+LoadedDllCount : 339
+LoadedDllMyDir : C:\exocad-DentalCAD3.2-2024-02-24\DentalCADApp
+LoadedDllMyDirBase : C:\exocad-DentalCAD3.2-2024-02-24\DentalCADApp
+LoadedDllNetFrameworkDir : C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7
+LoadedDllNetFrameworkDirRoot : C:\Program Files\dotnet\shared
+LoadedDllNetFrameworkDirWPF : C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7
+LoadedDllProgramFilesDir : C:\Program Files
+LoadedDllWinDir : C:\Windows
+LoadedProcessorsAfterChecks : ShowWizardProcessor,MirrorHealthyToSituProcessor,FaceCorrectPlacementProcessor,FaceModelProcessor,LoadAbutmentSupportForPlannedImplantsProcessor,SelectImplantTypeProcessor,AbutmentMarkerProcessor,EmergenceProfileProcessor,CorrectPreparationMarginProcessor,PreparationMarginProcessor,SetScrewChannelProcessor,AbutmentScrewChannelManualBottomProcessor,BiteSplintBottomProcessor,BiteSplintTopProcessor,ProvisionalCrownTopProcessor,ProvisionalCrownBottomProcessor,InsertionDirectionProcessor,CrownBottomProcessor,CopyAndPasteToothProcessor,LoadBridgeModelsProcessor,LoadCustomToothmodelProcessor,CorrectPlacementProcessorNew,AbutmentBottomProcessor,InlayBottomProcessor,OffsetInlayProcessor,OffsetCopingProcessor,LingualBandProcessor,AdaptToothmodelProcessor,AbutmentEditProcessor,WaxUpProcessor,ShrinkTelescopesProcessor,VirtualWaxUpBottomProcessor,VirtualWaxUpBaseProcessor,FreeformVirtualWaxUpBaseProcessor,ShrinkGingivaProcessor,ShrinkBarSegmentToothProcessor,ShrinkProcessor,FreeformProcessor,AdjustingSituProcessor,PrimaryTelescopeProcessor,TelescopeInsertionDirectionProcessor,FreeformTelescopeProcessor,FreeformBiteSplintProcessor,FreeformGingivaProcessor,BarProcessor,FreeformBarProcessor,ConnectorProcessor,MergePartsToWaxupProcessor,ScrewHoleDesignProcessor,MergePartsProcessor,FreeformMergedProcessor,NestingQueueProcessor,ScanDataEditProcessor,WaxupSituScanEditProcessor,StockAbutmentEditProcessor,CorrectAntagonistProcessor,ConvertGenericVisualizationMeshToAntagonistProcessor,ConvertGenericVisualizationMeshFromAntagonistProcessor,CorrectSituProcessor,CorrectWaxupProcessor,FreeformScanDataProcessor,DeleteConnectorProcessor,ConnectToMesialProcessor,ConnectToDistalProcessor,OverPressProcessor,LoadAttachmentProcessor,LoadSingleToothmodelProcessorNew,MinThicknessProcessor,ModelAlignmentProcessor,ModelSegmentationProcessor,ModelDieWithBoreProcessor,ModelToothSegmentationProcessor,ModelAttachmentProcessor,FreeformModelProcessor,TiltProjectProcessor,DeleteReconstructionsProcessor,WaxupBottomMarginProcessor,WaxupBottomProcessor,ReconstructionSelectionProcessor,JawRegistrationProcessor,AdditionalScanRegistrationProcessor,ImplantReferenceProcessor,MultiDieRegistrationProcessor,ArticulatorRegistrationProcessor,ModelToggleDieTypesProcessor,ModelImplantProcessor,JawMovementRegistrationProcessor,CorrectPlacementOfReducedTeethProcessor,LoadBiteSplintModelsProcessor,ConvertLibraryModelToPonticProcessor,ProductionBlankProcessor,SelectAbutmentSupportForExistingImplantProcessor,StudyModelAlignmentProcessor,StudyModelDesignProcessor,StudyModelTextAttachmentProcessor,FreeformPartialFrameworkProcessor,OffsetSubstructureProcessor,FreeformOffsetSubstructureProcessor,OffsetSubstructureMinThicknessProcessor,WaxupBottomMinThicknessProcessor,ProstheticModelAnalysisProcessor,DuplicateDentureMarginProcessor,ProstheticToothPlacementProcessor,DuplicateDentureToothSegmentationProcessor,CorrectProstheticToothPlacementProcessor,ProstheticBaseBottomProcessor,DuplicateDentureProstheticBaseBottomProcessor,ProstheticBaseProcessor,DuplicateDentureGenerateProstheticBaseProcessor,FreeformProstheticBaseProcessor,FreeformAdaptedProstheticBaseProcessor,AdaptProstheticBaseProcessor,ProstheticReportingProcessor,ProstheticToothModelEditor,ProstheticMergeToMonoblockProcessor,AdaptProstheticBaseForMergedTeethProcessor,AdaptProstheticBaseForPartialFrameworkProcessor,ProstheticToothPresetExportProcessor,ThimbleCrownBottomMarginProcessor,ThimbleCrownBottomProcessor,ThimbleCrownInsertionDirectionProcessor,ThimbleCrownMinThicknessProcessor,FreeformMergedThimbleSubstructureProcessor,SaveToothLibraryModelProcessor,SaveToothLibraryModelPreReducedProcessor,ToothLibraryModelEditorProcessor,AbutmentSubstructureScanMarginProcessor,FreeformGingivaSegmentedProcessor,SmileDesignMultiToothSegmentationProcessor,WaxupMultiToothSegmentationProcessor,VirtualPreparationForVeneerProcessor,VirtualPreparationForCrownProcessor,ModelDigitalWaxupProcessorForVirtualPreparedTeethAnatomy,ModelDigitalWaxupProcessorForVirtualPreparedTeeth,ConvertGenericVisualizationMeshToToothModelProcessor,ConvertGenericVisualizationMeshFromToothModelProcessor,OrthoConvertLibraryModelToOrthoLibraryModelProcessor,BiteSplintMultiToothSegmentationProcessor,CloudBackendCrownGenerationProcessor,AdjustingSituForAbutmentsProcessor,LoadToothmodelProcessor,FreeformEmergenceProfileProcessor,RemoveMeshSelectionProcessor,SaveToothBowProcessor,CorrectJawRelationProcessor,AbutmentInsertionDirectionProcessor,MeasuringPointsProcessor,AntagonistEditProcessor,FaceScanEditProcessor,MeshEditProcessor,TransferSurfaceGeometryProcessor,HybridCrownInsertionDirectionProcessor,ModelDieWithBorePreopProcessor,ModelQuickDieWithBoreProcessor,FreeformModelGingivaMaskProcessor,ShowAxisProcessor,BridgeSplitProcessor,BiteSplintConvertToWaxupProcessor,ProstheticProductionBlankAlignmentProcessor,PostMarkerProcessor,PostPreparationProcessor,EndoCrownPreparationProcessor,PostBottomProcessor,EndoCoreProcessor,EndoCoreInsertionDirectionProcessor,EndoBottomInsertionDirectionProcessor,FreeformPostAndCoreProcessor,VirtualToothExtractionProcessor,AdaptToothmodelToVirtualPreparationForVeneerProcessor,AdaptToothmodelToVirtualPreparationForCrownProcessor,DumpDentalDataProcessor,SelectNextStepProcessor,NonInteractiveConnectorProcessor,StartSmileDesignProcessor,SwitchToAnatomicProcessor,SwitchToReducedProcessor,ArticulatorProcessor,StartArticulatorProcessor,AutoArticulatorProcessor,WaitForImplantPositionProcessor,JawRegistrationCheckAlignmentProcessor,ModelFinishedBeforeDesignProcessor,ProstheticVirtualToothExtractionProcessor,StartProstheticModelAnalysisProcessor,DuplicateDentureMeshEditProcessor,FreeformDentureScanProcessor,DuplicateDentureMarginOldProcessor,ThimbleCrownSelectNextStepProcessor,FreeformAdaptToothmodelToVirtualPreparationProcessor,LoadDicomDataProcessor
+LoadedProcessorsWizardPriorities : DumpDentalDataProcessor(0),SaveToothBowProcessor(0),PrimaryTelescopeProcessor(8200),LoadAttachmentProcessor(105),SelectNextStepProcessor(1),MergePartsProcessor(3),ProductionBlankProcessor(4),FreeformMergedProcessor(0),FreeformProcessor(9747),FreeformTelescopeProcessor(9801),CrownBottomProcessor(9985),ConnectorProcessor(8100),NonInteractiveConnectorProcessor(8101),TiltProjectProcessor(20010),ReconstructionSelectionProcessor(90150),PreparationMarginProcessor(15200),InsertionDirectionProcessor(15150),EmergenceProfileProcessor(15250),AbutmentMarkerProcessor(15300),AbutmentEditProcessor(9100),AbutmentBottomProcessor(15200),AbutmentInsertionDirectionProcessor(9150),OffsetCopingProcessor(10165),LoadSingleToothmodelProcessorNew(9501),LoadToothmodelProcessor(9500),OffsetInlayProcessor(10160),AdaptToothmodelProcessor(9900),CorrectPlacementProcessorNew(9970),BarProcessor(8110),FreeformBarProcessor(8109),StartSmileDesignProcessor(19999),ShrinkProcessor(9100),MinThicknessProcessor(0),WaxUpProcessor(9748),CorrectSituProcessor(350100),DeleteConnectorProcessor(0),InlayBottomProcessor(9986),OverPressProcessor(130),SwitchToAnatomicProcessor(0),SwitchToReducedProcessor(0),ArticulatorProcessor(0),MirrorHealthyToSituProcessor(0),AdjustingSituProcessor(9746),FreeformGingivaProcessor(8100),ScrewHoleDesignProcessor(105),MeasuringPointsProcessor(25300),StartArticulatorProcessor(150100),AutoArticulatorProcessor(9950),SetScrewChannelProcessor(200100),AbutmentScrewChannelManualBottomProcessor(9989),WaitForImplantPositionProcessor(999999999),TelescopeInsertionDirectionProcessor(8201),CopyAndPasteToothProcessor(9975),VirtualToothExtractionProcessor(9976),ArticulatorRegistrationProcessor(10000102),JawRegistrationProcessor(10000101),JawRegistrationCheckAlignmentProcessor(10000103),AdditionalScanRegistrationProcessor(10000100),TransferSurfaceGeometryProcessor(10000200),ImplantReferenceProcessor(1000099),BiteSplintTopProcessor(1100),BiteSplintBottomProcessor(150100),FreeformBiteSplintProcessor(160100),BiteSplintMultiToothSegmentationProcessor(150200),HybridCrownInsertionDirectionProcessor(8201),ProvisionalCrownTopProcessor(9980),ProvisionalCrownBottomProcessor(9981),MultiDieRegistrationProcessor(10000102),ModelAlignmentProcessor(70),ModelSegmentationProcessor(50),ModelToothSegmentationProcessor(60),ModelDieWithBoreProcessor(50),ModelDieWithBorePreopProcessor(50),ModelQuickDieWithBoreProcessor(51),ModelAttachmentProcessor(40),ModelToggleDieTypesProcessor(61),ModelFinishedBeforeDesignProcessor(0),ScanDataEditProcessor(150102),ModelImplantProcessor(52),LingualBandProcessor(10164),JawMovementRegistrationProcessor(10000099),MergePartsToWaxupProcessor(10),ProstheticBaseBottomProcessor(1602),ProstheticBaseProcessor(1601),ProstheticVirtualToothExtractionProcessor(10070),StartProstheticModelAnalysisProcessor(10050),ProstheticToothPlacementProcessor(9900),CorrectProstheticToothPlacementProcessor(9900),FreeformProstheticBaseProcessor(1600),FreeformAdaptedProstheticBaseProcessor(0),AdaptProstheticBaseProcessor(1598),ProstheticMergeToMonoblockProcessor(1599),PostMarkerProcessor(16000),EndoCrownPreparationProcessor(15300),PostPreparationProcessor(15400),EndoCoreInsertionDirectionProcessor(15150),EndoBottomInsertionDirectionProcessor(8900),PostBottomProcessor(8800),EndoCoreProcessor(8700),FreeformPostAndCoreProcessor(8600),LoadBridgeModelsProcessor(10010),VirtualWaxUpBottomProcessor(9499),VirtualWaxUpBaseProcessor(9498),FreeformVirtualWaxUpBaseProcessor(9497),WaxupBottomMarginProcessor(9499),WaxupBottomProcessor(9498),LoadBiteSplintModelsProcessor(10020),LoadAbutmentSupportForPlannedImplantsProcessor(50005),SelectImplantTypeProcessor(50004),SelectAbutmentSupportForExistingImplantProcessor(50000),StudyModelAlignmentProcessor(150110),StudyModelDesignProcessor(90),StudyModelTextAttachmentProcessor(50),DuplicateDentureMeshEditProcessor(10700),FreeformDentureScanProcessor(10699),DuplicateDentureMarginOldProcessor(10500),DuplicateDentureMarginProcessor(10500),DuplicateDentureToothSegmentationProcessor(10300),DuplicateDentureProstheticBaseBottomProcessor(1602),DuplicateDentureGenerateProstheticBaseProcessor(1601),OffsetSubstructureProcessor(9500),FreeformOffsetSubstructureProcessor(9501),AdaptProstheticBaseForMergedTeethProcessor(200),AdaptProstheticBaseForPartialFrameworkProcessor(200),ThimbleCrownBottomMarginProcessor(8210),ThimbleCrownBottomProcessor(8200),ThimbleCrownInsertionDirectionProcessor(8215),ThimbleCrownSelectNextStepProcessor(8220),AbutmentSubstructureScanMarginProcessor(8208),SmileDesignMultiToothSegmentationProcessor(20000),VirtualPreparationForVeneerProcessor(9300),VirtualPreparationForCrownProcessor(9301),FreeformAdaptToothmodelToVirtualPreparationProcessor(9000),ModelDigitalWaxupProcessorForVirtualPreparedTeethAnatomy(53),ModelDigitalWaxupProcessorForVirtualPreparedTeeth(52),CloudBackendCrownGenerationProcessor(16000),LoadDicomDataProcessor(1)
+MachineGuidHW : D749E4F6E704A9B18B00B77B30B15FB650BDE239
+MachineGuidL : 4E4C31921F3940EEDD66DAF145F3475BB014AE43
+MaintenanceException : ReceiveWebException:The SSL connection could not be established, see inner exception.
+The SSL connection could not be established, see inner exception.
+Received an unexpected EOF or 0 bytes from the transport stream.
+
+MaintenanceExceptionURL : http://update.exocad.net/dentalcadappmaintenanceservice2023/
+MaintenanceQueryResponse : Empty
+MarketingName : Elefsina
+MemoryStatus : MemoryInfo:
+Memory in use  : 27%
+Total Physical : 16298mb
+Free  Physical : 11814mb
+Free  Page     : 12350mb
+Total Virtual  : 134217727mb
+Free  Virtual  : 131848936mb
+Free Extended  : 0mb
+
+
+MemoryStatusOnStart : MemoryInfo:
+Memory in use  : 20%
+Total Physical : 16298mb
+Free  Physical : 12974mb
+Free  Page     : 14091mb
+Total Virtual  : 134217727mb
+Free  Virtual  : 131851628mb
+Free Extended  : 0mb
+
+
+MeshFileFormatAllowDataTypeLCSDFA : 1
+MeshFileFormatAllowDataTypeLCSDFAForProduction : 0
+MeshFileFormatAllowDataTypeLCSDFAForProductionForProstheticMonoblock : 0
+MeshFileFormatAllowDataTypeLCSDFAForProductionForProstheticTooth : 0
+MeshFileFormatAllowDataTypeLCSDFAForProductionForToothModels : 1
+MeshFileFormatAllowDataTypeLCSDFAForUsers : 1
+MeshFileFormatDefaultSaveExtension : .stl
+MeshFileFormatNestingCryptoExtension : .nestlcsdfa
+MeshFileFormatNestingDefaultMaterialBlockFileNameExtension : .nest
+MeshFileFormatNestingDefaultQueueFileNameExtension : .nest
+MeshFileFormatSaveToothModelsClosedFileAllowed : 1
+MeshFileFormatSaveToothModelsClosedFileExtension : .lcsdfa
+MeshFileFormatSaveToothModelsOpenFileExtension : .obj
+MicrosoftNetUpdateHistory : Microsoft .NET Framework 4 Client Profile:KB2468871, KB2468871v2, KB2478063, KB2533523, KB2544514, KB2600211, KB2600217|Microsoft .NET Framework 4 Extended:KB2468871, KB2468871v2, KB2478063, KB2533523, KB2544514, KB2600211, KB2600217|
+MicrosoftNetVersion : 4.8 or later
+MicrosoftNetVersionReleaseKey : 533325
+MicrosoftWindowsUpdates : KB5064400,KB5064399,KB5011048,KB5011060,KB5015684,KB5066198,KB5014032,KB5032907,KB5063979,KB5066411
+NetCompiletimeVersion : NET6
+NetFrameworkDescription : .NET 8.0.7
+NetRuntimeVersion : 8.0.7
+Now : 05/28/2026 12:55:12
+NowTimeStamp : 2026-05-28-12:55:12.6113
+NowTimeStampUtc : 2026-05-28-10:55:12.6113
+NowUtc : 05/28/2026 10:55:12
+ProductName : exocad DentalCAD 3.2 Elefsina 8820 [DentalCAD-Version 3.2 Engine build 8820]
+ProductNameOnStart : exocad DentalCAD 3.2 Elefsina 8820 [DentalCAD-Version 3.2 Engine build 8820]
+ProductPrefix : DentalCAD-
+PRWWpfPixelScaling_DentalProcessorControls.ControlHostDialog : 1
+PRWWpfPixelScaling_MainWindow : 1
+PRWWpfPixelScalingConsistent_DentalProcessorControls.ControlHostDialog : Consistent
+RecalledLibrarySignatures : GenericLibrary(A20APVCVkyyGA7zoiBhDwgqk/sBlQuyuhS1zRaC9jYpPaXwD8Qf4KakrJC3Pg4Q8RhNMKX0ta9oqt+ZzpkbbGyOWZWRqwbvFD/AEQv8u6AJx3p9qrl/c77g+F7nsGnTp7jly5ak9JRbFESzdBu/R/4gyCFBQFqHwQ1F7oBDNoZRsU3nqGdbyBb0M83nrPPdOB/Gv8/sqRzS8gGkrobFvoqv8PLqCcFiSACTitJ3BOUsxRQ/N/kUpcWOsuaRx3Tv4Q5sAW8nacl1jwl7APAFyNQEgxDkAE8/n69OQp92h0hU+9qTswHIOC7t545/t16wiQqxWqhTAh8QBghwun5lWlIJeawxwa5bufQK7mNEe8VmUCmI9vdrRAtuQP17XarMUrC8xJ6MIGRz358HNNeszZhwTVfITe61QKm3qWcnGcU4Hypdr+flhwvbz4avawjBpWB2svcZpWOzLT1X5bEjh5mbXV5xZJ3Gd61DaMNsKCVvHc27js+kIu5x9jYELIAOUBzRjHlAxcwnmLIhnGK+bNTIN3S489dVEWimNiYJe6tluZak2qD6XRc1C80YuRCVDwHSMnnG0iZnjcT+NzmR7DkA6i+2up2g3kZKV2DMqDKdEuRx10/jiW9DhngbIHzZ7Fej/FgnSMZCN5Xqyrn2NnXknlx/XA9TCZYoNZ7rkgkU=);|Implant(N9pydnbKrUJRmi7KouMyam+v2nF7cYvioq5IFbU/x8VN79yC+TmAJ086r6/750TDD5LOAtDv1FFmUJs1KJVNQb83EoYSG3cwpRlIYbV6mX6SnWXAi7ZCUz4R8MGHYZRWjzh5hqcgTtN9QN3TnMfTjEGecWqsHTsqWcmyIdKciIejUeH9y2TUtLjAvBdSixna+MURlejvwpLXqPEdrPl0ZT+yotQv79OjTvpMvFFGbyA4qtHTLlkyTFmtOEWTeS2pq7VRuVTStluK5FckUEjxn03kFO9I+tjNvZ2iKOptGwJDbeGsd0k6yS4Nyt8U/8OaHecL04tUVI1+pEtgO6jFzQ==);|GenericLibrary(epuBmNryQH0RiEvRD8Xy2kmoGmr5mGpJrLeKuF1vdMFyC/SXWnJCYUUgxHah5TcJtBrKB2dVS3vhg92mfY145sc9U/snfNTHVDqaqk9zyCHVlXK23uch4OgUvO2PdDHKesorFO3jVlVZIa0ZanDHwr4Nl3PrECOcdGM4jTmKwnhlud54/wc07saTp5hWPgl3pQ7dNVvH7afVx0mRTgOXYnzxXP7/v6kb1J1I5qTa15Da/kLPrC13/LH91xfTbXBR6fTLsdrNYgs0ELFybwfkYF0FyVWz8wLp/6AfjnZKO6zk3B0aKz6l8JkPDJMD4jYmLHRgQXRp3KlpLhQ23cz5sBGiFYGwj5IfaBksSD8z7ZBPSq4q4jBsJGzfnrLzHJySmi6ctgnnejH6F0ZFmfR3f5ti8pIqkCXc3jcCarr9QZH38s0LAVwEcWRoCmhrZu0qMqbA89cAb0A6KJ0Uo+n0v+I8kqCBmZI1IGBE2YD2AtX+u/OawMtRXCJpgjn4hZOYRlaT4pAsvY1c9z9WRG1XuwHjgnF24beZprDZHaLpLUyyOEqzR0iJKwlKK/RetM4QHrUc/9VspiKbuNVHOvdiud7CJU7tbIMltl1/xvqxuZUNf3o5B5Rs5a/qZRnPwVYcvtfQlZLGKhNY+P4hJ22L43OEkihrwoPZA068fn32epU=);|GenericLibrary(Vw0fKsB/bNJlMpdA+j69zOZURSBcKUcEo5JnpMoe9PfUcPk4c+jYFjgC6lBI3jGcVRtSLzDyJuswMkEEyPJHhIG1aszk8ZwbXEe5JCORFye/mqfLqIqYKjOssGcv/OrR3egn7caSwlfCmLO45VdDbNR6fcPrRPNDwNR0+S5V5RZCNpCFnGufggBH0FEemkGCd0azxUQhPj4yQNCDaje8plxtKPha3u9gPd1wAoyMEIRRYsV88tc/0iGr+11bTmB1bo4usQdchRnn1XNk8KB7X4vYXFt0Yf+Ah1IPGFhUUMnCTRykDVXC8K4XZbIa7RbWiu3JxIBl8w4XPZ2j7FH8/5yf60W4x8zgLLHBnKM+FK+qhAfSSWWUVJeHm9FGthwBzIw+FjtxuHrqoO49+IXwRK5t8lTNUB80ShvTP/3bqCaMrRaiJy0yUz6AVU1zGdTlRK2pyeDU39xH9KvbcJtLEXYsIBrVVA1D1DFvI/adhnX40Lfvp9aOV4eflzo/1lTdl6kzL9guORCLcw9R8lT8jcDHikhyWS8VCYuQMtVW4m6bhxnSIm404T2MVd+ddSMwVKefsSbVaQlcreUFaaRzGXdZBbg9pMirNJJfTVgzNMynFsqBCKUjCf6sbniWvXaYTCzLHqYVUy1TKSemTYSu5XDWTukvoTvMr2DRVGV3KXk=);|GenericLibrary(ODjAx98Y81RatpPTI2dyyQYsw4tn8Suy54pMjdftB5peKdNJ3WYL/8D09iqYHhFYZJ230pdXD+cpWUpwzOb4f12RCz1S81M2jmDh2YlCqdnTY7UbcydDIQNTg41f9UlMONAxpmYUkiP4tp5ybNUTMvJiBYTjE/pUqG9zENqTR3+OfV7XfnmVe0aN2Zpgmc9H9dUnBSh/x5ayykZ4mUf5h2dPBZGy9lzltQ1qkly51c1MRJMGglGJF+0j3PLhcp5sfvrsQNuarBu3hZnxxwlpTC0qo3oI4fWp6S4XNEeD1gZN7INwWSVwDxyziFovCgYQ6/YxbzBgm3AgoXpl4ga/ESeOa9Fa38SYw+7PBr4wJivyQgILOSCBsbzZq1v/aO96+fDl6nNOSN+aWgr8RN4cewp9bbLQQBWrIzgiuCnXqzp9EkbCeigiOCOP1RXvYhPH44Yd18e9qKUuOr1xZBs6d9KSfaEtTxiE+Bbn0OJD5GqqZhTyK2siad39OaXBF7cgLtZbPA3db8N8Li1yvxBd7VoWQol0pfIMAL+uwDJrN/itYCG42DKfaH6aPzgYQAQcVUGQOmks7vm+KXXpAbPaUMUbfjJN5bulViVLVHhVOQJwDK2v6AKAePrbsBXvTFBMEnIhp+BYzOOk79+JGDRLjI4EzSqCPJUKVujIP6mJnO8=);|GenericLibrary(qgdOdX0BDXgwc1UEdMhWn2JQ5sqJX30rs84w5SCihmIaSi0yFpEiywY6otn5cJw4YEOyD0deSRveEHGABbm1Xg295JQnHLSZGjwzAqr4+nSpCTJzTqJ3BfW07/zymjBeG5fp2Mc1eUtuHcmNZ2aX+ZCD/ctFdjO/CeVhIvwJOVvEFgwefrss+Lp8ey51H69cMrXLDsQCzHsDUpOE8h+s9m8YzZvh+y1rvWLIryrhxqFCmZKUaP4Fck2OmuVVawGtBUVrYUbfXIgOIZHFf6YlY0LOhfuc2u0ZdbJZj+3zVC9/AGPFMfIHgCncfoAEhdhsKyszGBdkDOZ+RwBrXbJz5L1cPSzbxGWcEaaVDG0jNTFraEL6edPcHBRM6VG77U3ij7LyNACmeNNn0/+ovojGecy9gAzYk8EsFhMmAj5dBwSLvVfqWv0oLA38+Ywvu4Nc4vktp9kTHaRU5MFXq1QwJW4AJhamqbvBmuMvTLLc4wOn782qazEQ5NSGja/yyktbqmiUQCRoqpPnbf3OYFp5bYGDm7mRXWLGFFTD5EndG/cUFhLfHi9qbesz4XdPpQ2vDRbOTeF7XhJIm9arWTDov8jW+RvZnTuU2aTa2BJdb6udllm/5OFnFrkJAlZZzvSp+pXNbIYKlklxjhh8XsMg62rSEKSfXNcVw3edKiRJTxw=);|GenericLibrary(j/TwTcloDEsepa8VMrDXUWBCdWmW+aRDYPtzEFRqruvoeA1ywaMOgYDaf+SUY5jd6nMgWSsZLntM6wn8LLmdYuTe3AaUapCDDVggCPdklt4+EKBbfCQJIxiX9odMUaxpHbV/eGrC4YeWyMhz9g3M9hFZ7RU3bgS9Vk2YCP2F1NE66UyscrdnRjXfzwDNv4mugAUr4qRgSPpbKyA9kaTHLgx9PmEs8BxQmzmN9v9aYvlVmpLcgzUC2X/fZ+x+FnOH1yd+rVd5dtgEKdVDAFK2WXpae8glRrO6DdVOOwTE8BYBQPhFBJqcvasqUiI48QWGxJBuWpEWrQF3bVOQrBGllWCGedRUBbg1FuOmgNBlw49SqOXCbH2k+E/yytd5kMxH+jr+J5NzUIakYKo9sH9YOePw4M8OdpgsTQ2eGDlZy1Kwsihld56/QGeC3VSq/Zlz9iojp/eBSbWMmazy+pj1xvFmdRuAnvk6BsmRFZlyMPNcYn9YKeqhy/OxS7VwfbhFUVzTcyWjsO9tWOIAGsN1cvrguGT1NPmNkDOsfbjwqPADFx1HlK/QLIJAD5by9sBBn8+MHpo+BLt9YFXizRrqy13D0gtb10NLj6yUE/JduxPYD6+NrdppH/Tbz2RWExd1s2gXiOa1WTL7vsg3o5qWGvgrDCDXuD0C6P9U6arQtpM=);|GenericLibrary(lPmNO0STrAxEaf6IJpjfVJDtixuTblsttm+gpSAO+WTku73xHH8wFVwnnLj91AjBQo38A/xvhR1WIJLuy2fKS2xxnLjuURoQcu17Xxq1AI+J1Y5pYOIPi/jSHes+DyEFY+/d0f0qhsSpJ9YKnEyJFhBN11K86NdSLpZDq9/ecUilaAItJORiAfr8RkYGg6RlYGzXJtU/D53ytL2KNJk7oRTdNNW6DYT0BrmMDjC9C39/zcua5IwOqficp3gymklzJjPIWw73vmVKM7Gjt+ZNKIXTdZOw7Ir1WhrW53H8LJjdPiWyNVXRtkXDvehsReVz84xMeBD2NxXqUDLKdfRtr1vnF5H9ypYLpZa/QDRZG+vShjT1O5YzrKaGyOmX0IezQnCZF9TBSjfyEFJ3G9szrlzy5QMGOgvbU7rUFHRXe+Pzshqy3Qj5DP548ha2sX5yxLdpiHZOCrqLOWDp2j45WIibErHYfr69BrQdYUq+yTYBypLCeioXDCK2v3C8gSKETk7Aj+2NW5mqDnF8WNDLQCVNznweHMtJ79RR8jvMdkD6wFFOcL24HC752eI9FwFdAI8mBXFMWjBWeCYDz5kLttVA8I7ZY4a+39Ie9OSnIYnZ5Cl0ByDIvWqMniO+QGyoRiZzCGR3zFvMtfh/bLThTiZifvWWQVCJGuSh8M1FLWU=);|Implant(YkJjdFbmuPa4nd3sJDQk6PPMkJDvhw5i5wjnreheedklELIaZ5yNRrlC4mGZW5W73x8XTS417+VjdulP7vv3MhiOTSgZmBA41xnesdSJw2FrnRx4QRnmYOx7Dj9pywyqf+9q/PUSoa/C/jyiKpyHGn6J5B7mNRx6sTnoLhw5pdK9tzrK0ONUKYoqQYzLRzoxjK+ORLpUeY36wFdSsQHaCnHs5oIAZQoWFMbEoEaaEk8tL+nVzWpE0vFcEYDwW4K0PWO4NTMOFrk4+qQdDLIUdcONGwbQNm/DdG3ncj2YqXBlTmW7Q2+//tovxsk0zBf/YWk4cvtP5dPaE+WoX7iZZw==);|Implant(jXf5FVgvgXYPeZsuEABR3eGz03+WYdqZaupgTMgJBBoNYpoilHqkGebdrADTFNWxChmC9NVeg8fVMO8FjrHCVVVku5MGp6VwHJY88Y33qzrvqZFyd1Y5XOxdbW0HH1HJxHrfUyxzZIE90B+SSRwDRRgPCV1IsaR42M9oxx8ntMNZBY/H1QG760PjcqH4DMFjk1xDggd58mNgffRe6gWvFVie1tf3SZHU9JO5eHSWQ1rbja/OAOtCoAi3K+iI3E2+fzEtOGGMjPMpU4AE1ywiHPC+6fUzdLU8kEDL7DxCJPlt679cUOsSOCcnr3defV+RJAiWmBZnjPDP6I0sygPjEQ==);|Implant(DWCWqPgcqMkrc637ktSY1pyAOh1JvgVBwAdW7FjNOyqq9RTtvdYpXsqAZFIkeZ3wi/YERwO3fL9xYAj3o/pLnVwXPkTGs6dDRAY9ma09Vb4u5tRbj7ktz12jTVL46ZrBWVccHR/F7kfEnH+9xshtotzicmNhSDGZJAirLxDL4JdSZlS99c62DV8SAb7VGxW97+VdpR3GoDKh/0EnrPtcPVIPrIL5PEiLIIV/xhwS136MYY97g6xStnkm61YSJCU4EADmIJVjLRtoVbKucATHkZlAT8YvTpyWAMTr6M/Lh7Mid+WnW+iJrNmRL/sLFVtn49JKwOtHR2b4X8xKKCWybw==);|Implant(mCHfydWm23ZJ37JlneZS4jFTj0d9LXY+Svsm6rCnOmYW57sCpxi0Oizmi/JkKB2W5z0+8+YR+mMQPNCz5WT7TZO+iEb4ryHAZrdchtDLlxAKj2EldjJ6QY02Tz8BcGQJB+Txp49k9Uyyf0cdH/bWuR4ORRe8Bijrw7uXjTcagKQS6NjYHlPAcWl2153bnEP1M0swGndtOGR4aGX3Yd+oX593FPcXxND6294OukpC14QZGNkkBYz6N06A/22DmKVKOHEuaypQnU+GNb5C29/x/MOivCHv69xyIyFX+feTF01q3R4doyo9awAY6VAxunkpmI9fwHRiiTT2/gB+Hsk6/A==);|Implant(VY/KpIXgWO3L+3kz5hyZd3kRtGh2fGZS4dbyYnPV3dZBxcqng4vYpNlD89/tcdXc82S7U0CErg4lOe+FZq6aL5C0PMydClKM/KbAOs/+tUWuP9TKaWfKd+kWT5fIa3tJH798zf0h8v20KYpBn8rTDJWek2jQVwxD6xv03MX1zfCuxosZrAh8x4mSoXFjUffoaztzmkctmhFFEu7JlfPal61c+MIN5LyYWVaKFr+I4Lrpx6x2+hb/8fRdxvBOCFDf5TBPNCDdVC/B0HcWIH0Uy4NiUInwn88hhC+cLMiCIH+2Aqp2GmRG9BYe7mKvCJlXrHZW2sKoeNDwZRFA9e4N+w==);|Implant(xDmw1B+mjfokZGe8TgokptGUONJzLHYDxUC/6t2zuOr/wrb4wU9dBhFwsO7ra0t2eQSUmvX9UWBnmZxdssF8ILspkLCN/OxAeZIuKxOP2jk7y+48ROANph0s+e8po/bRsM4t+6FTG2rhZFxDLlsnNevQg/Md/PFiX7n0MEfrt4iPHJo5XNL5RxYSXNgErK3b2tqQTBs3vtoR0MW3LLBTU6NfKjIL+733KLKjWivnxKub3fU4cj+b8My1OK39x6ZKXSj+NOiBLyDk5oCah0psV2GrQgzkThp92W9eR4kF4PCDYOdWhqIK83EctCtoOlK+SP+DaFZLaAibux7237TMkw==);|Implant(galYaXLz2zXmkG6tqGGErOVWgQlY8n96p2dxCVelQOYgqBPoTQz6T37AKxsz963O9NoJRuicE8KjzF2cIQGbGJqGBFrZzOyGh0iaX4um5i2wOkdqI1ZCjTX4xt42tp2vdApT7x4rlyQASKCuNhCKavckcjZMl+igRNxDpyQOvGZucxvw3D25jTjMR4/J0O7MEcvNdCjklkjFXXnMpupVIs+1i+m5gMX0teMpScm6XIYCQtYw4tL4/gSgj62vIQ2Dr+xQX5yS/CygMDVxkoHpRukWLNqIOas9xyhwDc8+L4+QWqa/6/GN/gWwLiWIOe+dMpayc/6MuudWV6HdPD6UPu3QWmfexlLsdWCQzT0X8QR7BDf1E6tvygtWaO9INXspy7zfE9qWv2oXY4dQaMcjlg0frRm1w7DPLH6XFw7omYtaqkOBxWdV/06acK2x/yxkqp9J6cQFOtvyPRY2/S5jmV8DXNk2HkM8LeUhHqUDJ2S7JXA9JeEORfMBDXQoyBZIi/TQL1sDnqd7tzrGWBi6T8Dh85RJ8usc2To9l4tbeqj+6Xdcr2RetWuPcfmBnLkZwovhzWecOYM4CdavrvLywJ8bP0rjqJfyAKhKjPmfcZeyYeJN3dVa1AIj9SEu30z9uixD8nKYFkRCuXS4xMMiep2X9M2/QdPZX3GU1AeCoMs=);|Implant(a5FopsNQnVD2TkRrHkp6+LOtYcNsOnG4gR8Jqr1IweODETyQwycbskrRydtQgsQgfNcDB/UmO4vdUD+5mj8lca4xIafgUJRj6BILGksFKBVkgI0qzXeWhXW4+KTr9HhvQ+/H72vnYvhEq6DbQ320GMwzXg5ZD1IrLCtBZJxYbX+4SisVynwpM1EZHTT3dm0ORwJDOhu+hvH0KzWX2LJFA9z7Qqu70wcCPOBYpHiLuJwXfmX3SgI16VzLdgfOWtJnnmcYhTt+DPjli5Zui0w/RbhKQO/9C/j+H9PHns2yfKaZY4gLjh8UN5aPIy5K9lJxc3oIYvlnR0LMnszu4uPhfw==);|Implant(Sog5BQdC1HZx9t18109+yxJH0WupicSHI00wlpcMMTrojCqm7MtQ5hW/9NOQzUaG4sjh+14mWCUeIyiyypVPU+gBABS81o+MBcD3hXo3HxU9Kvnl34yPYYFxS5/5RG38OaLiVpFU+y3T1Aypadfoiy62FJnZaRNdzj5vbKehiRuUxfjyYVADXcRv4017XFHwgPE5Eui/yyno25p8B1fzRstiqxVrUoBT6XLZgJdE0XGPvuVNJc2dI1IUiUmehXj/YEVZCSRDKscVeCdOCMfTTUTvTqKrf6qPl+jsKt5XYDyT0d2PxupSfBf9xsbSGMfKk+llTMal04zGp1jgSXqmEw==);|Implant(OpVkz+rQ3CjKgGUBkfRiIxqWRYNt0g82WCNRSiPRrbu8Jmd+cohaYVc5HtetKHEZ7P2HUlUtXzU4R6PODmC0JDbEel0FvTPUL3nqfmQLmipDXwWF12uaOhAgjUaYzETETrr0uKkaiW3VucOf55lDfIlAQs8B3dpBLzOw9h42sF9z/p+6pJhDjewjh88Q+eJse0t8w+f9tUkyhW8jWVGqQO2OJp/7gClPotu7EBNdnlxdplY1j8NRMxLWDDtOzaydjYrd1FLMnRUKYE5IVGyvHR+qwveKxuCGax3JtLFtVtL4LDQwC8Op+9MLS8f8BZh0qT0GXGGCTgWrtNfokq1PrQ==);|Implant(i3TE/utr91hp3JFFWixnaloKIlO1TPuIEZ19XW6QiqfOhKtriDuL5K02Hx1RcNvqKzmUa3RUgSeZkjJazXlQaerx5BezQogOCTL2cuZsv9WfNjM1wHRzJ27qJyioGxYA0klUQZO1qC2Z5k8qAA8HEZxIPPgbCm15iqT1+BgwaV32sPfcFQXvOcGgJukPcod3VoaK+JCs3aOKdblLP2HJ8nthStDEVwlNiMiL+Cn2CBkIhwUk4ibYXIRQYpWMF/eak6NpiqKFJKvrhow99PbwJ90P+bhx9XBBdR4yzpsvqCSOaqA2OBNFxI3s/X76q6njPOLmjcFWNa1Knv1yrdPzvQ==);|Implant(oJC28i96Ybch52auV2f16fX9eBAwxhTMFXk3XxRBZf8eYezYnS6Xj+n89fiF0F5km6c2qP3t25b+p9BBv1f0HEPnrZ7gRAO/kKYw+XuvTZW1dGHHey1zIsottq4Bu3/A964aB8qEKESRFhhqSROpPWSZcRhhTfn+n/sXJ1/3P52F6QtcSy/V3n2PMkIrFs5xfGH0hwIogF83wKZTxvHOoMwxIYuyyGyh1e648kt10g7ApRfAaXVRDc5D4hZY//r4AFPdvDDBHoObdBE3LQ0T024C+1XFmXwdPi4zIn2LIwvGM6JZVDnV1/9ON6DioWCU6K+NXe4s82OJlPTmlUMHnw==);|Implant(DWCWqPgcqMkrc637ktSY1pyAOh1JvgVBwAdW7FjNOyqq9RTtvdYpXsqAZFIkeZ3wi/YERwO3fL9xYAj3o/pLnVwXPkTGs6dDRAY9ma09Vb4u5tRbj7ktz12jTVL46ZrBWVccHR/F7kfEnH+9xshtotzicmNhSDGZJAirLxDL4JdSZlS99c62DV8SAb7VGxW97+VdpR3GoDKh/0EnrPtcPVIPrIL5PEiLIIV/xhwS136MYY97g6xStnkm61YSJCU4EADmIJVjLRtoVbKucATHkZlAT8YvTpyWAMTr6M/Lh7Mid+WnW+iJrNmRL/sLFVtn49JKwOtHR2b4X8xKKCWybw==);|Implant(FAaMbJFXd+M0Xbp/8bh8PO/lZVPSAnr5KH4o1okrVNPF7SLZAsX5YYbZBZ9I5qBWYwVCTSan+GaLPjpK/qwbcPvcgoiOy2sJwOCb0TA6IfTDnNxCI2ToEQxKVDenIY8WJaOhmFK73Ee6i7gBM7Oud3hpzEDOX9/DsU5K2wImOwCFNQjTB29wd+nW1z6a3N5uty+/E3UKy3jCYmDV6E8f6vMOuWhdgwpLiKyoEgxT+2SuH4sdMNbgMJ9FEHKdDwAnTtLKei5Qph/DEBH6AMY9WmHC7lY1F9PHZygrIKbZrauqg8s5LEGmQbTLm6odRiaVuPVn7jXfVnXo8xt1pFK4tg==);|Implant(l21hltISMVViuSm9cXkhVOewsFNOt8CbX5Di1mPflPK9I0JTTOL57xfo0XlVvLDt7Ak5WxhrC5rKb8GDkeDZGiSuNidvOYoQ6avQOKi2EqsFNsyKBujIHIO15WpvHpiWJ0XgL4eWac6ODBAK/bU3pH3T51CSk90bViK+vPGEKgX8swCoQEQrGYBIB1stUhu8cM7c3NLpBmg7dAfxEgJUQg31SM+dLUIbqGKepVCQvdosB+Zu1+8+mbGabRymToJ9U2cdLe10TYL+uOAoMTnqNaaFa991gVNe3PDM6Jop/ByeqGbV9K5iemP+OZ9lgJRksOP2kLaYuqCWDthCzScGYw==);|Implant(SHLuqex7Fy68o2AOQ68vKqZJhNjcq3S6BdlKcfKkWYG4tXy2D2sQYWBhog3JM07nuYOKOl0fo9FONvxhX+AbhkR+Vk9vaCYY4wedd7mmKLuIq8jwdlFKcXpyau2GHleiHvQXi0FjuKgbkA4PCdeM6R+7nT0yS2HbvbGsAOSZkbfXT9OzeXYSJ+JcFCvj9scI14m26UCdCyOv7eI/hdvVYI+26/K50Tldg/Lg2qWHGIGyDK9aSQNw66d/qV5dFtOj2X9Np0eaedeTW6/llQJrgnjuNEg2xlm9Ihx8j+yx8NhJjuRqZAAL8t8rIfId3QxDxZ8b8nJ+PxV2wy93l+/n5Q==);|Implant(DKdwxufN9YRibb9VxfvS/6VRA4qzY8ShnIViBFZIdkMOhAtK4vF3tzGi41yxj6EfmcWqgbwHXbmt92NAetYksC7aB4I7XQf8Jff29eFV4VB0RIJngTfMI+8o/6l8QUuLeiNJmEJ4BQlsqIMyVNDUKf5V1jWPN+C4f6X4BB0nQbUMe5Lk8xeYgpzJjyjtqPu0Lyc+uF8lXlN0yRTD82e0SwqMWJVqlucjUPsAZFsctH79y79TZmE6G/jcbfn/nOpRKVmSJy49YMxkijhp7nTTO5cwKzvjX2AwowzUhMMONwTMRppPGkjuenf5p8i+AvS3jJBSLogDHuRdBxBuRbgpWQ==);|Implant(RP/IxjLwwRea/bXUTH0o4UTNP/UxYnAQb7Ieye/6VLWlYNJnDs9L7egmkgMEr9Tm/7U1wMYAj3Gp4F/Gxzl8jdE8qHaTzMy7Lfa4X+EOQpYRUgK+zV/eRpk8AGxQFsegSHvh8t7kpQGeuAiTXnwwlHk2m7+i5+K6rUTgexkr8J3lGBSWkjfN5lzbzx7bhKqEzKXIVpOtfP83F2+dIRocJ12pyCpWigkC9pYQu+DXZDdn9htpLJrZeM/H+0geZ9Z+S01fk4UpGF4olbjH4tSURmnU0Jlmp6XxYOWZ/rbquXsXm7b+Tejp3QZD1+CarqF7brBBufLaF0dbKX185pNsOA==);|Implant(FNPapsg3/fBHyNVLyQfMHTU7vok1QUxOstNHIJQeb3xeIHNWu+6jmscjM9Giyarjq8k+XQjd+SfOL58g6lnWxRloLPjm8n3akOE3Tpz0fORMe9F4ACNlDZrVu1q6uqbT7T3Q0s6NYZ4E7ZSX1VVGrCtRFePn4UqlLw1IOofI+egyMfGJ+ImMQwxchlmg8Q+MbE7DIJIRE+K5FXVnJZUnbRxNRhlHnDneYaS6o2C08no5EQLvE0a8kiKdv8h7RO4hYvNgqMOn2qv8Pk+RssFiwRVnfhgx7DRxLzYXtTe8e1YekxsH3y1+7/Ue9eP0pcPDtap0DRR6Z7j16ns997f0Ww==);|Implant(dWXb/oLEhN3DMLxFYy2vIAsS/Y1/z99NL76XsvMGM1lxhnKABrjM5Xb89v2KELcukfeCAzQXAhzQHujB/lVjessqN1rn6QszGEOvY9a8hKgEVdTZJjEzE6wbrW6MJUUczZqVHDQt745Y50jd8KNc8w7eLLQKZs/Wz31q1XH4CZrb50rwvFB0da3f6zSzQ0YuJtE278QKGVrasEylPlarn4VDBBvGmEA6C9c+7SDyafZUcwX+ZWU+U2n1wPbpzBIMUiK8OzCzR9ztnlhlDuUGDmyh1PIcQZtOTfuDcmzuEGBC66/vaD27ggkcn853m8HnpXFS24AMieE8xLi9BncsuA==);|Implant(WQiYtX2xaBWc8SweW8yiJ/6EE3Nsn9DlJTwC7pPtzZLnYEABwrLKUvDrIbcysLI7sFQ7Dix/feWUsG+qTxBh/HaVhuOOzzo+nPXN2V0iifXyy0DHm2CtG81DYFTbniqddvEgxpwW9xrcbffOOwIdInLJF8FDfhr3pkyymXrIBcOb5G1hzcHQS50QpHOfxsFgT3PBYX+7B5va6pmJWRdZIfW31PeNfdKettjjssWLJM3S0YG4CF0cLzt5oO1WBIUtpwRMw0Diy3isoPsjDfacoK9Yzjg5qxX0Q7WiLJd+QXxWDXgkVteMBuxliM3Le59OTe6V8aIKC10FMab6kfKtTQ==);|Implant(SjOnGhZG6OkKc9nBYh6gJrRrfUbjEe8tntJo9NH5Bvnnagz9qhyl9lX4egkqxkGhI4NAZhQpqLADS6Qith10W8ZepPKnqh4viDIOxUVCfzamtxTEq8Urhio/fFVYz0G0tMOk1yfbLl6gEXAqJTcA3Qw9CNxicMK+J6OZZhPfu2UrIobQHiDKOVFG3OrH3hQlq48eUYdjPcMGUYojS1qshLXka61oog3h8yuTAzONIZwhat9CC6sx23Z8j6xmeLqGORsjscLZ6QZRbARQh3BUHPhKlz4/wNrnYNSw4AwIUk4MvK8vRyk4q6FPGQiPBxRWa40u4wn1JpTYUYf8AGG+Yg==);|Implant(YedCONuxDwj/h0iCaGBF799u/Yy+fnrnDC7Yu4QwMDlUgTpmkpb1FpotDMJ64jk1f8EnoUYTmzWAS8bHnhiAyO29gsGHk3WWNVjbu7QdcVDEQTXVjndEGrymu7wIMNUiXyAQ3qEqBKCwT7OJnMb4KAXbl+aeP8ODZJx3V+wHKjHAtzfqsFgwV6jhjjAyi8sla1nqJ+GP1cj3+mYPWWqmgIYw4vQc0BXUn3snk414/KKewNdx/sifaDp8JqYeaqX7GS49TgPTERiuG6ScZAIAlAXfX3jm91ZsQFDmsG8LkSi2dsj9e+uHAh/5aDxrcf5nhV9jPGwZ6lunEzv/kEJs1A==);|GenericLibrary(MMmRE1XbKh/tispIhlb4T5BSOs6q73y20lQyGU9LOMd6WHMXXBns3vfQdbFa39AVZeuwfi772HQXe9jnufTxgfISoEr67rerrXiNvNiLF2IHBj648NgqRze1HXsM+kkUcvEpzVwZ/qRAzOGKxCYVR8ugRSVngsvk7rNPDNthA4E5NIdy5Du7nQLJYax1iSRJgVB54oMdKiuLt1E3xUqXh97XPTHcI6PcBviyx3/kryQDb5HeZ7IKIz0Ke0hjEQVHBkRABAAh5XDWUDmFRdO2Ypo9bDp3NEl1vZ3KNnpfNqJeuppmEMO7SXgFQr8BgoalIPobVmN79YcIyxAxqYgODw==);|GenericLibrary(PeMOtAYSpNfkaX9wLQ+Q1uatVsrpMMeqnzv+xVsFVD27MLjgZznZUR8wMVD60E19y3mnsnFYi0NU6VxQVJFctuCpkimkOqL+m52tWGafV+nYlcxB1J/aN0lOHru/E2ByaE0x7FQYZaKJEtdIvxm9A26Tb/9G0tN40CjdGGZb6ns14aqTG1oBUkuB8o3wess+eS31TVpy/V58tKtYwTJr2jNMoXVT+TK6+CNkmNAiMLr1x5XfIDF2WYxueWWHD/mvzxZkbPh70WX77g8JAQglwzdkP+aZSCglThHhKqXbREwlwJDrQlJ5QigARTZWZZ1hZL/1x9uWz/HPz8HOMLqrJYAXNZRLAgIGbzg/VPu/U1tv5NET/K5R58djO85lWg9I/LOZ2lg5Hlb3KLYf15cN375zrspKpEheU9FLpnWjS+5mSPHab1eXA/LuMMArXv52gS8Y7MOMbu+8LhXU+p4kxDA5nwOAWOxAGQAURzkFFagfiPL4KPa25KbxgzLnw/LeAHlOmnChWc/8PT+BuPcem0PVoH2Zvi7id7jfUTTxQHdI69JGVoLU7ubZPsSFX4f/8hHH2+AYGg42IdyXr7HuyfkAzEQp174plmAzkegAIg66G+p56scqXw6k+J6BA+bIkUHGXsv/prxHItgMlMAihnGONx/P39DmpDkoW8MGM/E=);|GenericLibrary(suBOBqXQAEoen/D37MFlgW6uhyScr04JGAW9POSna7DxBm8O1UcX/ijQ1ywjRadrw3DRbN0sfKINJXMic7x3WNKMzOMdOnpcl3DpOEOEEEvc1OEAcdCD2KFEvVQVD4cVludw/9Pb+/vogJIP0v4k3sjbsPlwoMucgXKxb7sealPv+YkjoI4uyDlhqI6fbxjoN8knbMRaWpzeCyDTiwXWVfmk2i9lhaaR1DZqLqCA+WQJflaN1gSGjqtfqSdhopEAXFwmwMOyrinBYmIUQp0emwfqVwXzg3UNm1Ym3txWLhP0m48bP2t99Y4p5Ha3TdvIbik1SNrtV/vBwo22JCwcc+y8QfBorp8q6BJ/43o/yefJ+3q4ew18F0RDCGtNOXxb+Z5xoHbF9hrx6jioRWWd0zt192XqPoi6rH4AKj9h8d2bORieRgs16KbXG3dUJ5739c4+C8NkJ6Lz/gQx1G05UdRS7D5r/ZGLbupqbrUD+5G+75jR/ygn1Zlf7aPYwMg1SxrvU7pWSrWXwR1rj+uuLcBfl9WVGoq0WNifNHbUluXLA7yisfs9CBz51qK18MERsntY/RjCOONm4CcpQDV4MriY1sOv/wQ8KLrLdu15CLFniRuYnASNo0xz3OQJxqE2Z24tIQ8yK1kAzY8NsGLTD+ugJFgnpyp9XvAsJAACTxQ=);|GenericLibrary(Zv6s6lBiNFFE2GGL0dUr60mmNxbwKsZ1hpV5fA5AT+mu6dnbA6YjPBeTWGzaCZVkMDiQ5E3/DYbKIwvYHvvRxDyAKS3KnCiHU14YZHmP05UTDLlQkDAcqsWjEJViucgfGYjVU4uwwjLF48By0HS2hRGJ609EMC7rFOi0FXnRjyXOqs6ndMzpOlNbZS1GImucvnQv9mYKNP0fQHUlYTbn9pF7m8nT/LBktOg+VQVySAqPiSiOKObVz9VNxm+czKCGN1v4/aQwZqDgi19GvIkjYBKZHDksaFRM7SJO4EttQ4zfwKRf5jkmr7ov59l9Ynfl6rXP3IWyqCXBXOqSvv0pyL3UDAI5iyKKLRNFLXLFGpeWbLWDZakPmehERoOM5M3RNUoIsy+VeVSoEk+60QTuwOJda7EB9a+f9jVWIxJaz21nXVxEHbzz65nkRFbWAkB5cV6S0kfLwyiAmwMy87EMV3ix5qE3A1Un0Ho+EfqiL2r309CWORXAUX62BD1JtxCOuBRi8a//Tou/EO8gOdBOpnOJYQFPcCSc1pB0gavXDu0Bj89PTFX3TYJkBLUtKSls7MdjAqG4SSofDu8KrwTROcffUuDSyAOKYC3Q64rtHHiHwvvMRERcZyVhA2h4ZsacXyadL7l2jSJt/yf9bjl/t66dcYYpaKAcoCCKGXr7/tM=);|GenericLibrary(nRha7w+ZW+69DN6K6Uc63WWXIPoeK0XDU7os5TgiV0gIen0REdXKBB0z6Daf/7czOwDddckLGiSfcXqFn44Z+1UharBHfNCKqhrKOqsYZYAO6rvWvJOPxacFzLjEAF5RNshFn3b6GyRBXhstgZRzVwTKa/aj5KPP7Ut+uHk11fGQH1ppc1MV8jxaTTSMbGLU+SdPW4XPpgc356QApz4Z0HTZ+SIebbbXhR3FoeJ/Irgm0OR1tTgOQdEj9tvx2qFG0DWapcXNCysxkqsTy9asB4usjK2WQFk8UXJRZh1FP20LxPowGfuLWWRK9YrcyUtTe9gwV8Bze51TlTVoJPwedQWiGl58snVWPTXnUKYg7iI5xEDUMfcAK63Y2//g5F2xSCOhdgjf5yomSKpDPIyHU6UCjnWmCTZGb4EmRCy02XOMcAUpgbbRtKNG/V7fxxdz0vver7q+BeCnEw+TbSpxzGUfaUnp5IXoHkqzGHY+tpZdBCzMfK8iefaRb7ED5k6YsYcHD8va46UxkH7+Odn/uDYM1eTrXwBmGea7+ABhGlUROFhm3CKGGqjI5IXSDk2XCl0rKnUcsmXnlAG8s2722fVCBtrgnAuL3Y7IRocgh19/DUf1Zfz9uyLROQh53bM9/VMKD5ufsnxNLDofAtoMRuZj9KnTfiHWtOomkpo2bis=);|GenericLibrary(gTfipbL+vjxxTIwqt8xilyKvq27VgsWzDplqQJUWOfLQAC9Od2ik4ZZFipMBQAK9kjEft//dsBoosWKSqvLsicFglO0X8xID61aNoxUObIE5UKjsCYrzvss15qfSyLnqvcWTtuOnyLKPSI2EqWcDAOePIDKqzXgT9ag4GARZja62B0lypjh8ChVVxLssr0fRi0G9MCGJxO5jfPBcoYQ8jQez8ufmIRHuHmHk4r/KkF34C6R5v3nOUEBhX11IT6p/ZJelMMZ/ZTnbV1io5LaO7ZC3icdxa2K3Lscer24XJcBWZlwk2HwqH1F2cadjjiCFOifn5NtrrRYoX7c1BRKNik0T106k1NiHZOqw9Wax2mqKiUjZhXCPmoY+a89Cb+pLuYDOeLbgTUbO4r4/HKOMpBMuECluheKoYyW5bbxRC4avWfcGKv2buYx4/zhx30q7WbN4hTEtwdFXx6fK4qGhL/POze+3E/OfEbUqrebVY1VTWV2C3zvgbWPvTffh5nO8eHRVW42Xy6CnwqpS9Kb8jHJcY9c/h6EcR1EbJeu/mQ72Y1F+mSWzd85OVIhHAmdiIpy4pgzQZpPprsR5MPqvkmcNC+2Jt9AkNemZL32yvwLJsr0iQw7f38Haw2JdElJMrdxayhJ1Iw0XV3lg1YNrgLZMEt43r5hDQKH7SGsFP9o=);|GenericLibrary(mwdTy6reu6yGZEN0ncgq29q7cJnvvEGfHLU5Wpr7oEQQZGRxipgO/bqmV5uT52vftyOCWdSh+Z1qNoBcRLGuP4JuOwo+z22GZDvVMClcFHQjm/lOMhISSP6lQkA4u/dTr+VHg9Q6/QurIZ6h+CofXK2ueQteUa5lS3YN8JbpZt8r6ef4kDOcOhsiPupuKf7075igvdcN7izZKVahzTv/76LMEtrCO15EDyxFliFJNz2w1UuSR6mUcvUcXEIGyVH92q3+j6SqPWOc0Ud29nyeDHWp35Gs1FA0uw9E3U7dnumNQhN5PoYuzNqDpQGB85YXZFboluO1du2OKCGZJ1XqwZ71Uo1gpT5a2e7rzkwZ3aJUdvjwSBqwTrVeRFZS4VKjbOVK/sfH1UBlHiT9VVeOhvJ5E0SjhLvY3bZJudir+dz3KnKDXnUqlpVK/0FSUpRlBmhfEM+PB5/rE46jmAZyfn4DH30fm7EJBtDZhvGs+F9N7egVP+uVq571XsbVzZ+nad3PHE3egwS7CbZeCHRaEC0TUCl9GzLyTx9h2qyAddYVRtEw3QIEWdiRtvq7gMfluZiy6MUCjigAgju0amfJOKNaHM43a18Hdpd4k8PGDo0Z7v0uXx5uPehQx3oPBr9qq3yXqBHTBsYhg9twpTnyEYIo/YmNZ4YNqYWN9Qns+JQ=);|GenericLibrary(rM3dimaFXJTj/XTkGjFzqgwY1amLFmmDfBQA8SDOPeE5wvdJlqzFureQF6YTRsaprDGv7Woy5BbF0utHDDSpuX1mDj/Ud1fyPc8TFOz4IYOy56+nhsVH0IiYNccixzmvLbRl1kwzZXBPSvKnRBLc/xI9DvyOwfK9b4248X0NzFSB0AQhQM5k6DviQabL93SdAwZNh0BDelsdKrQ3rLfzPly1SYpO8KpNKL7VwbCWzNbt6rGRS4NyLIriXLbYkZhmIAr92QyMN8SbgxUj2svgOgOo536o/1qOQOEYGP1CGhe0pv/afCJ6y0QcU3Am8PHAslNEJdTuAg1kHZ7+BkqODuqAH5uRMG054mA4yomRRgJOa4uAnW8bzTMn11B30QXaWzxu05Nq75p7qTC6iUza077Ws51PkPu1JHMcuUkk/YhXAJpWHU7VzgC3KFUBRGXGKcRo9QRMbWkB0BLhRrIyivJaE1Uf09qi8UC6LwQTeHtxx8tH3H3riU5Z4kGVOQClQo6uni62bCWGUkInh+csffkBUPREkMAKPoMsls5rl/YEqCQEJ/izspbfVowsazy1iM8NCNpeyA3o2fLvOsNTejmQs9tvaHf6fh79Nxo4N4TyXbjnHUZhlsOFa06ANvnUI19RHMUAMMbo3yGAMxp3zUGdQ2ewlzlS1sFwJh6KGt0=);|GenericLibrary(mUAly+9Sa81MholA+2ha9fG248tzjzYdrSlxHdzNnL+0DdBdLuWwPliQd+8+ZRzJ6Y2oe4qkaeQUKa08SgQ90aAYGocEyk2UTX9tqQ3+KuvljH7qL8uLJ+RtYZLnlefDlcZicTkH9tapPofuZtYgFgmGhmXRfs7k0N3F3eJHLt746Q1xRJ5fZm+SoYcDQBzTZ2yq9kObzcjm1OXU6mOj9zkinIaEqNgESZGUzId2b6pPDjHGqnP8q0RDbU+RD655hk3CA55NLaw3EhqmY2RSpk1DgH2s2tlk+mJQuQL75Ye6w/hOleq93VGAf8aqpfVikxM4lyiVc4+0diFC/d3IgC0IsPry2l/PPX3VFTuMJa46uQPI9CVxj7mPQW2xVHb9cg+jie/p7Gp3ikIi+0mqNV7/+9xROJSpsUpeZzBSduhWDnSU2Dskad8sjfB2vNWhkcHBPa/9fSQn2f2LMT1SA2PslQpCXjSm9DxcO7XmuF9s7Wu+ZRvoSMDm6imK9Hju/t9RnBMVQN5pwBtSNF2mgUjSxiiUIjc7ISl1MxfA9adUMpW612V70lqNVvU9cul1Cw7rxlz0Idx2bSg0qZ8vjg3A6CGBXkqLP/rYXaEUqBLRPcsp/rs2M/9xLjiZ+nPt8TSB3YO7sGOSrmrNrfK/E8S4DtZ0NgDtxSdG98QRpGE=);|GenericLibrary(jtFwRei3dVk73yJrV7+YLWLYWaLoBvaOGM6W8P3m2SqWpY7d65dQOh/Ica/rd5/FSPUlQzaZP3e6hEAi6YZ+JkjNbGX9ZIKnQvvAK6ELJy+QQkeyxzyuugaooxcH9xeGRe6At2sxGsqyARn1urQta0eBJUoTBrDhcQWv1rk5YuJlJDNSxrjzxTDn2OrQEAAfvinaF9exYmWJby76Ek4kzTlv5665nMJFLUI0xtt9gkv1ysz7rGxWn52uUGi34+vYmzb+/VrSah/MW60gskTbbC5y3kSUpvqRHH1fs71Bc4RhlPMC1QMbWaT2QzYsb/6b0RDbjnnKBS1ihADiK5wSCCAxpRykbDaJr9+aZi4x1ePKBDdJiXv48SDRDPk3MmpCC/qnD07I9ZwTKyO5yyExtyFuAQAhBRnoEwQTYhSsJUUXyI+vVfhatsp4Sh7/kjWJL0/kjeP4JUbfsD/BSJGXn3snSU7CX6GOcyvr67nKm6dCwQMD7Qa/BtsFLNhb17n9ArAOd1KwCqS+229ooxAawFisBXd9hdSfM4gZxjcWnBF7LPsdxI8bi6AjyeOKj1XRreDU45FgJd/sA8vQPE0889OHki4WgXOZMkHtTnwP/tYLtTJKTkk2ifGfoi7qoPWwDTya4tJqP3zBsX90ochm4BtubdUyby5/MkpYZ3+X7Cs=);|GenericLibrary(AkLR95NHLJ7C8F0Z87PLi5/jvLsxXndwYryboM7IgwKEZoLtMIfKVs72iidwcyjwo/SCBnRe6So/DAp9zzNeJhIjl7d/FfNTiAhoaH8HM02tgk/6HngHSOLGG80vvmXlCyXkS5J7UMtxvB7R+caHAgziWBDFopaRh9PmlZo06f8VQglJXWq/smq6uegeCAxU5xV/9CCnU8OGi+YgIIoPZMjZt+YzAvv2p9sDMHPoDSpREbl1Kn7iQaXYJc/SsJGgk7gYo8nZhycaG9cWZU6ptCgXC/VhzfWyoYYuxw5JnrNh2PBgpk0q3ZPwzk6OpayekTftWKsBQbeh+xmOjsZJXtNW/rQO16PS+ZfMz7kOqXflifa/bkt+FgHqLfYzr/QlFXAvNFoNnwwsyGZc/a2IgVlcFcxtWRxNztVusgs9+cYb3pvmmgUHC6VYTj+OYvW3zQI845jD7TGUZAqlUW+xv7c5rkllZx0K5KnHZOt6tuvILnMT7TIGYiisBMcy38VO3UI2mu5jayDS3SriJoR+jLEEBmvqYV8W0xv62FCVHDhZ4PVPsCqE/7wTgaH+fch7j6bO9TnUKgHdq3ebAZuTt29A4cVL+HNcQXw02cyvWawCfHRXuAkl4zX3e0vpDuHOy471hRFA0nTlDXtSmdNGIRSn0wOxDH/6UYzpkZrWpFk=);|GenericLibrary(ICb26Q8TFY9qqTFU4w32Gmjo+crtVoxMO0jXytoWNL/oRJHwF58pYSStbEboxLhxk2Vu+vmFIWWEr/FhZaGRf9FF7FFQF4Xneu23qObZSIFDMk9YtjiEwOyMgGCQUzxWZK3mvCz4+xcwLUJDzs6zCd085/gX902PHPs+BprQJQ1Uxi0qoRk8KV7vMIR6tJTYsiw3ISUoQ85LZk7K++xq8veb3Z4HEDMjZz2IcsdRq8ZBDu1l46UphZ69njpZBzfTsB8Ud4/BeaTF+ilyfxI+kZlfVJf3my6qXmvFf9cZMx/zLDuF17EpyDGUfIWHtX0PnAKiOzbkmopEfUkb61P6R7oIlAnNnlYk2KqKkW6jqo6IOK6fLAvDZWB/EN0+A4Vzv9XExisDzqD5a9OTQTEbmGGBXTOD7OM+X1rTWcy+aQO019WE4nCaYBRZQeze13j1X7jPDKwzfKMSBfPuHmXxdy3Y0aPjZNBxVgjl12fORGH1tNCzBSMdqyEsbdBwKv6pB/STmzIYrCFU5CmIr5ZUkdjw92GVUlUduFeDICfBtBmF798jSFQQYt/QXMZRQbhVnLqO7ZVsz9eoAruRJluaAjRFpo/zZGrUF7TXoEfyyBnMxaeVVMnsEF4N2RdRYQg7uEtKkUjSrUSy9BoUDnWintT/DA0exatYFXEDHm1q8IA=);|GenericLibrary(NScQalUSWxtW3i7do6afx/Z1OqttniCwKnj+hHLPJZzZresNJOisw5OiPu1BoyibCEqrV4Sx8kAo+l8ELFS4lndU7ubWtRjCNGdKXwSuPFEO8xVeplmbg/2vzW7uFR2nVl5gVJfmLwBR/71qWQSX6OktBzdzEGYEno902OB3/QZpDQNHmdg7w7v1zrCavBNqAp4fAL38ZkTbn4xe0zIPdMcRFbEcvgzL0KH7ryKRuYYvYOt3th48snrL8zrf55JtICJPLZegLDBx3pT+6nDhXwTmJYLHYlebplVQTZa8pzI4p7f8UCIOUuu2axm9Aopqn8WCVRqE0r97mbTUwxerAQlFlGF7HkpLGHKMwFuTsaZxrClrsWd4pGWhmMOMWXWMFGTXr/tWHXRXMaY/qrfiyemRQvR/nWZ8VTmOt/GK+9xhhs5MQGjQyUJEd7EP8QxS6tYgARINWyxrTAWaI5RhfLGJfIftAROkS1llemEyux2R6ldoUM/xl95o5azbs+i/HuxkAzlTM83CKsa9WD/WEMF2uXfkMC+Y7lZ/thPM83zVYv0I0ApH4mtyvOA16TXlOg6YTZLqWmsYjN+VNDS7MXV00Dc/itSVC8SM2ZWYom6FpAR0NcThUAg5F/z1j3f+qagN6t/pWL0mVnz5sf42PWnupL2tpVDMoh7c3TG9IR0=);|GenericLibrary(OOmdFBQDuuEMluy/FAN4IHg5uCSUXPhwLy14EoKBkl7zVVf4m2CW/6q5LhCuCsDea7uYo/GFGH013KUdWPlJ/MMYUhIlW20jBPUYQbct2nh8GEXaB4KCvhdrZ3il4cs7u7lhqROtVT8Mmt1Efl7E5qg2fB4L9gArRTvkRQY/HCbvkiTO6k8EFWjolOJ1Rsc2SAr4Bx37yqg8NdUtB62fuTpDlAelTJOqUt3Hu7LSkbEMtV5nE8VF4MNJbPIpfh1St/X7bT6yUDqde3yvdiAgqqhK7m+lvWj7LcGR4pguhoBnfKluPE8f7Ou+Jg0hDBQwibmClmYPNUS1MsKTYQHNfdjDjTBHNjwJiROdJyUy+Y4QNEk9aMY6hMmjfaDAs9PQsA5t9ajPBNyOCuo2WEBUSmRYnmGLqIdHn2Lui/9j1RM0NEjRAAU9UjSQRinmHpn9UjjUz8le3ZlSnb+jH4A/Y+nq+ebvNlmVQ+vCuP7ix68dXnovn2gM313Y1BpaYc+mrVAw+z36iSeykzgze48VFsFwqkIFHW/kWsII8FQQTM6KzKLSHXvYo+4kE21P7zN19KKATtKwl/jDJLcOe4KovbtQTiMCX77MuMm5m0CyaJF90nfxSSOC0f95+pa4Vb6HgvRrEPeXYPOX+ecc+oOP+EpZJKmNv+kU5enHcJRUDpQ=);|GenericLibrary(Gt5MXOnTFHN9c7b5pGarVcBhap5jx6icgmUu3Ig9QN0k1D2Heh58E03wy5QOsL6HzQTfXl8Su4r+5UHtzhB0bymaBaVgt/8S60wfmF2qkf9+wGGpVed8RAW0ZmgfxVcpyagf/hnMtR3XAbCWd3oS02AziX9gs1gMe7BsBGsgl79P4njda7uig9qKowSy0LlWpjgBkgqwTDVNRVK6p5FgBvMaJVWwYN09VuiNWjxvS89eJZOgfu/sq7zJZ5Xga882P6XxniIIQoQT0q8Vg8AHBtfpbg0QxGKcfIZRagdSd6H0hXPI5TWa+NddO98gGKVXy1XVTHNfqprjKjS9QjyaKlj6Tiibdvg6lDSWaNiVYxtx0DcWZMiViKwxuYgzc2AKxMbs+uF3vNnZwyDCWHkeDwfDo4t7SwYWJnphlBBDCpfckw5n32HocECVOT5dYLe7ji60VhbjWPWqfbseYj3aNewHsxxWxy+kE2oUhyItJPbD8gPILsl2VSYAnLOYBcdpOUzdx0mimvsXYvDhw9AqxGqWdUW+O/2KzXT94I9wsGcU5GCAfXdPaar2T2MlHn+I8JBC3vHpxfxr5Fyvi2PidCz6cijgwjgncHu0+Sa9opuiaAkdihJfIUIR05Wv/mCXqJZSiIs/sasUEALu0OwlfbhhgVVX/P7BrBOrnoih9A4=);|GenericLibrary(G2NCo9sb6uM89KOXHWExFyiQ9N6NAMjxm/l9byhLGqedcIel1mmWw+e7CtRF6jSUPTxxz9fHNmC+KNJIMPxf3Hm6iuIsWnJj9I8C7ZtYv71wbE+8gAsbS8DCeASElIbDwF5Tmed+Ht1GGtHgqbMFbZhgKHYAk4VrDKrCTVKot1xx9uKiMzeZE2s/LCagblmIbr8LjNFZBfbI/3mR6frwKD5WG/pP2SwZlQq7Y+q6IxSy0H7KG+ZVzrxWYGDRiTMbsOirPe1q/nZ9BeGKTZnpyRwqsJfqn1v5TiyuEztSnSQIddpBiSmsDYRqAilDsqboQrqoBB/yM4UkOqk2opXswi2JMJDun7FTewVTj7tWd80KwjK7pv6RIZrwnq2DK0Imto9cKrXoFODiia1b8oLS5QNiCRiSTMfblVO8aaQcHN2GXKP+xIVUg5Kkoi1Deaz//3CzhVghHAWXYDmHv7Mk3hjD9W5+/lCbPjw/LPzZVcgpal5s0Y7XevMUSxNjc2t0clOiOIrJ8NaHwbaWwIDXAEpBamM/aTLAFLVyO9gOGm0rTXnGf6s3RF4p4f41z8Cd5ADfGNxRfxN8OTQ21ZAruEqYfzxuT7xRqSZ5PKWZlgla1bkZwYl/eq4OVAA9M8qUmF5/o/XJ9kkGiOi1+B5sdYAO5aPwdzkuc2lF3XOdcL4=);|GenericLibrary(nmOU8lrN4BR+MYD6kNGjSBQatd4c9P/r727YzYfF+RvFeBv+MbG5sbHfjcPiEs4411IPjLl9/3DAPsUCumHAlqnS8Hq8O58tZvFJZn2XFN1NpKnbQWqhHfcC0zhmIVv33ntmMr/FKPKrrMklxTPi0GT0Ekv70GKNewxAgZ8g6MO6B/mfLckor/cbU3N7zu8t5KDAjFdV6Idw6GaC7hSf71/XsU5EEV8kPy/580JzapWagBh9YkgNO8jaTps83mktKMmH21jAfnghB+NllrSsxQ1u+1gBetVRJrtR9j7/B86IFKfCKrlnRs0tkx7cDlZoYQZcmhiXS5ad8dbtTL1kkFIZlUZgoc8XOnH0Jy3nzhWvD5sP/zcP7uybQTon+Pp3I7pUKeNatpCi3kUzhsJtglZl3nggcGbscxmH080l8IjhEAHX8PydvT+sK7D6RYBZ/YI1af3ATRj+dvyCMvw/NDroQ074q3ops4OatZed8S3xvBcKk5tvyCtu2jt63q2OCWuTGu4jft+T6HlvYFjuxrOxXhEnfmQmEO+Q4aGWrNRcNvuq9MT7xLAclRZ3wHMpFH2xMHByZYFS00qVvHD6t57IVp6EbQ9BP/LSbU0wdNBS+3r9IfbTRd3bnMykIt4JdBthmYTxsTwPBzvhb5iqHMDFECcvS9JSBZxwFLOEGxE=);|GenericLibrary(t2U41tm4RZA52JQ5Jj3Lq/2wfzUAK5d/UAgwn27WyH4URvRlL0RPWRrwqatA29mSaQtgESKh9SnUmJ2Gt7C1jH5oaFQVO5AQ0c9ypZM+ZuBUDBASHRFPUMAeAMLdigk18utEF+L+RpMf8ZF2x5Jf85QB+cM4nJGoDFS0OWPae2smW+UhJSDosqtMm7Kj6nNbGsirp4vdzkkM9hGfpVk1BzwYxsxJHN2DZcv9CaSaxQY283RURzmriTHrXm+t3r65YBBR/WQ5wstJrIEqqbpMExyfHExyV+tekyjTuKwZ+kGBON7MhQXC538iSLqxaW101Eq0RHy4eHIX5kctvYTAOxyY5cfit11zDXMP+LOwhVpzik5Yzn6DSEq6QGMuxi6dCx4Q4RGkLgJV8yvhxQhjIYzxX1IXSVDGDq+BwHtmaAYL2r+evvEJG1Gs1WADgwNu+t8idCdCEqYPAL141eTWtjU66X9Dv5ijmnl5FervK1pIwmm6v3kPdDq7i+cm6/ezmlHc6VKZZ8m/jHj1v8FnzYuKk+ysoIa+7slcgdMMfzs2/6AhwFyH31776nQBPjgYtWW+sGNFtgTTg9KzK2Np+MfDvnNzgzMrK61L8cynnqkLMp226SAhXsNJiDo8MTNVXW+SKtE/4sz6DRa3W5ede//evGS+HUwIRNHY3R/ZnEY=);|GenericLibrary(QX0yGRNCDCEjtkBnqBmowR9n+V08O3fWKQf40o/SpfsTXKy2CmJVhslZY5d7DlSNCQvSItnzkmmWLRdP3NmpGLKZoP31KA0UahBCRa0pBoGInFo/K6L7IvDwZFy3y2tnePnrApkafw/x72dl39qi538N7EPAKWbDQLw7eCqRHAbG7XJwyLvaFhkKab+3YMmh58VfOZvVjdD+6+mFguwE6OCSA4q/1lzQ36F10/KOeeHNM1op/p8UVmEVUr4X3d3mykCgH7hM6CDcwUKoZyguSyV2RXEP/2+jfhRMMzQ+yCnukDURFL2ULg0YogJ+o0+O64cnWdSejuRc6H/fmlFFX+/CpvNgZxXPTrWk2c/vzXKseRTTLWRBwD5J89KU5hukYVFfQXBPC3V4O+jMpTdWyq22zvoNLD4VnQAHZqzhj2hqw0RMxiPCH31dIegZNakBQUWBDkrScZeONAQA5mKUFVwxfTELHEez8h4z5CMyt9NhrJPsvsakVZcJw0q8xC0lXFjv2b+gDIOxybjn39v+45s3EQfqz4PC1CbcYOEiLunVIBfEUrnjWyO8mNiMMZSri4B7SKAeiqBqU87p3PpSxRqgXtss07M+IrUZu4nZZ8Ec31pyfHZi158F2T374cGwKBn6AgASXGc7Z7x4X2JJzepPHaNLrZGC7+sjvlFxan8=);|GenericLibrary(gP9KDi2eGoTuSyaU1OUQmELPhpFKEVIbGdp2qXb2sHsrmrduBHJxrr7wPUUj1aJTDUWA/lh9rm+5YnMGC6xyw6zaREh0k32wnXGmV9CEpYciRc0N/hU0YsCvFczeZvdtDe0boz7RNatwPviAU2/+Ibb5T/Ga2wq0ReBxaKJnzhDCxVsmIyEvfgG7BXR8mtrtsgTcB3JZ6Gwz2NLlCNtTagjf9lLP75n1b9KFZ5SeRktRhV699TiO1ZsSRAzDdcKm3ax5jSYDHJBrJX5EBmGGfFfRcOrj1L9X8o9Bs71cqE3evx6jE0HI8scGEHVrdikHXubOHKyOEzDE+epBwBM9VbX3h8BeIddOrEc2Ae4u4YpGEOFyYAksrRG6POqGQImjk7HH6bZY5+kK3scgansqvL4BJ997jkKf18y356hpAOrFefrfyrMo2nC1r9JApgitBhMW3aO9TFG7BmOPJzfARv3rOzQjjKGkEoWCk4tWt69VP4vuIYCeDRIXwcHbwMWVsxfhnXxkO6ZngRX81UyoeT3fA7QK4YB0lOkDc22/49jiM4epqgY9na7cf0gUMV4bBBAyvOa5pa+vExLKtWQwruXEpHhtbZ29ZZXT7DmBAPmEC8iJXxgtXjKtiKbCDj2E17ipCRqTSuKgF7vNSYX1fxPvamRCj/0v8Id0StqC0WY=);|GenericLibrary(afozQ/vdTtzDUZFHrmIvcEGaNqKrbomip+b4JSR3jrNMF7/skvm+ZvW2OFYXFlziovEAumnih1SkLWzLFs5Lrfa8m1CxJHUN99q+vw21L9QnTbFk8jIZnX8bFYX4wn0vjLilHZ4gL7ILQUONYfpDRk99JCmAtwoKTFRIhPY5MwMmlCaGrWxY7s1p3Npa+wAgydi1hspfKXxv3GZH6KZH2PJlyJN1GFLqcamn3eZEBL7kw3ZiV3dGrGI7JCJobPZf793fB6/XMcYu6zDIkM9dNjpBg63UKxF1CqcOcYoZyztbYfvM0PEv7orbk3IX23FdZZJw9DJdIBnwva6BQLfheLFGCF8aWJSpmY66hUVsMoTUxBEpV3UYX0+T3fCvTEfGSdNf3OjkB73CdenqvsJ573k8/iPqFouCRUTU8o4Vb6unSTqNrn88UdrXzABWo/3SxioxY0UkkvKwakYc+t24fVs/vb4WddtIePd7eWVn+nevlNDQzW7QoU+OrMMNic7KhYHRddo6sMZcWWCQ6vk4OcSuG54DPYk59AoJPu6nc9fMfDzEyqojKsWc1/4AQ6Xhc2qJ2o4GfNZZYeAtm4b6rfPQLJ3F+IWTnRVv49wDiWCWYn+3IWgAhb4EE3lYVlOBMWITing5YQUWUuN71Uu4C4BrtZlVdQNqVSZBCYu/AF0=);|GenericLibrary(RIN4q/bmEsdANIVGC6vW2Wz1NP9sd2Me2clPIVrBZVIzKN5n7yfpfhfaYMCMQ1dL26FspqWFdQTFrpMS9JAVtgyF6jWj1iu5ArmbvugM87Gbya03VH0cYGzC1LJW9ywQI7phkCQMxA4SxxNdOifz15EZbEpOT7kBObgqWA8BMXOmTto/WL9q9G+q/8QHTpwtkGWDZvxF1ZCPVPEXHC0xqiHt/tx0/3M1yaCRFzq5tvJ90T6H/DaDMbF0IVLU86f2JI33QXNRw9XnsywKAnnPIywef/a+aD/MUAeFI4mZRWcijIdFQExuCbUgFaxwSjiwYLt70ihrnuaWxGs9b6PsJgHUtV/eU67ZnbRQbdhO0ERD3uc0Zk47egjgHGmWeNlLGdlMTSEQH0oZ3UPpk+s9FA7h7Ewhu4IKrAcCzHvO+sBko4JUkVhwZREWA7B6fuPlTsTaQOk3vOkAeKjufenKsO48XFh2dAFZbrWUhEGIbGB+3NxKMekq5MslNgFCZqFbPxTYIJw8Nx0ctWfB8/Dl3FdQUX48u7pamjOCxUtyv3PLhjDL88uMADtkmGMNFfT0dF0U/ddZYGV4hjZVVJh/nQlhaV0LMjeufwknKGqxm/EiU4JrM9KgOHBsZpi5j7i2qvhJScjhzG1j7RsCul/Htix+6HbgM9kwatikRMtl09o=);|GenericLibrary(KEj11gkdY/4JIXMZOqNgzlm7yu4Gke7HtxTgL7/sv29NBzUaYlSU4PcvFUF+VhK+o/x5SrpWk0hz90kv3iZQCXakw0EqPjJEYd++KxJ4UoIVOuOzf8zbQ26XBLjlJ1zpIdeSDffDuCLAZUGdci7pGhn5hGh8v7uk7zv73gCrL58S7M7V1BvumwZ1t8xr+imetD3Ea6X9nAK8rpgMrQyugW2nDVmj9agcwRmNdXFYSIasvc2nFyzhtd1Dt8SwXIPA9ovpoZCq8MMIk15xIr39ifBpXh9rZhX3oZFUA5RSNEqAZmFLBxI3nATBGCnQgqx6uNh+wVWrvN2DwSsGPWEE0lQSlkw0hht98ZccRU+5EBpxnKKfCHstYktiQdZEYPs9Vl7/GiqFN1yE8UZj148agi6R2jvelaGspCex5y98n5dVfDbFRQsHLG+qYMipTkOevfOoLNNMmMBDyBsQ4+SXSkDk+P1eyaYT+4pGTV0YNMQz3tK7RNezPkzhq6cmrQGlZOhS5k8yIwFRNcVhUSdoC0KxCufYyVI/EuMy6Rk49xNliBhQC7Ern974GD5cQW7UeUzwsdy44rgW42Hwnq62HcGZjU/JSmd9vPvkTxYsSIw723UxR3Hfrf192tzDUgI+mPFUfb78UO9ed3tIuNNbDTfQVwKvgVmbYV9TAFjxmMs=);|GenericLibrary(VCGVCz8dsQL/k50kTBlRu0wU2xkS1nBO7ZJ4gqtVIeeYuICF/CKb6nBoIaHb228nx12Pm+i9B6GP+uOy1j/ddjKGC0yNqIe6m31FSiVAXlpe1HuyzhTQYS6V3UHKVy2UbrC4vhuIPCYFaZxbEyOcIQLMmO42KgV+3ra8KEHl3pPZFvb5u32UdtLJWu9222fldvgTecHa7G3E6jsMz57pbkTaXz7v3Dqr0+C+6bJqDZoC0vrx9xZleS7lK0me89jkPx+dH0/B9fCQ54nVMqsHR9Jkq1PdDHwTUmRKGLoQWFn0pfP0YVfQ/FSipWoxtKyTL2P9hi5dqk8KsxrHlxxPvh2rkTRZ99y1Wof+u4o4S+q5gcpROu+PGMdf/jzG+0caBcIwyud0X67icJ3SsYRhoNb5li4+8k1V9AdzaJLnHbHBNN9oAIj5CJ1YdFxkN6CXgPGp/gl+Qu0Cb00sFWibgeqdrSWIWLCmktB3O7dtZQ8pBCnvuBX+sXTdl7rFvruuPmv/r/5dvQfL/z7/r5f5g+hTUEgwzHfLGQ2wBiEwTKW4drJDmWa8ZQ3NURxfRj+Kof2jD2N55WF3yW8fiSy1OBgRpScKMym6OcIg3Kby1IqkF5iYmV9Py8Q5WX1z/I1MLzMGTPJDE3AfrhfNA/li+qBwR1UDgm4RXON297kgYq4=);|GenericLibrary(GwNeRMBVCVbForKBBCOkPeqRN76J9tUwnMTXyejMOtx3QZdqJ+USIfEjXrvryUFYtKaXUo0jKBSx76LxwxBaaGHjjLL+zK6fAtu4jlOv47rXuAvDJTn47iBGP6Lv8CapW0hH3IgUNj8afodMkCLWbcZzg1SkjbU+hiLiDs7ODAIWr/VZYWAc3yKAsYvcj1wvs6L9Qlu68+itPyK4M/wK2OJo47lDaOQiQFdkeKogsnWGsXw/lrOkai3KlDQjqEs+XfhpN9vTYqjKluRQnG2bXebziApdhR2nrlGV3wSskNJt29kCO54SaMHkeM161PoiROKUjYTgdcWxN8qn30vOIFWKLq4i5rGQ0ganpcj/QIHIQV+m6oT+3e+wcK6ksTaQ0YaLNbVTGZZh9GBC+Mgz1yvjlFO0Pn1/rJYii6eSvc66IJYgITKlxDm4H3Nt+c9sdZg2n5v+UgJgMuH/VcPEA972DdgQcqDHrg4mfMnipHG35EbcitvUNakqTEVXb8fATW7TySAn/P3ptXQEvrto04WxNd1sJeiCP5T2z4DGdIUHXBY95DxsiXZyb8PSuuXg9Q8PJF21wkMSU5NNRHY2YxOrP8URm/93Ynw+QS3bMJt27cWDGA1VXVWeraMY/AsqEM64o0Yg5pyM330ONjbyXAAernQsqcEvxIC3kfILeD0=);|Implant(AHIj6uVl7PxkKuvYbZm5aeS1AyJsrVNok7rBwJEH3GCoUNSiJW+h+V4+TscSW4Bvx8rWKDv4Nj7f5B8J80N+aefieh62JY3k/2DJCCxWuIjftX16DZGQlTKPP25w/EKXk7FbZelKFejK9WkYe4qYR390Bc1bRdgyavJMSEpMsrW7PMD6P/MyWmcACKliuds+VfFVX8HqeFr1c/VdW5tfKTdwJHTJPS1rL7WACZZ4Yhr0AHzGK6HDvbh2STwpo0EIh9eBsh1XftNMzdQi6Hctnixr1QnT5oQ5HbcJJdqDYKe2IlOxsMS9cdkAlQ0SIjypi7BUyj8UiXZD7XVhxhoX7A==);|Implant(Eu8vARokHCTrDC7K7DyDP4k967PNmi++5cZnosiITSARpRXetpZYAFWeYe8q7ZdfosMuuMMGGISZZlfHCqm05cpGPJpTeROBSDcO9829bVYbin0WE6XnHNLpKDmkTfwlVGsewigKLSBK9UKLxJBnZsWmYePTuo9JnsyXOdUtyTRmQNawCE0I29HuMA7jZEUnrDNF56F7gef1n27Pn8wBCspPsf6gkTQREEBSewFiUYRDRZf6+JfCA5qLDJUoF3aUB95PWLLUR9LQedUbRpXPIGk7FJJYyPm0Segfefj1uryaZuQc+6wUy0Hdry5vSqT+vEnIJoL/Cr7aX6UtA8vEsg==);|Implant(TGHaPTyJnQnN5jhusG3zrQW1je1nSOmqlO5gfPI2GuGHbPpfOCjD1/N2nY7Vz/4urN7TbDOAVVxcD9WaD1vIbFe27EfKmIRslFaQ5Kny4YWpLEnF4gRguClr+yGRPn2WEVpv5PGQllGQfsUN3cnlYZ6PJmSL+1xoJmlNWvmfaKNPMXAMEAD9xopM5MiJYPNtT8b+9E6tQmXGDVVLvV1vARKEANnsh7Q5rmd9gpbtVB8F3kvfU/NnZqPOWhYsN8Kq7JkyM33gZ1KfizXuP5pBxwFNLIpOIDpxD1lOMe+MJj6Vjdg2UGgbLJF0vuGG69wP1WaV4zvQ4d/I9njPcT7qpg==);|Implant(ax/wc9zFHv/gOBRAq7S4ptgOJSdo9nawpqEiv61+RW4w+yDUxFh2vJs043vTuJDZFIKmEuzPk/Mdl5S2ORxyfAJZQFSh5JJnPbGi5vbKVt8NBJomRLd3SvZgXCqKgPUehzMbLFiAsruTIZKJrMy+QbRWFCpAa7stFMu8CGDoznU2kdvCl59QIvCkNzoB+OazfZx7/+/3FRvCdTdbLuQ23ul+WjybnoojSfJWZLh+CHL0t3j8+FaetPn2bEbskQR2qh1IcXVII0P3KxvwGajj3TEGub6w6g9KpMa5QIh/y+z8YcZiGrXkdB8Pu4Ym9CRNPQC0Lofd2qnnvi7bTR8UuA==);|Implant(drv8cRH2WOFIHPAuyeYNev1kJLhf13dLANZ/In9Y9hV2QQ92wsMaZojPP7V8QLXj9sHOy41vGkpb7X7agInxYnNCAUZbYpA52KVVaNZgb8heAzM4u6gIV2e1MlRKmKM9eDaJoJxc8WJXyjQb/0SoOiJ/xP8U7lishF5Uwke+TCOJutGcVcni2o6shPVa6zj6aVjfXN5OVfrg5P84qPAFmUlh9QUxjjmonUToZ2QWQhqI2lL4acZPiLXUrO6ka+2T9whPlG4tgQr1Yv/JJxqUkA8ipdSRZ4cbeVoldOU5TVtDWbPo0V0E9wVcZvzHOg4Qnfp5Cc0HUpoVe8pxZ+pNyw==);|Implant(JR3MYWzSCns5wxZ0cK6rxR0JeYI9hkc8SWe66FPMlKQQ5KBzn+aH3Zy5njyROa/ejm8hxlhENOy0fzwBoQD6OrfJsC+uDiJv5xxqCxvG56dUQVTFsOEpsf/yHbYL141PF6O+Pw/2nTwK6hSQWMO7OUDwin88aQEqYE9jrbZlmJX/FsnGsRceZi2e13JNSw5s+J1Eb+x7YwkC2ojappHyT4EBy/ukQV5MfN/YxWrz3cu9EXCZBo19Uwym2HVS0wHr+OM/w+u50uqjZeQJis9+uarjkjKe90/xzMgLVPurjeTwC7ZnpHfnKpfyhVO+T1cEt++0pUYwijX5V6ZwXf/eyOy9FNJm61eWrpTEGefRpfxyRZ+lBfnN9WApkIY7TAS7eNJkjTeV+oNNq2nriKRHpY0mfTGngvyMqsVlVfIs4BDPVnMOBNcVYmgsbEZ4ZV5wuoCKKHWv0H0g1jIWM50kqU7r3OXmkJ5b2usLSuX4iJHwL7ZsiDMzdw2fK+fIdGXrIPx8/WESkUHkIUgsAB2AuAkphb14bkzYglS+OgTAtT6fy208SpPjC43r5WO4DZ7xsvyO3ZTq5K5u56YF8GIPWPMHOnszHnliG8bs93+CRj4SNmvRROh/mM9jSlrRjHjiwk+441lwOCUS7DdU2CV40co37MkOFTszP/L/LCMeTw8=);|Implant(jqUN0yDVhU8M3b1ELb2Pa3W9Ysd/+wB0A5GtebAPXfmB/EKR85ZdOR37l0J1G8PVwZ/Pns3eitYND8n6ZHvSwBIFplwQcAZ10E/e/wtIkh7vipqd0UMUZbp2K9BE6JQL3Lq069dz6HRztJX/+3jgcobDZarlwuTOX6sfK59lqOABdBPdUjjSAa360UxE4LjR5GHYBe/ihx4MKO7qIhqA8VPuZTPtTNrTL2biLxah9ThUh5B/0IkgfO8D+A7L+T2COUxbEx9uVxCErxSWkehUA6rYgC4RfaX0/nR6TaFsbSS+qbqUuwXhwcw0X8rlDqzm87p5KuCKSRaHbZoalR2zOQ==);|Implant(HS1GasTZzouI8HqiqCNONhvBpFA+wpGiPWiU/YdLXlbnrHZXkLnYRXzsedR4CMZGP+L6G0/CRP0fbuJ3dWQbQhPCrpRRFggYr1gFiE4KQeI9E15gBIkiJdlpy7QiGIjRAM+B7kHQYxCFxS30B29fkJcc4Gs6mjB0FpP/vueylmv0tMDndV5I9/d6+zmWuOf566uYQNkaj5IaoglY/3yFsNtfTtqZrKrDmALgwftU1bBjvmBf5377TgKUgAnp3Jt6QvdtAWJ/RJm2G29SUKAFXSLjLKzSGQjyq7e1aNgL7g4XaqZgV5dAxTU/uVEegIMF+0bJry4KNV0emQFj2x9YTA==);|Implant(lAsfVudSVYWlAE4Pl+m7u3EuHHeEVFgKJwNaXyRQ6ML+x1c1N+mqBBe69HKysfDq/zTOVi12JQTXMyDhXBb36n3ueqa0aLwfSHLJJ0YSh1wz1F9C0+v4lby+wGkMtIOWMQlHH90UHpIH6DsI06Ytcv6jQpCETyXZS13IB22m4jKmU94rhnSl4+ZAbm/h3uADNyiXcf4PU0LC4JD+TuyABl4nI6rXwsxMA/T5+s7iNyT9215QC6DK18QWLkZfJLv+tSH4shIDBLm8AZSgikx5cTIh0pBC0wcy7sdbYrmJZTEynnNCu5WN9djm5gvRuFnUlTm+X1M9nWtTnNzAj0EM+5mbQtXbdkELmk1fKSJPfQryJWALpJcAyMl5GtsJYT1CYfgRNf3iEvGOxLoOu/SY0bWHkQw8T01uuTFAo6vPp18knMNTk7SvHAo0bR60CWbgujM4ZNEC8tyPmcBNvJZ+k1DeWui0UwIwySx3xqmFUR7jiMvBu59ckbgNPTk6mDHavoP6fguZPqlFSkvgGIjMYFP2F4kVmnhBmns8m4Ev+0fU6Eg43KMXqPLx4UiqW8cbKkMFWUT/1GRBaWP/9Uk9W4nscsNOYnpDza5X36ETy0FfCrDuVjroQxDAAfcTyfk8nm3GnsrUaB4zbWJlCa82DAgFvp3ho6eQfv6BhzU8OfQ=);|Implant(eVym9jvsdST12ey8Yq0RYapWtqc9Uhj4fiZ+UcuZ8QRZFJYn2Dll1C+7fgU9Ant3sQVCz3FkyvCfAHBQf31Vh1gMoaloTAjK7gj3GPyIuUSGWvmaT2FePpPDDHbytRUKi7OiNVQOnHh7V/knX0wWUbeM33T2YnVG7dQvmXKMaq/iD2T5fN+MdqycRVAEbfZfZrrOqWwLftyUgI/y5HCq3EDwgKt/Ql4QnGlqdQtMtSrt0DxHO6zRvMyR0fuU1Wav6m14kAxF6odpvesutIftwgeWiX3tXyt+s64ciEIYj34hxr1DbzT62adud9ZfLrY2ELctrfeq+Tfn7/9NbTvULw==);|Implant(VQ7JWrYFgJLMJCX5Dh6u5phCwboaULtYBaWzc0kLewFjApf+bH/OZ/twbNH9+xwUCngt6oH0RnY4FxVRCDR4VYxajOi0gc0uVsatrC0EWXhKHubj8pDrYCp6iALBgqMwExXFrg17U6IVlIhvdaCgmRmLxATC6vRANXw7zJLzFr/8PlHuuP47oYl2fqWHWe04MMgaOBU91WePM6YlRKgvJ3kl21WSbknScOKmnJdZJILfMXtmSTpayLKk6G95q5PgxBCcCIpJmhpXm7mzJddQNJ3+GsmFZn5IjPRM2l3EXsZoHPkt4GQHKsN4H90p4/k3bI8sawVXI5m0ZyCewCsCBoERpdGJqthBQCJyvyhBl8dRsxfIt4XVRc62ukllON0yULKv1/UVsQFFdsNpG5S81QAYrVrAnNGdHTe8YHXjcSBw594COKUUkw4+3AkqU2b6iguDP2Z/dXiufsNlcJFX//7QdxU2pCrf+XymZe+WnoWajYRLjtKFgLJJaIdo/mZd/jIDnXYDX0u2VVuHq2yzFHekq7Ppnd+s+i2tuE/VZy29JfRRSND/8ju1pyFnqW6OmkYHSm/01V5X9fehVFoIAEl4f4G5GgoFFjklf14y/l1i1ydDbK6yiQxzXg/fXemuarTXdTl/B+dvgXLqXMPkAVbpwYKSf9MNftQVKMEvwEQ=);|Implant(AwEZTOE3kQb6Q+N55OV2OmaHBbTxh76FRwFccttXWuYDuUE7deYdglVzeeS0xDzOjkne5Zw0NHC7YaRfiwMvJPdbvg7fzDBOAqVpVtRJldgMm5LT68oix20IIP+tN8Yok0vl7DhEtY3MfqtgHdLi8KEMYe3JwUYjYVABOwaqU82mtHxPuOx646C17WmBMtT+EgShYtFUFtOXD1bg/DnM1oh3VFVUHmiNQMZdh0s7NzedxWNe8etVgwJnTdPnEZgqjX4HSi99xNHpjWxac3bZ2d0+cDBTfVO93r3grEqRZrpg7NPSo2ztc4TAJtp5b1eC6XDoF7849Oh3NfzA0Il/Ag==);|Implant(qAAZePugb+t3X9J12t9/nWqCUDEZ1M1yPHNV8xI+d3l8OSJ0UqQs0Zwq51oOeg6RbMm2kO9ZMB/+chkYk9kJru87e8YQkHbce1pRCSGEhXtV0Tu8QpTJl85Eum1+aN/ywNu/buKzQ5q0MtgHsDQfuNO+Xj4YrYOZ5GUMGVnY6GSXrDpdEmICDB+G0FMGpbUFrEq5IzEhnxKLYK3T0/WCOpraiWMzSxnciSUPChNvj2WCiUR6+tWAsVBZgj5jG8FlYVu8MurmpA9a+gjoRUfwHjHDS4ttc2PEIiRgWhews20C+rZecSntd27ZBMDoqTRbJaxg9NtIVnOV8tnfbp6Z/w==);|Implant(BrWcfXKO5ZiiqwHCxWcH7dAAC6XUJ3POWC4eM2QDkFyV18Bb4vfo75sE7jYjLHos/zdQQe6PRz57iQ2RC3IftLn/SWcuoITLLRsvX5FlBRWOLm5CIAWHMGBF+C9ke8Doa/AvQlkpwxTyN5sVCwxEk2+Ef0CaEnrLrLvzfJUqxI1pgrOgRbxaSBgi1G5TY839EPgZz+nK4TkLyI7peZoW6JXysz9eRUc+OwBCSO3B07SDiKSGIOJxsVJJ6XxMsRhJ+LEA+5l6fS/2Kp+ChFdI+exwGYA608nzmElce0OdCuS/vf6m6vWSf7RC8/L0q8WW9Jtci5zRDC3pkrLqS+acURpprxfaqV8IhdzAuK/YevT7Q5r0Yeblu2pXekvK61hYuGRawgUZ+2MJt8dqXUltWoSOlFrMWvN4wNL8xgDmJSnHBLXezLJUC2z086Djlb0BkwTfIFwBKRlvGufGW4wVljaZ2hloym9mPE6J8YRM6D6fXz7AOP9Ktm2soa/oWDXFq4X8TYkJf7yDFLWfLVJWf8W8sKAKXz3MAtzVeLyoxmkmlOkdmcinEFdCKyTwqGWz3YM+mXWtAuzurdyjhQihRV7oHMAap//nZacd86KGQ7fzFEUmtArJXPjgBiwXNlLO9rvVAth22K5xW/CmSBZlHJYrBqzz9s+/ZZSgSkKFXsc=);|Implant(BAFqfJqJ1aBnIlib7jvUiDC0eVoQYphTc/20GuWnRryQONbH0BNiCHKM7AzAKJYHB/kTPQ7XIXWUaF9VB5m9zXiFh7imAFGd+D6FhjX9bSFwLtlNLKjIGCAz3Y+EAb+3dxyJcl872Hkuur5+GgOicmY2Shw0O16QBndevVErAFNyJv+QoAL/gARYe16SoiDeNdjhQ6UTRWuRKimnK3sKaFUKM2vi4tv/FnToERO6YyZF19TotBWYGCs4TV/rDWFp+WzJnINqKYcGniJlvuoIfLlltN+dShMqNBTOPIhh0T3HD+/QYQOKRfvIe/nzo27XmgJdUg6Dwpe/SSeEWZGkhA==);|Implant(bY5Gfg5znDQe3bsvLLw0Ds+wWdRFloR+UrCighDhzxMtEu1L5RiRiqullIGqzAuNigvJYhSZ3eZremdm9vBOYprGCuDz+5KF4a1o2ldMm9M22TIwGSc+W0OEZIslinRF/jiB8awyMVLyUy7JeC6pUWgD7PGikKBmEQnXws0NT3qdLJTyqztdv04dcyaUc++YiILi+E8IupKnFLkMVXCu1auu0VLpgJx1FeUaoUZQgkqB3PSi5zAeiuZb/0VFi8ebS/bM/TPj5y0ahk9qlDLxKS2QrIJV/SLCgkTuO4ElLqNwPx627ldKHp0X7DXj9AdlxcoJaogHcps9UBsM0nNFMEHAMN0LPCR88kP5+MmuWwG7GWPH3xYs/YWkXwKoHHcc5vi3Q/p/XgxcxTWomAZD469WaGSnXm8Gc5zcxil5Wd9QmwO/m4o9m4z/XTmFm49SXQFhgoDVz/WXQkWYlf868FOps1IdQjuHG/0SOIy1CC6tQj8iqcnodNbdSyce5EpK7jU8tDK7ui/yS0tyk/dWn/kboBJ9g52+6FqxbZ/APd9eVYJYuqI3x43O9QSqO+SaE6cgV1mIg1DLjBX0XMVyRtW+3oD83nIPDhz4UQnALh4WUG4k6Wi8woP9PLKVNlrSwdX5wRld8UpJI4rHXLHn2B+TBxvvUoD+oeivL17JcXs=);|Implant(cm/JFleDmt8uNR6ihXF6zcLLBE5lJ0afrC454k2ndPgMS/8DqRpY3TZ6CsrJLAHZ+zZuS3YNYR1IYg1qAo04rOrSOLsMwp95FTu7VFZh7r8Y9eWIKCRCVHWKpHxFt6VeTgwkqa3nu9CJkbWN9h8EmvLzuF/2//xrsaZr8+2ZVWU9kRp7x4umakrXlTo4zrUs+Mw1ZXQ62cSzOBSAkATv7lRefCrj73MfqoRhEOJdT7tbk6tIFGALiooSQDjvfyBZYIittQhCCadWt4BDJx5vGCzrl1/JpxhY22ycWRIr5f8QJm3M2J5KpnpMIQ2qyj5tsJ4pFWVdO8uF1Yavdey1Kw==);|Implant(R/LUJcsvalyEAEsaOFRUrZm0OJxH7PRArqkX1r0jXQHRe26sBqr8b5iXc+0GtwbYqNAIPqe968SOb71rBNArWLiQOImIJBvAcPbp5Asmfv4nNmvDLqL+nn9idTZRYW9+hkECUVqG0CFfkrWOoRXMd8gnYDusVdT5FiYkfoN1zinmi4x2zfSYAXRyl1s3R+0ulI1isx2k/4RbzFynjPvu+J1tTpRa0+9qcYErDVP6eIG5pNEFy33SzmlmjwhaFs5Nx4Y5uOsG9PayPXtlg6F6lb+0awBYBRwMJ9X1DY5dY2HGG7uRmjx5uszDe47KNZYdgBrUY54GM/HotLUt9QbwBg==);|Implant(GCLEri9PHsy8QP0dDAnRN+65agfXeVNoeGQBKGEfiQ/9TG+LZI+gHuiuhWgZX+ujXf8LODWdiqjdFKpG+Y2GlQP8vctlwQ0I47OSfkyjX7Qmr5azlZhHgr3hlUVAz1mF7fuanvmhUQDLr7lpuvtyje5hewswnJgjBqjygpipGewAlWosExs7SwUPG6Uyw/MV1VFhJRI336jWr3goT9RF+k6uRZMygGVTnhUHDN3OBHAxVASHPdoHqtQCRsd4hAgeIUR64P2oJCYS5qIgFfBSDUsb8m7z7QvJ9lLwOtWhwYO1hQ5h/h6j26Wpesde9qogCvQ4trm6jx0f4G3HUQ1ua6xlyMKYgjxa/JEMqAgqLN6q0AK2HaPToF0+b2ru9YkgwHyBXOP/jnIVdEQ5vG4oL9HyBAYFElyNfBvtHtGwf6hPOEOPrIP/A3LMRZZmmy7E1L+0ikvYf0ojxIe2Dz9WTtEcyq58AWrCwyazRanpKQN+7SQsx3GbPi7rCnLLiCaVwRTX4uQHU2TNVDHzkvCtzsFUsBwRRO04U8NWrlMIMHagULl4OPeUraMfHJ1zOYDVNlBYkrunOQYn/OTDTder5BmdXjNJFlN5zri4gDN3eLVXJFMqSNLtLc8cp/UV0d5PiljQTuYpLSY7v+zBLVIZ+rUiK5MFuuL1MhlxdDxJLtE=);|Implant(tTgzSeuIc11uphjsxAZSvIx4ybBG592aJrpnodl/l5nbiYif2mUWphs2ziosQI4XU3mmb28rJ4r9RwsNBjeNnh5tr/sqA+d/WuAS9WEPQvRAg91SmeXTDXxwJjMPpWExaU5gsY9xcNnd8BhDzFkhqnOixk4kFPK6gR7AYkcl19rnan/pQz0sG/4FmoBmVTm8kT9SxL2OnIHGK4gMVAjRQJsfXBKJJ5wHKM5InPKsdS2MNh4IFtur7uthm/yAI/Ka9APPD56lQGHY1Uhmos/rsUeExOAQupQSGqyztsqPeT9OEvAugPlcY1gj/7ixWnjK7RHMalGo7Al6PzITl8Vwaw==);|Implant(KiMvNf4go4+G9cq0DFy3c5P8IUUlRUDcnD8s/ORzyeqeAcDpvEgaJuR2Lpp7qKF53RWvaYVX3A7xgm88eVMxgSgKD7tZ8xfqDzhFTY9gup1jT3fQuDYsB8meO+X3DEZOEddrr0Aid3e20I1CX8AWMvI/KLGC183kjvJWl9UOcTPCqfO4jwjFjgtrmrtCZGYNLO/Js7Svy89oD22+GeNMqMOrfIuTcwMrHkt8StsJr4B9eDzvsmQfxKu0ZfWihjg2ARjMIR2ADdb6EQSQ3IIgYP+n43QAZ1YQySVKV9Mmky4qFad0HMuSODYXkh4p2x0YGIGVCED+vn5jR2+H5roBhAy2JlhjieaEL+ENu4I5YE5F3+kTPXBIfbU4fG+W8i9ZjSXUrWloHIuyoYdFdldFFAewzwlsIMbFeoQzoDdK7y2P6Z0fr6OqgTy4UYNJh7jn8SZGTwE2sFJQoY2121ZXVUwE1k/eHEbwb9+vYq5TGOOftXl10sCfakkfZlPKoWdP6DzaTsrGlmIa7wPVTFyrI8Z72i4V7ly8qCeWD1HI68CQxJRi2fM+Sf6JJXPNFPMkDqQTKQegNazmax5fe4uv1zzziDr1nU8JBmAK8dIku5sLpFv3qTvwIss1SAWbKvArERBXj21xtRj67w31qoG3VNx8Y8eWHRYTNiQSaseZPZw=);|Implant(yybneqh71jEgfZFOe896gSV+Tz+WzJgeQNHtHz7RHtVCFvB371gCj++O4T6BCx5cs6AWgacOy5Gnz/FeA2gSTGOum1wd0SxJqmaB1xInZFShWEF5CSzxysXg1wHDxBma1GuxR5cgkdJjOQ+2MUCa2Bzx8wUwVd6l4Y5S+jHXwutB8orBZ01gZoIQJQMs2Ob/jbaj0ujc8Pju96TxXf4rSj2q8l6FqNj2tg7H5TKg4CL3+wd6AHJtH+ktYemsefoOAlzYvZwVFjA+xKu6fVb1CEyeqRQdooba9ZjOYfAF0CFj+Qgu+WtdnvvbMYON0D9idANLGpa8rZ5FypE0Hx7K0g==);|Implant(FjBuRmLtIrqRguMouCxc9Pgb8jBtjKqHKQIDDSPIH2jZX1BU/Tzn3ZyeeVEdMvIpPPzbCmvsav8UbQaZ5VpWKiCGTy91gtSfB/8dbQvBSNTbOZW0Je5ejiaeOqUzdcnbHyD8nHcXrQUQUSRYuOqGtyF/Ve0G+uKcnqLuNeqwpeGqTbnC4emnVcYW7Er6SoI2FIHlIgFnH6y+Mx7LUFPdKdfYrZkpkpJ56hlhXuTd6dP/eBhvuM5Ey1UnLt7g4FRcZgwUz40eu+DUEUhkny+6UM7nbqLIayb0ni5YO3egn7h0WWVpuEZu0IulSWiUcPTNAMp/7nDVaqcGWL/3/mqIdg==);|Implant(WqyCEmt0eChy1pWjtZbqOCMgAN0V/LnqqceLFDyVxgA21n8LptegViyLf5DT+wWa4xsqbrdTod4z7e6ldyAzN4RsFh3+PljIx52aaEoVJMBIOUonzDkCIea2B6Y+T6hoCx3PkUi4j4h2PJylzLuJC4yVRUqp+jMKb04ooZ15wFmm/7PD1IxrD5W0+wmpVXjNfgKjW7WaHUGaZPwasZw1A2iT1wZwlGGWjOz5puY6RuBW8YABR8gu+qYto7XUHwnR/HFEczWt3v8D0yje89XwtDm7SrSsfljhuFTg2JTHeSj7hzlw1MW98suRO5lU14QSACd42uJYMiSLHN4Hz5zi2eVy52LDOGJfVG/E60lkNmadXIXEe+ffqYKUs5kmCOk+pRYPpYXLLEdxPu44l9eZRr/tu4MYuPw85LVfCnaDDDaNK6hVK1/n9ybk/wvlHpMCDjvQqp3NSchTYaeifewCI8J1ps/tUzf+Ex2TqT+e2y98cWRr198AqZ154svNUk9JgPXUBpwLTqubNznBARljSsgrG4k7q17TkqyhRXOU7muvV5cf1x9U0v9tCl0djqRB8157k82T+l38bKdk4eTzR6bBSfMeMae8m3jnKPGLCEJT4rgKCDoAonIQ49fxpoHhyAWuVB2/wxN2XCH/ESFjNkJSp4XDBbG5+HC70RCICic=);|Implant(xy7lo0rBf1HzenmOtbWK89DaDnmooBlCTIdTCWZ9B9JT5GxEazwO7dW2+sOuyEIOHePDGptl7hTCZXDhcTmDJ1p4xMUVFDj9hAxVA1FEDDFEFS++97nqwiD/TxKKK8aM//wfGdpb1z2HeYbfZ2AFtbuoVQ52uqirBXiJJhFMJvwzpf/1LQG0AVnmVj+Kk0l8lmWBNdUQ3qYXysETEdY2dSgXZdGiaddMHOfxH8oHBkHYvTxfzlSBkP+96O9umW2JZ9X/VFj4VemyqFBqbCwdibKrKCDqyv5ahUtnnN6e3AZbTIMTQuwQhX8t6px3aAh3LELtvQEcJyjRnYx+KhYSNQ==);|Implant(qKnW5QYsTXkokfThmRpv5is9Q2Vh6q9+Enb81Wqb5BKXOgIB+Rge5OgLIPK/F87CpqGbkLGpFDMOgPv9OkyDMZbdGuO4J5sd2kG1tpOtE2zewaxXpli0Q0IX0wIDkOvxBtVd6V/Th3dChFFixk0tVs40+whKHQUGiAwR4gZSw4WZqa6XJ60GZIs1uZq6JsqT2VUmB7HCwJDiFAnKvjz6/WNV5+3RBzpzfY1TbJ+T8ae7uw8Ham5FAyD6V2oYUXY9FRmBPSOzLA8exzQyHnjXPP8Bd0wxaUENr1hAKoo19BoCdKLc49bo/kngnTvG/dfac+u8alQzH+NwkOUGHboyWsJQrvTfFTGGGdUeXEx5NEjn4ZOPJ4CU+MbJC9jB2aUTZjILQ1qUVIfkJ/gqZ9FhYluAnxupm0j1SXD7mrPQn+bKn1xf2hl/+OHa91q/RWQOjOqkiVJtOYw1SPK0DV8TlS3uQhntx9XqbRXX/iNtRAL6BOAOEqPe9DHMOQH5ceWEbfRWqjwkFz16sffJjHSUZmK7CmWYA4tALPkpLQ5r9QDoQXvo1p0L5YLdojgtRKy2cJpGBHRhPWQby4F/BHxYjKqiM9HPXmpGrlhehGRuTV+HtxCJy98PLn7PcMKZqu1+g6yYzrpdzO0N1+7gSxiqTWJXwqaYQPC4sdsIwRfaR1Y=);|Implant(C5eWHkjDEf8oDUDC4S+ynoXQ9yftJCx30kePr3a0XT18QzGwq4LglCsvQvTsv96JBuTvjJrVg/N33nnyIhnh5fz9kP27SurlVb1Wm3vS2eRLZ5zOe0SHIjgPgZPbQhKQDBulepcpAAHA0YZS0ZYWGPKtPU5UOHFYgvyXUIiRpI8PEZ0+W6hjHqGFmYJRgzGg/MUUFj31zpbOmZwTaVkdGU/evy51ME3AUjZxfFyHwAoXTHdYlsR+Pz4PMLrfXFaJDZj2W4K2V5/1LYCgioHiiLe4RRG3GLz+Mhrbgj00wqekZhxRyoEfp3QF09Wg3sNe+FnVz4cootPHAGJzoBQcug==);|Implant(PE7viReak1DEkTt1Rkl2QaO+0qmXrBRHOzgogLAMyGXQhoHeA1YyAIGYo22MStOaQgZGw1Ml4mY6ptbfjlIfyv3cBYreIPrvtvu79t6MkumHKtn+a1+F6qidhZBDHIWmV8FwVqJxBwRWk3N85k5A0ftXsQFaTbTWrCORoG/AYzoYuGmbB5LsiJMg2kf0IpJ7RK0luZRpxmXiVGMDVl5HXC/oXpLdHVWZ2SCbJA/Wk9ZksMAphtrktlmyhu1x0InzLOIoeDrS7i1JB3hXnvk2rgzF8DEat4gZ9SEnnHJyOJrS9YCQG9WNuhn7vaAVv6yAx/u8hubvArrMKk+99PIk0A==);|Implant(WyHOK1Od6ObaNq6upcIH0o8rRbV3dTtBn+fifzUUEGeAc03Awh69JkKZYM1t2zRqNW3eaeacPuNoBxUudDr/LKczY2v/XA9Pcr7vTbh9H+q19TFRGeijvhSeSAH4ru+r8Pqr/eYjICExjQ8MmRY719ZJRJhB0ahKlmj7iHmLTFSsp4loxNSM1NOO304WblhnWMuZDbUI4pEOyHLa5UfZMOfxNbo3bmFRUtrwEweG1XwUEwaCl76WSjMWS+lku0lWAmlIe3ReCDfS5QH5bNyNm0XGjVug9vpF/nRCADUd9cKX03T5K8A9jryOwM0p5VZtPTzbKx0nwIJ84S+BrRu9W/Pb6TmG/hJZbNQiWYog0I/tHqpJtUwirhVO0in96R1YSE4DTeTtH5XW2ahy6p0+IQ8woPbSAOYtKxygJB8HNqxchIJbNLOBr+MfsMbhAkh7JqSodzFgb6yyJV5PgYZ+VtoXJiGH9nloQoJZEHP0cJmeHONd7W0zoyNVqKSNytL66XyknOq8tq2soWMIMXjkmyRB7WAM4gygHnboz8MMlP8KLOqvOFsugzSUUPzM4q6rA4pxzczN/v3yV32Z860aazo/PaZUqLlU7JgWvosxThxAO1kgaVmoufSOUfO2TmOGvnq3KOUnDySc7CKAw0qTwhxNZWqpGcMiE3DnHpKVyCY=);|Implant(Ts8pBOZg9SXGE67OvlVhqVXxV4t35U5fqaBvCTuKcKH3Iv/Aa4dGJG09CGu3o+ymJxNPQb+PSSIXxkebfGq2RBK/HWVX24ko+T4tYQxJq9/1Z6lHUYZxxvc86GNPdj67eYq7nv/RbRt1IwTKV/8nQ1g6UoJ9qTM7+fDDaBbVxqvtDjQW3NSUiS2cV4HFH/FXsnbVbD1/r4BNQCzP8VRI61qi/RmOU+37Wz4z8U/hOhdltJ4YTIyMCNR4u4YYqznvBJIjluFA1WoK/1wzhT1QqAssTJtIVsSJphITcQnDXfWg+70E+zWCYcOvRYpASq/YjnltY9g0fLMNLpbrT8Y7QQ==);|Implant(O2tEXkvN7LdJCNlSQDt9rMdfBlDDqV9whhJS+joF12XVA1u4i1Kj4rjcSaBOGn5IcRYkQ77OabGSq+YW4hmhFrezaY6JX0QeCYE72dd+JSNra/qzfKkxUBxxESB3W9bwEYnrQP6bsJpZtlRoYf6iAJotnt5jAGcw155zA3Ir5jiYzFTzXAWx7LO1FCywSvs0pIh3TsM85tpNaRxI7nVGg2SMvPvmWhV4nbbIevNguG6No6/JLbv8XpkLGKPsRdQtTsKEDtFA3lk7jkoVN+316rELk3muzkTFFgv0BRXOpqmmcJkJ7JpTxQuJkyzFifoiWxSyQywsE8fY4CSkjzNp6k2hNF1BA0aRHOzH2j3AKP70+W7ncYmSBIoKNvb63uxqvPX0vlD8QQqf2Qy7KOhOFQqNJPO35Gyj1cSM3wEvavTcXylrOArihcWVUhLz3+u40E9XsQKmrx/MobITqwDzqFtyMmPreksEtnQ8DlI4pBq/cGDtr/tU3oNx4Ynn52QwJPPyMyHUeb5G8xvkH3iSM/TmGutwlDBdAYTeL8RXYE2XNCAMbESW5ZvRiVC5dGv1prnFz3sqZpYW/OAX1jVcZrhHv2FWTCYKeCuC4Q45tUWmxA4MMInOyXkdymplcJ9niU/RN55mpVTiXiOj3u29obYgfXXTTR7ruCJ6cJTVcxI=);|Implant(XEw3oDlWSmsdpzcTL2wk4wpKMMuWHZ/n/ROxUKVvRQ6umy8563ohW5lnL0zX4YCI5kfk2sn5UtTv+i4LDX2jkyc0ynfMPRa1rm9OnDsDvGvzAtvXmcCnl4734V8T2ZC8UV3ZwBX06IF4nveh/MMiN2OzaqdzWQzZPhVEp75xFFN7sLyzSIOs6pyUoaOrZEFnkRCqmEhAUTg2ACeU/mW3QKmrJX3cwWwgeyc4A/rJzXFCMPpLdG2VEN6VzajNl1kMl+io12iGAS9q4hD63Ks6SydbL6tGUXbEmkReE0aVVjRWLoylsZTg2yag9+J9qz6CefAk4o6L46Oev0nMJ+FwMw==);|Implant(X3BOsx3mtXteImAMRws7Q1POFnqD2SGNzZLrYr0qmnWj1YcGU+cDWycy6PjPi9Vid/R9mTMW+JKvbTE2qp0Zj9zcYbX4ZfggE+E2mO3pyV/NMe2H2aBYZvDB0l7ubt/LxdYVnuWJF4XENSllMxm4kEVgeFlk0uQZBJKEuOw6D2WEc/mrIXnp2oYzi/SY/DA5ReW3dbszXffgdSU32VDgbuJQtb2NLFAoa/GOcK8re+0q/JFp21DLStmYgcQ3/PGr87OXz1x+XL8hcOUH/w0P5tBIK9m3Cmpvp+Yi0/n+3a0UXodtwjXMkJJtd+e3RvBcmeq78iYJGgbsU81c/qX8vQ==);|Implant(VvEGKa+gXpWtJ215t0McTpd1hlTzVB5x731PgI5rIbWPT7og1SxMJJ63J33pd5WGEL834wYgd8cj18ZwI3AAe1efBjgvWKdHbWNVNo50nfBFMEQuZA0tV6yNgebo36C+9EtQIfsq+T0aht9RaA668ppj6CxPLFtJ9cnpDMl+O6tRPBuZKkTkxuiB53g69fxA87BQDiw5a47ECS1vwnUqSk7A33RWA/sGiZ1x4sNyB/5xHLoYfZ4qM/TwpCY3OrmkM9bqWL+ZSH+eFP6vJqdjOHJP1izJI+Z34HJDObw80CUKMwbBUctx2tajda//tFWQ2BeASjFFzaVfzB2j0OLqsoJGIL2wyetIrx+85vOidSMLzjPlYlGl9oN93Xh9JzXsL5fWShP5VP8KxjTD2S3hsE1aEK5jf7JiUoazne0dUzgL4J/vnUUxruK6VsWKWKtsaS68IfTosn7h/Lzndv3XXouagQvrgRtTDN5kPmjyR90XiZimeChyXdSuMOXM7zOXEgToOc/yYUx1oQIDhZjMyBnsmgLMcYB4mrwMXJ7NBASzH570AsJNW7EOGBwRbzYJ/4Kn7UB1QvEuPuAiS52SCbXbBmKKg1Xq0UbsQSW5/nVQtPl9iZodIyj5eqRbN0giNTtXhZlLJRNm7K4IwqyoWTkBplkssr1NV01cSOEJca4=);|
+RecalledLibrarySignaturesCount : 89
+RecalledLibrarySignaturesCountOfType_Attachment : 0
+RecalledLibrarySignaturesCountOfType_GenericLibrary : 32
+RecalledLibrarySignaturesCountOfType_Implant : 57
+RecalledLibrarySignaturesCountOfType_LibraryPartInfo : 0
+RecalledLibrarySignaturesCountOfType_Unknown : 0
+RecalledLibrarySignaturesHashOverAll : d02e7518f320922228c816bd2b4ceaddb36809a4d1e369ce60f247511f213a2c
+RtlOS.BuildNumber : 19045
+RtlOS.MajorVersion : 10
+RtlOS.MinorVersion : 0
+RtlOS.PlatformId : 2
+Skin : generic\Theme.xaml
+StartTime : 05/28/2026 12:47:12
+Theme : generic\Common\Brushes\Colors.xaml
+TimeOfDentalConfigInitialization : 2026-05-28-12:47:12.8018
+TimeOfDentalConfigInitializationUtc : 2026-05-28-10:47:12.8018
+TimeSinceStart : 00:07:59.8394843
+TimeSinceStart (ms) : 479839.4843
+TotalCPUInfo : {"TotalCPUs"=6, "TotalCPUGroups"=1, "ProcessAffinity"=[13, 17, 22], "ProcessAffinityBinary"="0000000000000000000000000000000000000000010000010011000101100000", "SystemAffinity"="[5, 6, 8, 12, 13, 16, 22]", "SystemAffinityBinary"="0000000000000000000000000000000000000000010000010011000101110000", "CPUInfoDetail"={"class":"CPUInfo", "PhysialCoreCount":6, "LogicalCoreCount":6, "CPUGroupCount":1, "CPUCoreInfos":[{"class":"CoreInfo", "LogicalCores":1, "IsHyperThreaded":False, "EfficiencyClass":0, "Group":0, "CPUIDs":[0]}, {"class":"CoreInfo", "LogicalCores":1, "IsHyperThreaded":False, "EfficiencyClass":0, "Group":0, "CPUIDs":[1]}, {"class":"CoreInfo", "LogicalCores":1, "IsHyperThreaded":False, "EfficiencyClass":0, "Group":0, "CPUIDs":[2]}, {"class":"CoreInfo", "LogicalCores":1, "IsHyperThreaded":False, "EfficiencyClass":0, "Group":0, "CPUIDs":[3]}, {"class":"CoreInfo", "LogicalCores":1, "IsHyperThreaded":False, "EfficiencyClass":0, "Group":0, "CPUIDs":[4]}, {"class":"CoreInfo", "LogicalCores":1, "IsHyperThreaded":False, "EfficiencyClass":0, "Group":0, "CPUIDs":[5]}], "CPUGroupInfos":[{"class":"GroupInfo", "ActiveCPUs":6, "MaxCPUs":6, "CPUIDs":[0, 1, 2, 3, 4, 5]}], "CPUCacheInfos":[{"class":"CacheInfo", "Level":1, "Type":"CacheData", "Associativity":8, "LineSize":64, "CacheSize":32768, "Group":0, "CPUIDs":[0]}, {"class":"CacheInfo", "Level":1, "Type":"CacheInstruction", "Associativity":8, "LineSize":64, "CacheSize":32768, "Group":0, "CPUIDs":[0]}, {"class":"CacheInfo", "Level":2, "Type":"CacheUnified", "Associativity":4, "LineSize":64, "CacheSize":262144, "Group":0, "CPUIDs":[0]}, {"class":"CacheInfo", "Level":3, "Type":"CacheUnified", "Associativity":12, "LineSize":64, "CacheSize":9437184, "Group":0, "CPUIDs":[0, 1, 2, 3, 4, 5]}, {"class":"CacheInfo", "Level":1, "Type":"CacheData", "Associativity":8, "LineSize":64, "CacheSize":32768, "Group":0, "CPUIDs":[1]}, {"class":"CacheInfo", "Level":1, "Type":"CacheInstruction", "Associativity":8, "LineSize":64, "CacheSize":32768, "Group":0, "CPUIDs":[1]}, {"class":"CacheInfo", "Level":2, "Type":"CacheUnified", "Associativity":4, "LineSize":64, "CacheSize":262144, "Group":0, "CPUIDs":[1]}, {"class":"CacheInfo", "Level":1, "Type":"CacheData", "Associativity":8, "LineSize":64, "CacheSize":32768, "Group":0, "CPUIDs":[2]}, {"class":"CacheInfo", "Level":1, "Type":"CacheInstruction", "Associativity":8, "LineSize":64, "CacheSize":32768, "Group":0, "CPUIDs":[2]}, {"class":"CacheInfo", "Level":2, "Type":"CacheUnified", "Associativity":4, "LineSize":64, "CacheSize":262144, "Group":0, "CPUIDs":[2]}, {"class":"CacheInfo", "Level":1, "Type":"CacheData", "Associativity":8, "LineSize":64, "CacheSize":32768, "Group":0, "CPUIDs":[3]}, {"class":"CacheInfo", "Level":1, "Type":"CacheInstruction", "Associativity":8, "LineSize":64, "CacheSize":32768, "Group":0, "CPUIDs":[3]}, {"class":"CacheInfo", "Level":2, "Type":"CacheUnified", "Associativity":4, "LineSize":64, "CacheSize":262144, "Group":0, "CPUIDs":[3]}, {"class":"CacheInfo", "Level":1, "Type":"CacheData", "Associativity":8, "LineSize":64, "CacheSize":32768, "Group":0, "CPUIDs":[4]}, {"class":"CacheInfo", "Level":1, "Type":"CacheInstruction", "Associativity":8, "LineSize":64, "CacheSize":32768, "Group":0, "CPUIDs":[4]}, {"class":"CacheInfo", "Level":2, "Type":"CacheUnified", "Associativity":4, "LineSize":64, "CacheSize":262144, "Group":0, "CPUIDs":[4]}, {"class":"CacheInfo", "Level":1, "Type":"CacheData", "Associativity":8, "LineSize":64, "CacheSize":32768, "Group":0, "CPUIDs":[5]}, {"class":"CacheInfo", "Level":1, "Type":"CacheInstruction", "Associativity":8, "LineSize":64, "CacheSize":32768, "Group":0, "CPUIDs":[5]}, {"class":"CacheInfo", "Level":2, "Type":"CacheUnified", "Associativity":4, "LineSize":64, "CacheSize":262144, "Group":0, "CPUIDs":[5]}], "NumaInfos":[{"class":"NumaInfo", "NodeNumber":0, "CPUIDs":[0, 1, 2, 3, 4, 5]}]}
+TruSmileSupported : 1
+VendorProductVersionAboutBoxExtended : 
+Viewer_AntiAliasingSampleCount : 0
+Viewer_ShaderSupport : 1
+Viewer_TransparencyMode : 3
+ViewerCustomer : Generic
+ViewerCustomerID : 6
+ViewerCustomerPPU : False
+ViewerDemo : False
+ViewerSystemInfo : GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: Quadro M2000/PCIe/SSE2
+GL_VERSION: 4.6.0 NVIDIA 582.41
+CPU-Count: 6/6
+GL_SHADING_LANGUAGE_VERSION: 4.60 NVIDIA
+Video Memory: 4096MB
+
+WindowsIsRemotelyControlled : false
+WindowsIsRemoteSession : false
+WorkingDirectory : C:\exocad-DentalCAD3.2-2024-02-24\DentalCADApp\bin
+WPFDpiScaling : 1.00
+ApplicationURI: : null
+MainWindow: : Mészáros Réka - 2026-05-28_00006-001 - exocad DentalCAD 3.2 Elefsina 8820 [DentalCAD-Version 3.2 Engine build 8820]
+ErrorText : Show SystemInformation in Settings Window (No Error)
+GeneratedSystemInformation : 1
+SceneErrorCrash : ExceptionType: System.NullReferenceException
+
+ExceptionMessage: Object reference not set to an instance of an object.
+ExceptionStack:    at HelperToothLibrarySwitch.HelperToothLibrarySwitch.LoadAndReplaceTeethFromLibraryForJaw(List`1 teethInOneJaw, List`1 tpsInOneJaw, String libName, Scene scene, Boolean fitEachIndividualToothSeparately, Int32 fitEachIndividualToothSeparatelyApproach)
+   at HelperToothLibrarySwitch.HelperToothLibrarySwitch.SwitchLibrary_FitEachIndividualToothSeparately(List`1 appTeethToConsider, List`1 refTPs, String switchToLibName)
+   at HelperToothLibrarySwitch.HelperToothLibrarySwitch.SwitchToothLibrary(List`1 applicableTeethToConsider, List`1 referenceTPsInScene, String switchToLibName)
+   at DentalProcessorControls.CorrectPlacementProcessorControlNew.HelperToothLibSwitch_librarySelectionBox_SelectionChanged(Object sender, SelectionChangedEventArgs e)
+ErrorCodeFromStack: A9403CE199483A8B18E8FC66DC2B4A797C7E49CDC99611BD748E4D966DCA0C6C
+ErrorCodeFromStackAndMessage: 6635E3BEE4B653D2090504E1B4BF44C602BC6F7B2F88D69F65D29F35B6C8F7FC
+
+
+
+------------- END OF DETAILED INFO ---------------------------

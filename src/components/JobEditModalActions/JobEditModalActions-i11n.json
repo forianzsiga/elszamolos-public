@@ -1,0 +1,22 @@
+{
+  "en": {
+    "common.delete": "Delete",
+    "common.cancel": "Cancel",
+    "jobEdit.create": "Create",
+    "jobEdit.saveChanges": "Save Changes",
+    "common.deleteTooltip": "Delete job",
+    "common.cancelTooltip": "Cancel editing",
+    "jobEdit.createTooltip": "Create job",
+    "jobEdit.saveChangesTooltip": "Save changes"
+  },
+  "hu": {
+    "common.delete": "Törlés",
+    "common.cancel": "Mégse",
+    "jobEdit.create": "Létrehozás",
+    "jobEdit.saveChanges": "Módosítások mentése",
+    "common.deleteTooltip": "Állás törlése",
+    "common.cancelTooltip": "Szerkesztés megszakítása",
+    "jobEdit.createTooltip": "Állás létrehozása",
+    "jobEdit.saveChangesTooltip": "Módosítások mentése"
+  }
+}

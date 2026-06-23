@@ -1,0 +1,23 @@
+{
+    "sync.title": "Google Drive Szinkron",
+    "sync.setup": "Felhő Szinkron Beállítás",
+    "sync.selfDeployed.question": "Saját telepítésű verziót használ?",
+    "sync.selfDeployed.hint": "Győződjön meg róla, hogy importálta a szükséges titkos kulcsokat a környezeti változókba.",
+    "sync.notConfigured": "A Google Drive integráció nincs beállítva.",
+    "sync.notConfiguredDesc": "A felhő szinkronhoz létre kell hozni egy Google Cloud Projektet és megadni a Client ID-t és API Key-t.",
+    "sync.signIn": "Bejelentkezés Google-el",
+    "sync.signInDesc": "Jelentkezz be a munkák és tarifák mentéséhez a személyes Google Drive-odra.",
+    "sync.connected": "Kapcsolódva",
+    "sync.backup": "Mentés Felhőbe",
+    "sync.backupDesc": "Minden jelenlegi munka és beállítás mentése.",
+    "sync.restore": "Visszaállítás Felhőből",
+    "sync.restoreDesc": "Adatok visszaállítása a legutóbbi mentésből.",
+    "sync.restoreWarning": "Megjegyzés: A visszaállítás felülírja a helyi adatokat. Győződj meg róla, hogy a mentés frissebb-e.",
+    "sync.success": "Művelet sikeres!",
+    "sync.error": "Művelet sikertelen.",
+    "invoices.pageTitle": "Számlák",
+    "invoices.noInvoices": "Még nincsenek számlák.",
+    "invoices.createTip": "Válassz ki munkákat a Munka Kezelőben számla készítéséhez.",
+    "invoices.deleteConfirm": "Biztosan törlöd a számlát? A tételek státusza visszaáll \"Kalkulált\"-ra.",
+    "invoices.jobsCount": "Munka"
+}

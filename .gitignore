@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+venv/
+
+# Environment
+.env
+.env.*
+
+# Build outputs
+dist/
+dev-dist/
+build/
+.vite
+.playwright-mcp/
+.DS_Store
+coverage/
+
+# Examples and Context
+example_caddata/
+example_invoices/
+test_data/*
+bite.svg
+./*png
+GEMINI.md
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+Trace-*.json
+jobs_backup_*.json
+
+/logs/
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+caddata_zsiga/
+
+# PlantUML temporary files
+plantuml.jar
+
+artifacts/
+
+# Opencode worktrees
+.opencode/worktrees/
+
+# Tool artifacts
+refactor.bundle
+__pycache__/
+
+# Git worktrees (managed by `git worktree`, not regular gitignore rules)
+/.worktrees/*
+!/.worktrees/.gitkeep
+
+# Worktree switcher runtime state — created on first `npm run dev` when
+# the plugin renames the original `src/` directory aside so it can be
+# replaced with a junction.
+src.main/

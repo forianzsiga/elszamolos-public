@@ -1,0 +1,10 @@
+{
+  "en": {
+    "toggleHiddenItemsTooltip": "Click to expand or collapse hidden items",
+    "toggleSelectAllHiddenTooltip": "Click to select or deselect all hidden items"
+  },
+  "hu": {
+    "toggleHiddenItemsTooltip": "Kattintson a rejtett elemek kibontásához vagy összecsukásához",
+    "toggleSelectAllHiddenTooltip": "Kattintson az összes rejtett elem kijelöléséhez vagy kijelölésének törléséhez"
+  }
+}

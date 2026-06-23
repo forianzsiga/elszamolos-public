@@ -1,0 +1,14 @@
+{
+  "en": {
+    "build": "Build:",
+    "latest": "Latest:",
+    "restart": "Restart",
+    "restartTooltip": "Restart the application to apply the latest updates"
+  },
+  "hu": {
+    "build": "Verzió:",
+    "latest": "Legújabb:",
+    "restart": "Újraindítás",
+    "restartTooltip": "Indítsa újra az alkalmazást a legfrissebb frissítések alkalmazásához"
+  }
+}

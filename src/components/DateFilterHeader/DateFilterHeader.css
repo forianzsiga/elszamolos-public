@@ -1,0 +1,51 @@
+.date-filter-header {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: visible;
+  border-bottom: none;
+  padding: 8px 8px;
+  flex-shrink: 0;
+  height: 100%;
+  position: relative;
+  background-color: var(--mui-palette-background-paper);
+}
+
+.date-filter-header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  width: 100%;
+  height: 100%;
+}
+
+.date-filter-header-label-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 24px;
+  min-height: 24px;
+  overflow: hidden;
+}
+
+.date-filter-header-filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 100%;
+  overflow: hidden;
+  min-width: 0;
+  max-width: 100%;
+  height: 24px;
+  min-height: 24px;
+}
+
+.date-filter-header-sort-icon {
+  color: var(--mui-palette-action-disabled);
+  opacity: 0.7;
+}

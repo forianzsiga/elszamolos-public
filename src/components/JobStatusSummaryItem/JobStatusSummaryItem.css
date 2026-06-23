@@ -1,0 +1,97 @@
+.job-status-summary-item-paper {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    padding: 0 8px 0 4px;
+    border-radius: 99px;
+    border: 1px solid;
+    cursor: default;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: background-color 300ms, border-color 300ms, color 300ms, box-shadow 300ms;
+}
+
+/* Color variations - Light Mode Defaults */
+.job-status-color-primary {
+    background-color: rgba(25, 118, 210, 0.12);
+    border-color: rgba(25, 118, 210, 0.5);
+    color: #1976d2;
+}
+
+.job-status-color-success {
+    background-color: rgba(46, 125, 50, 0.12);
+    border-color: rgba(46, 125, 50, 0.5);
+    color: #2e7d32;
+}
+
+.job-status-color-warning {
+    background-color: rgba(237, 108, 2, 0.12);
+    border-color: rgba(237, 108, 2, 0.5);
+    color: #ed6c02;
+}
+
+.job-status-color-error {
+    background-color: rgba(211, 47, 47, 0.12);
+    border-color: rgba(211, 47, 47, 0.5);
+    color: #d32f2f;
+}
+
+.job-status-color-default {
+    background-color: rgba(0, 0, 0, 0.12);
+    border-color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.87);
+}
+
+/* Dark mode overrides */
+@media (prefers-color-scheme: dark) {
+    .job-status-color-primary {
+        background-color: rgba(144, 202, 249, 0.12);
+        border-color: rgba(144, 202, 249, 0.5);
+        color: #90caf9;
+    }
+    .job-status-color-success {
+        background-color: rgba(102, 187, 106, 0.12);
+        border-color: rgba(102, 187, 106, 0.5);
+        color: #66bb6a;
+    }
+    .job-status-color-warning {
+        background-color: rgba(255, 167, 38, 0.12);
+        border-color: rgba(255, 167, 38, 0.5);
+        color: #ffa726;
+    }
+    .job-status-color-error {
+        background-color: rgba(244, 67, 54, 0.12);
+        border-color: rgba(244, 67, 54, 0.5);
+        color: #f44336;
+    }
+    .job-status-color-default {
+        background-color: rgba(255, 255, 255, 0.12);
+        border-color: rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 0.87);
+    }
+}
+
+.job-status-summary-item-paper .MuiSvgIcon-root {
+    font-size: 1rem;
+    color: inherit;
+    margin-right: 2px;
+}
+
+.job-status-summary-item-box {
+    overflow: hidden;
+    white-space: nowrap;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    max-width: 0px;
+    opacity: 0;
+}
+
+.job-status-summary-item-box.is-hovered {
+    max-width: 200px;
+    opacity: 1;
+}
+
+.job-status-summary-item-label {
+    margin-right: 4px;
+}

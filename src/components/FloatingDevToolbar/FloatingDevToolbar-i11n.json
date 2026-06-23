@@ -1,0 +1,10 @@
+{
+  "en": {
+    "tooltip.borders": "Toggle HTML container outlines",
+    "tooltip.reactHover": "Toggle React component hover inspector"
+  },
+  "hu": {
+    "tooltip.borders": "HTML keretek körvonalának be/ki kapcsolása",
+    "tooltip.reactHover": "React komponens vizsgáló be/ki kapcsolása"
+  }
+}

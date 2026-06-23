@@ -1,0 +1,27 @@
+.custom-column-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.custom-column-header-content {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.custom-column-header-text {
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.custom-column-header-icon-button {
+  padding: 0;
+}
+
+.sort-icon-disabled {
+  color: #bdbdbd; /* Approximate for action.disabled */
+  opacity: 0.7;
+}
+

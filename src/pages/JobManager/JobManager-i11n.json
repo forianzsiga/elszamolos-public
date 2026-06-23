@@ -1,0 +1,40 @@
+{
+  "en": {
+    "invalidFileFormat": "Invalid file format: Expected a list of jobs.",
+    "importConfirm": "Importing {count} jobs will add/update them in the database. Continue?",
+    "jobUpdated": "Job updated.",
+    "removedMetadata": "Removed unused metadata: {val}",
+    "autoCleanup": "Automatically cleaned up after job update.",
+    "manualJobCreated": "Manual job created.",
+    "deleteConfirm": "Delete this job?",
+    "jobDiscarded": "Job discarded.",
+    "ruleNotFound": "Rule not found.",
+    "jobNotFound": "Job not found.",
+    "recalcFailed": "Failed to recalculate job price.",
+    "tooltip.createNewInvoice": "Create new invoice",
+    "tooltip.selectExistingInvoice": "Select invoice",
+    "tooltip.addSelectedToInvoice": "Add selected jobs to invoice",
+    "importWarningNoNewProjects": "No new .dentalProject files or model updates found.",
+    "importSuccessMix": "Successfully imported {newCount} new project(s) and updated {updatedCount} project(s) with 3D models.",
+    "importSuccessUpdatedOnly": "Successfully updated {updatedCount} project(s) with 3D models."
+  },
+  "hu": {
+    "invalidFileFormat": "Érvénytelen fájlformátum: A munkafeladatok listája várható.",
+    "importConfirm": "{count} munka importálása hozzáadja/frissíti őket az adatbázisban. Folytatja?",
+    "jobUpdated": "Munka frissítve.",
+    "removedMetadata": "Nem használt metaadat eltávolítva: {val}",
+    "autoCleanup": "Automatikusan törölve a munka frissítése után.",
+    "manualJobCreated": "Manuális munka létrehozva.",
+    "deleteConfirm": "Törli ezt a munkát?",
+    "jobDiscarded": "Munka elvetve.",
+    "ruleNotFound": "Szabály nem található.",
+    "jobNotFound": "Munka nem található.",
+    "recalcFailed": "A munkaár újraszámítása sikertelen.",
+    "tooltip.createNewInvoice": "Új számla létrehozása",
+    "tooltip.selectExistingInvoice": "Számla kiválasztása",
+    "tooltip.addSelectedToInvoice": "Kiválasztott munkák hozzáadása számlához",
+    "importWarningNoNewProjects": "Nem találhatók új .dentalProject fájlok vagy modellfrissítések.",
+    "importSuccessMix": "Sikeresen importálva {newCount} új projekt és frissítve {updatedCount} projekt 3D modellekkel.",
+    "importSuccessUpdatedOnly": "Sikeresen frissítve {updatedCount} projekt 3D modellekkel."
+  }
+}

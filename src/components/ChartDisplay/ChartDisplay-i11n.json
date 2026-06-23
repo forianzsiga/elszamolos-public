@@ -1,0 +1,14 @@
+{
+  "en": {
+    "invoiced": "Invoiced",
+    "applied": "Applied",
+    "pending": "Pending",
+    "total": "Total"
+  },
+  "hu": {
+    "invoiced": "Számlázott",
+    "applied": "Alkalmazott",
+    "pending": "Függőben",
+    "total": "Összesen"
+  }
+}

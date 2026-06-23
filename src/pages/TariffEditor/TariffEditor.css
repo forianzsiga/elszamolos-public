@@ -1,0 +1,38 @@
+.tariff-editor-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: auto;
+}
+
+@media (min-width: 900px) {
+    .tariff-editor-container {
+        height: calc(100vh - 120px);
+    }
+}
+
+.hidden-file-input {
+    display: none;
+}
+
+.tariff-editor-paper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 16px;
+    min-height: 550px;
+}
+
+@media (min-width: 900px) {
+    .tariff-editor-paper {
+        min-height: 300px;
+    }
+}
+
+.rule-editor-wrapper {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+}

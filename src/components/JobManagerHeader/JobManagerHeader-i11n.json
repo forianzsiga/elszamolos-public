@@ -1,0 +1,30 @@
+{
+    "en": {
+        "jobs.title": "Job Manager",
+        "jobs.actions.addManual": "Add Manual Job",
+        "jobs.actions.addManualTooltip": "Add a new job manually",
+        "jobs.actions.importJson": "Import JSON",
+        "jobs.actions.importJsonTooltip": "Import jobs from a JSON file",
+        "jobs.actions.exportJson": "Export JSON",
+        "jobs.actions.exportJsonTooltip": "Export current jobs to a JSON file",
+        "jobs.actions.scanning": "Scanning...",
+        "jobs.actions.importFolder": "Import Folder",
+        "jobs.actions.importFolderTooltip": "Import jobs from a directory",
+        "jobs.actions.recalculate": "Recalculate",
+        "jobs.actions.recalculateTooltip": "Recalculate all job data"
+    },
+    "hu": {
+        "jobs.title": "Munka Kezelő",
+        "jobs.actions.addManual": "Manuális Munka",
+        "jobs.actions.addManualTooltip": "Új munka hozzáadása manuálisan",
+        "jobs.actions.importJson": "JSON Import",
+        "jobs.actions.importJsonTooltip": "Munkák importálása JSON fájlból",
+        "jobs.actions.exportJson": "JSON Export",
+        "jobs.actions.exportJsonTooltip": "Munkák exportálása JSON fájlba",
+        "jobs.actions.scanning": "Olvasás...",
+        "jobs.actions.importFolder": "Mappa Import",
+        "jobs.actions.importFolderTooltip": "Munkák importálása mappából",
+        "jobs.actions.recalculate": "Újraszámolás",
+        "jobs.actions.recalculateTooltip": "Minden munkaadat újraszámolása"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "en": {
+        "status.invoiced": "Invoiced",
+        "statusTooltip.invoiced": "Jobs that have been added to an invoice.",
+        "status.applied": "Applied",
+        "statusTooltip.applied": "Jobs with all units successfully matched to a pricing rule.",
+        "status.pending": "Pending",
+        "statusTooltip.pending": "Jobs waiting for rule evaluation.",
+        "status.review": "Review",
+        "statusTooltip.review": "Jobs requiring manual check or containing invalid items.",
+        "status.ignored": "Ignored",
+        "statusTooltip.ignored": "Jobs manually discarded from the workflow."
+    },
+    "hu": {
+        "status.invoiced": "Számlázva",
+        "statusTooltip.invoiced": "Munkák, amelyek már szerepelnek egy számlán.",
+        "status.applied": "Árazott",
+        "statusTooltip.applied": "Munkák, ahol minden egység sikeresen árazva lett.",
+        "status.pending": "Függőben",
+        "statusTooltip.pending": "Árazásra váró munkák.",
+        "status.review": "Ellenőrzés",
+        "statusTooltip.review": "Kézi ellenőrzést igénylő vagy hibás munkák.",
+        "status.ignored": "Kizárva",
+        "statusTooltip.ignored": "A folyamatból kézileg kizárt munkák."
+    }
+}

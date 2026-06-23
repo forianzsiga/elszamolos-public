@@ -1,0 +1,116 @@
+/**
+ * @file ModelLayersPanel.css
+ * @brief Styles for the model layers panel in the 3D viewer.
+ */
+
+.layers-panel-root {
+    position: relative;
+    margin: 8px;
+    width: 180px;
+    background-color: rgba(18, 18, 18, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(4px);
+    flex-shrink: 0;
+}
+
+.layers-panel-header {
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    flex-shrink: 0;
+}
+
+.layers-panel-title {
+    color: #b0bec5;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.layers-panel-scroll {
+    flex: 1;
+    overflow-y: auto;
+    padding: 4px 0;
+}
+
+.layer-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 2px 4px;
+    transition: background-color 0.15s ease;
+    min-height: 36px;
+}
+
+.layer-row:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+.layer-row-active {
+    background-color: rgba(77, 171, 245, 0.12);
+    border: 1px solid rgba(77, 171, 245, 0.3);
+}
+
+.layer-color-swatch {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: var(--swatch-color, #888888);
+}
+
+.layer-name {
+    flex: 1;
+    font-size: 0.8rem;
+    color: #e0e0e0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: monospace;
+}
+
+.layer-base-badge {
+    font-size: 0.65rem;
+    color: #4caf50;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    flex-shrink: 0;
+}
+
+.layer-visibility-switch {
+    flex-shrink: 0;
+}
+
+.layer-visibility-button {
+    color: #b0bec5;
+    padding: 4px;
+}
+
+.layer-visibility-button:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.layer-row-missing {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.layer-row-missing:hover {
+    background-color: transparent;
+}
+
+.layer-missing-icon {
+    color: #ff9800;
+    flex-shrink: 0;
+}

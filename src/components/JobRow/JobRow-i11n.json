@@ -1,0 +1,22 @@
+{
+  "en": {
+    "3d": "3D",
+    "chart": "Chart",
+    "loading3d": "Loading 3D viewer...",
+    "viewer3d": "3D Model Viewer",
+    "selectJob": "Select job",
+    "expandRow": "Expand row",
+    "editJob": "Edit job",
+    "stlMissingTooltip": "only pointer and work related filter works, you need to reload the work files."
+  },
+  "hu": {
+    "3d": "3D",
+    "chart": "Diagram",
+    "loading3d": "3D nézegető betöltése...",
+    "viewer3d": "3D modell nézegető",
+    "selectJob": "Job kiválasztása",
+    "expandRow": "Sor kibontása",
+    "editJob": "Job szerkesztése",
+    "stlMissingTooltip": "csak a mutató és a munkával kapcsolatos szűrő működik, újra be kell töltenie a munkafájlokat."
+  }
+}

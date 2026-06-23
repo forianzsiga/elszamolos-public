@@ -1,0 +1,10 @@
+/* RecentJobRow styles */
+
+.recent-job-info-icon {
+    color: var(--mui-palette-action-disabled);
+}
+
+.recent-job-info-icon.modified {
+    color: var(--mui-palette-info-main);
+}
+

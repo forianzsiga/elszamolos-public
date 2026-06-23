@@ -1,0 +1,37 @@
+.hidden-items-header-row {
+    min-height: 50px;
+    border-left: 4px solid transparent;
+    cursor: pointer;
+    border-bottom: 1px solid var(--mui-palette-divider);
+    display: grid;
+    align-items: center;
+}
+
+.hidden-items-header-row.light {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.hidden-items-header-row.dark {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden-items-label-cell {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 16px;
+    border-right: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.hidden-items-text {
+    color: var(--mui-palette-text-secondary);
+}

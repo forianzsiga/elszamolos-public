@@ -1,0 +1,12 @@
+{
+  "en": {
+    "jobs.action.edit": "Edit Details",
+    "jobs.action.discard": "Discard",
+    "jobs.actions.delete": "Delete"
+  },
+  "hu": {
+    "jobs.action.edit": "Részletek szerkesztése",
+    "jobs.action.discard": "Elvetés",
+    "jobs.actions.delete": "Törlés"
+  }
+}

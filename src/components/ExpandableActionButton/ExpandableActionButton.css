@@ -1,0 +1,53 @@
+.expandable-action-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid var(--main-color);
+    border-radius: 24px;
+    padding: 4px;
+    min-width: 34px;
+    height: 34px;
+    transition: all 0.4s cubic-bezier(0.2, 0, 0, 1);
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    max-width: var(--max-width);
+}
+
+.text-container {
+    transition: all 0.4s cubic-bezier(0.2, 0, 0, 1);
+    overflow: hidden;
+    max-width: 0px;
+    opacity: 0;
+}
+
+.text-container.expanded {
+    max-width: 200px;
+    opacity: 1;
+}
+
+.label-text {
+    font-weight: bold;
+    display: block;
+    color: var(--main-color);
+}
+
+.label-text.left-margin {
+    margin-left: 12px;
+    margin-right: 8px;
+}
+
+.label-text.right-margin {
+    margin-left: 8px;
+    margin-right: 12px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: var(--main-color);
+}

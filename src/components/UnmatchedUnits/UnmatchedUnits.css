@@ -1,0 +1,92 @@
+.unmatched-units-container {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 16px;
+    background-color: var(--mui-palette-background-paper);
+    min-height: 220px;
+}
+
+.unmatched-units-container.is-collapsed {
+    min-height: auto;
+}
+
+.unmatched-units-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.unmatched-units-header.is-collapsed {
+    margin-bottom: 0;
+}
+
+.unmatched-units-title {
+    color: var(--mui-palette-text-primary);
+    font-weight: 600;
+}
+
+.unmatched-units-content {
+    flex: 1;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    align-items: stretch;
+    gap: 16px;
+    padding-bottom: 8px;
+}
+
+.unmatched-units-card {
+    min-width: 260px;
+    flex-shrink: 0;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.unmatched-units-card-content {
+    padding: 12px !important;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.unmatched-units-grid {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    row-gap: 4px;
+    column-gap: 16px;
+    align-items: baseline;
+    margin-bottom: 16px;
+}
+
+.unmatched-units-text-limited {
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.unmatched-units-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.unmatched-units-buttons .MuiButton-root {
+    text-transform: none !important;
+}
+
+.unmatched-units-remaining {
+    min-width: 150px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    background-color: var(--mui-palette-action-hover);
+}

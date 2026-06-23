@@ -1,0 +1,101 @@
+.rule-editor-container {
+    padding: 24px;
+    overflow-y: auto;
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+}
+.rule-editor-grid-full {
+    display: flex;
+    gap: 24px;
+}
+.flex-align-center-gap-1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.margin-bottom-3 {
+    margin-bottom: 24px;
+}
+.margin-bottom-2 {
+    margin-bottom: 16px;
+}
+.active-section-paper {
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.04); /* fallback, or use theme variable if possible */
+    margin-bottom: 16px;
+}
+.exclusion-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.exclusion-item, .application-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: rgba(128, 128, 128, 0.08);
+    border-radius: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+}
+.flex-align-center-gap-1-5 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.flex-gap-1 {
+    display: flex;
+    gap: 8px;
+}
+.application-list-container {
+    width: 100%;
+}
+.actions-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}
+.rule-type-action-container {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.rule-type-action-group {
+    flex: 1 1 300px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.rule-type-action-group--row {
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.rule-type-action-group--row > .MuiTextField-root {
+    min-width: 110px;
+}
+.rule-editor-price-value {
+    flex: 1 1 200px;
+}
+.rule-editor-currency-select {
+    flex: 0 0 auto;
+    min-width: 110px;
+    max-width: 130px;
+}
+.rule-editor-currency-chip {
+    margin-left: 4px;
+    background-color: rgba(211, 47, 47, 0.12);
+    color: #d32f2f;
+    border: 1px solid rgba(211, 47, 47, 0.4);
+}
+.rule-editor-currency-chip .MuiChip-deleteIcon {
+    color: #d32f2f;
+    opacity: 0.8;
+}
+.rule-editor-currency-chip .MuiChip-deleteIcon:hover {
+    color: #b71c1c;
+    opacity: 1;
+}

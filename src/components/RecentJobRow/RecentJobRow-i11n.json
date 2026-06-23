@@ -1,0 +1,12 @@
+{
+  "en": {
+    "modified": "Modified",
+    "original": "Original",
+    "editJob": "Edit Job"
+  },
+  "hu": {
+    "modified": "Módosított",
+    "original": "Eredeti",
+    "editJob": "Munka szerkesztése"
+  }
+}

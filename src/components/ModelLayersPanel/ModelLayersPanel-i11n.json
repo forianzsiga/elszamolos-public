@@ -1,0 +1,18 @@
+{
+    "en": {
+        "layers": "Layers",
+        "showLayer": "Show layer",
+        "hideLayer": "Hide layer",
+        "baseLayer": "Base",
+        "baseLayerLocked": "Base layer is always visible",
+        "missingFile": "Model file not found. Re-import the source folder to load it."
+    },
+    "hu": {
+        "layers": "Rétegek",
+        "showLayer": "Réteg megjelenítése",
+        "hideLayer": "Réteg elrejtése",
+        "baseLayer": "Alap",
+        "baseLayerLocked": "Az alapréteg mindig látható",
+        "missingFile": "A modellfájl nem található. Importálja újra a forrásmappát a betöltéshez."
+    }
+}

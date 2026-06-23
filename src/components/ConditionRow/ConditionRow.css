@@ -1,0 +1,15 @@
+.condition-row-container {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.condition-row-field,
+.condition-row-operator {
+    width: 150px;
+}
+
+.condition-row-value {
+    flex-grow: 1;
+}

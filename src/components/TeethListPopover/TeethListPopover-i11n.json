@@ -1,0 +1,16 @@
+{
+  "en": {
+    "teethList.title": "Unit Details",
+    "teethList.noDetails": "No unit details available",
+    "teethTable.material": "Material",
+    "teethTable.type": "Type",
+    "teethTable.number": "#"
+  },
+  "hu": {
+    "teethList.title": "Egység részletei",
+    "teethList.noDetails": "Nincsenek elérhető egység részletek",
+    "teethTable.material": "Anyag",
+    "teethTable.type": "Típus",
+    "teethTable.number": "#"
+  }
+}

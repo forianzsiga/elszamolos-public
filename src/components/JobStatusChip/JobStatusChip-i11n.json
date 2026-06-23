@@ -1,0 +1,20 @@
+{
+  "en": {
+    "status.applied": "Calculated",
+    "status.review": "Review",
+    "status.invalid": "Invalid",
+    "status.ignored": "Discarded",
+    "status.invoiced": "Invoiced",
+    "status.manual": "Manual",
+    "status.pending": "Pending"
+  },
+  "hu": {
+    "status.applied": "Kiszámítva",
+    "status.review": "Ellenőrzés",
+    "status.invalid": "Érvénytelen",
+    "status.ignored": "Elvetve",
+    "status.invoiced": "Számlázva",
+    "status.manual": "Kézi",
+    "status.pending": "Függőben"
+  }
+}

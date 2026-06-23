@@ -1,0 +1,16 @@
+{
+  "en": {
+    "search": "Search",
+    "noMatches": "No matches found",
+    "filterMenu": "Filter column",
+    "toggleFilter": "Toggle filter",
+    "searchField": "Search field"
+  },
+  "hu": {
+    "search": "Keresés",
+    "noMatches": "Nincs találat",
+    "filterMenu": "Oszlop szűrése",
+    "toggleFilter": "Szűrő kapcsolása",
+    "searchField": "Keresőmező"
+  }
+}

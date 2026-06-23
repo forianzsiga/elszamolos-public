@@ -1,0 +1,20 @@
+{
+    "en": {
+        "errorLoading": "Failed to parse 3D STL file.",
+        "activeModel": "Active 3D Model:",
+        "noModel": "No Model Loaded",
+        "resetView": "Reset View",
+        "modelsNotFoundTitle": "3D Models Not Found",
+        "modelsNotFoundMessage": "This project was initially loaded with 3D models, but they are currently not found in the app's local storage. Import jobs again to reimport models (projects must contain 3D object files in the root).",
+        "toggleProjection": "Toggle between Perspective and Orthographic projection"
+    },
+    "hu": {
+        "errorLoading": "Nem sikerült feldolgozni a 3D STL fájlt.",
+        "activeModel": "Aktív 3D modell:",
+        "noModel": "Nincs modell betöltve",
+        "resetView": "Nézet alaphelyzetbe",
+        "modelsNotFoundTitle": "A 3D modellek nem találhatók",
+        "modelsNotFoundMessage": "Ez a projekt eredetileg 3D modellekkel lett betöltve, de jelenleg nem találhatók az alkalmazás helyi tárolójában. Importálja újra a munkákat a modellek újbóli betöltéséhez (a projekteknek a gyökérben kell tartalmazniuk a 3D objektumfájlokat).",
+        "toggleProjection": "Váltás perspektivikus és ortografikus vetítés között"
+    }
+}

@@ -1,0 +1,9 @@
+.job-row-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.job-row-actions .discard-action-discarded {
+    opacity: 0.2;
+}

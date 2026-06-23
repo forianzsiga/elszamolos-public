@@ -1,0 +1,161 @@
+@startuml Pricing Engine Activity
+!theme plain
+skinparam backgroundColor white
+skinparam linetype ortho
+skinparam activity {
+    BackgroundColor #E8F5E9
+    DiamondBackgroundColor #FFF9C4
+}
+
+title DentalRaktar - Pricing Engine Activity Diagram
+
+start
+
+:Receive Job & Rules;
+
+if (Job valid?) then (no)
+    :Log error;
+    :Return null;
+    stop
+else (yes)
+endif
+
+:Filter invalid rules;
+:Sort rules by priority\n(ascending: 1, 2, 3...);
+:Split rules by kind\n(base, toothExtra, jobExtra);
+
+if (Job status == Discarded\nor Invoiced?) then (yes)
+    :Return job unchanged;
+    stop
+else (no)
+endif
+
+:Initialize counters:\ntotalPrice = 0\ntotalBase = 0\ntotalExtra = 0\nteethMatched = 0\nhasReview = false\nhasInvalid = false;
+
+partition "Process Each Tooth" {
+    while (More teeth to process?) is (yes)
+        :Get next tooth;
+        
+        if (Tooth already Invoiced?) then (yes)
+            :Keep existing price/status;
+            :teethMatched++;
+            :totalPrice += tooth.price;
+        else (no)
+            :Create EvaluationContext\n(Job + Tooth properties);
+            
+            partition "Find Matching Base Rule" {
+                while (More base rules?) is (yes)
+                    :Get next base rule (by priority);
+                    :Evaluate ALL conditions;
+                    
+                    if (All conditions match?) then (yes)
+                        :matchedBaseRule = base rule;
+                        break
+                    else (no)
+                    endif
+                endwhile
+            }
+            
+            if (matchedBaseRule found?) then (yes)
+                :basePrice = 0;\nextraPrice = 0;\ntoothStatus = Calculated;
+
+                switch (matchedBaseRule.action.type)
+                    case (setPricePerUnit)
+                        :basePrice = action.value;
+                    case (setFixedPrice)
+                        :basePrice = action.value;
+                    case (setReview)
+                        :toothStatus = 'Review';
+                        :hasReview = true;
+                    case (setInvalid)
+                        :toothStatus = 'Invalid';
+                        :hasInvalid = true;
+                endswitch
+
+                :Create breakdown list\nwith base rule;
+
+                if (toothStatus == Calculated?) then (yes)
+                    partition "Apply Tooth Extras (Additive)" {
+                        while (More toothExtra rules?) is (yes)
+                            :Get next toothExtra rule;
+                            :Evaluate ALL conditions;
+
+                            if (Rule matches?) then (yes)
+                                if (Action is price action?) then (yes)
+                                    if (Currency matches base?) then (yes)
+                                        :extraPrice += extra amount;
+                                        :Add extra rule to breakdown list;
+                                    else (no)
+                                        :Skip extra (currency mismatch);
+                                    endif
+                                else (no)
+                                    :Skip extra (non-additive action);
+                                endif
+                            else (no)
+                            endif
+                        endwhile
+                    }
+                else (no)
+                endif
+
+                if (toothStatus == Calculated?) then (yes)
+                    :tooth.price = basePrice + extraPrice;
+                else (no)
+                    :tooth.price = 0;
+                endif
+                
+                :Attach pricing breakdown to tooth\n(base + extras + metadata);
+                :teethMatched++;
+                :totalPrice += tooth.price;
+                :totalBase += basePrice;
+                :totalExtra += extraPrice;
+            else (no)
+                :tooth.status = 'Pending';
+                :tooth.price = 0;
+            endif
+        endif
+    endwhile (no)
+}
+
+partition "Determine Final Job Status" {
+    if (hasInvalid?) then (yes)
+        :finalStatus = 'Invalid';
+    elseif (hasReview?) then (yes)
+        :finalStatus = 'Review';
+    elseif (teethMatched == unitCount\nAND unitCount > 0?) then (yes)
+        if (All teeth Invoiced?) then (yes)
+            :finalStatus = 'Invoiced';
+        else (no)
+            :finalStatus = 'Calculated';
+        endif
+    else (no)
+        :finalStatus = 'Pending';
+    endif
+}
+
+if (finalStatus == Calculated?) then (yes)
+    partition "Apply Job Extras (Additive, Once/Job)" {
+        while (More jobExtra rules?) is (yes)
+            :Evaluate rule against tooth contexts;
+            if (Any context matches?) then (yes)
+                if (Action is price action?) then (yes)
+                    :totalExtra += amount;
+                    :totalPrice += amount;
+                    :Add job-level breakdown line;
+                else (no)
+                    :Skip job extra (non-additive action);
+                endif
+            else (no)
+            endif
+        endwhile
+    }
+else (no)
+endif
+
+:Determine job currency from\npriced teeth + job extras\n(HUF, EUR, or MIXED);
+
+:Return updated Job object;
+
+stop
+
+@enduml

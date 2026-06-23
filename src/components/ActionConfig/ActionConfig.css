@@ -1,0 +1,13 @@
+.action-config-container {
+  margin-bottom: 24px;
+}
+
+.price-field-helper-text {
+  position: absolute;
+  bottom: -20px;
+}
+
+.currency-field {
+  width: 90px;
+  flex-shrink: 0;
+}

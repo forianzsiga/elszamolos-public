@@ -1,0 +1,18 @@
+{
+  "en": {
+    "dashboard.overview": "Overview",
+    "dashboard.startDate": "Start Date",
+    "dashboard.endDate": "End Date",
+    "dashboard.periodRevenue": "Period Revenue",
+    "dashboard.jobsInPeriod": "Jobs in Period",
+    "dashboard.issues": "Issues / Review"
+  },
+  "hu": {
+    "dashboard.overview": "Áttekintés",
+    "dashboard.startDate": "Kezdő dátum",
+    "dashboard.endDate": "Végdátum",
+    "dashboard.periodRevenue": "Időszaki Bevétel",
+    "dashboard.jobsInPeriod": "Munkák száma",
+    "dashboard.issues": "Problémás / Átnézendő"
+  }
+}

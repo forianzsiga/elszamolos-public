@@ -1,0 +1,23 @@
+{
+    "sync.title": "Google Drive Sync",
+    "sync.setup": "Cloud Sync Setup",
+    "sync.selfDeployed.question": "Are you using a self-deployed release?",
+    "sync.selfDeployed.hint": "Make sure you import the necessary secrets in your environment.",
+    "sync.notConfigured": "Google Drive integration is not configured.",
+    "sync.notConfiguredDesc": "To enable cloud sync, you need to create a Google Cloud Project and provide the Client ID and API Key.",
+    "sync.signIn": "Sign in with Google",
+    "sync.signInDesc": "Sign in to back up your jobs and tariffs to your personal Google Drive.",
+    "sync.connected": "Connected",
+    "sync.backup": "Backup to Cloud",
+    "sync.backupDesc": "Saves all current jobs and settings to cloud backup.",
+    "sync.restore": "Restore from Cloud",
+    "sync.restoreDesc": "Restores data from the last found backup.",
+    "sync.restoreWarning": "Note: Restoring will overwrite your local data. Make sure your backup is newer than your current work.",
+    "sync.success": "Operation successful!",
+    "sync.error": "Operation failed.",
+    "invoices.pageTitle": "Invoices",
+    "invoices.noInvoices": "No invoices created yet.",
+    "invoices.createTip": "Select jobs in the Job Manager to create an invoice.",
+    "invoices.deleteConfirm": "Delete this invoice? This will revert unit statuses to \"Calculated\".",
+    "invoices.jobsCount": "Jobs"
+}

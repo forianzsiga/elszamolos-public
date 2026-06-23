@@ -1,0 +1,24 @@
+{
+    "en": {
+        "status.duplicate": "Duplicate",
+        "status.modified": "Modified",
+        "status.original": "Original",
+        "action.findDuplicates": "Find Duplicates",
+        "action.findDuplicatesTooltip": "Click to find duplicate jobs",
+        "label.jobId": "Job ID:",
+        "label.projectId": "Project ID:",
+        "label.hash": "Hash:",
+        "label.orig": "Orig:"
+    },
+    "hu": {
+        "status.duplicate": "Duplikátum",
+        "status.modified": "Módosított",
+        "status.original": "Eredeti",
+        "action.findDuplicates": "Duplikátumok keresése",
+        "action.findDuplicatesTooltip": "Kattintson a duplikált feladatok kereséséhez",
+        "label.jobId": "Job azonosító:",
+        "label.projectId": "Projekt azonosító:",
+        "label.hash": "Hash:",
+        "label.orig": "Eredeti hash:"
+    }
+}

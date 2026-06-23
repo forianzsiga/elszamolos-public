@@ -1,0 +1,166 @@
+.vdt-container {
+    height: var(--vdt-height, 100%);
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+}
+
+.vdt-header-slot {
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    /*
+     * Scale the header by the same factor as the body so the column grid
+     * (and the vertical separator lines drawn by ResizeHandle::before)
+     * stay aligned with the body cell boundaries when the user zooms the
+     * table in/out (Ctrl+wheel, pinch, zoom pill). Without this the header
+     * is at 1.0x while the body is at Nx and the separators drift away
+     * from the column edges.
+     */
+    zoom: var(--vdt-zoom-scale, 1);
+}
+
+.vdt-inner-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+    zoom: var(--vdt-zoom-scale, 1);
+    height: calc(100% / var(--vdt-zoom-scale, 1));
+    width: var(--vdt-total-width, 100%);
+    min-width: max-content;
+}
+
+.vdt-scroller {
+    flex: 1;
+}
+
+.vdt-render-row-box {
+    min-width: var(--vdt-total-width, 100%);
+}
+
+.vdt-row-box {
+    grid-template-columns: var(--vdt-grid-columns, auto);
+    min-width: var(--vdt-total-width, 100%);
+    display: grid;
+    align-items: center;
+    background-color: inherit;
+}
+
+.vdt-cell-checkbox {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0;
+    justify-content: center;
+}
+
+.vdt-cell-content {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.vdt-cell-align-left {
+    justify-content: flex-start;
+}
+
+.vdt-cell-align-right {
+    justify-content: flex-end;
+}
+
+.vdt-cell-align-center {
+    justify-content: center;
+}
+
+.vdt-cell-end-spacer {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-bottom: none;
+    border-right: none;
+}
+
+.vdt-row-separator {
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+
+.vdt-cell-measure {
+    display: inline-flex;
+    min-width: 0;
+    max-width: 100%;
+}
+
+.vdt-zoom-indicator {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 1100;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    cursor: pointer;
+    backdrop-filter: blur(4px);
+    transition: opacity 0.2s;
+    user-select: none;
+}
+.vdt-zoom-indicator:hover {
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+.vdt-zoom-help {
+    opacity: 0.6;
+    font-size: 0.65rem;
+    margin-top: 4px;
+    font-style: italic;
+}
+
+.vdt-empty-placeholder {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+.vdt-column-menu-header {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.vdt-column-menu-item {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.vdt-column-menu-label {
+    pointer-events: none;
+    margin: 0;
+}
+
+.vdt-footer-spacer {
+    height: 20px;
+}
+
+.vdt-virtuoso-container {
+    height: 100%;
+    width: 100%;
+}

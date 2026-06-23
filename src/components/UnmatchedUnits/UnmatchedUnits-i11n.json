@@ -1,0 +1,20 @@
+{
+  "en": {
+    "expand": "Expand",
+    "collapse": "Collapse",
+    "title": "Unmatched Units",
+    "allMatched": "All units matched",
+    "createRule": "Create Rule",
+    "modifyJob": "Modify Job",
+    "more": "more"
+  },
+  "hu": {
+    "expand": "Kibontás",
+    "collapse": "Összecsukás",
+    "title": "Nem párosított egységek",
+    "allMatched": "Minden egység párosítva",
+    "createRule": "Szabály létrehozása",
+    "modifyJob": "Munka módosítása",
+    "more": "további"
+  }
+}

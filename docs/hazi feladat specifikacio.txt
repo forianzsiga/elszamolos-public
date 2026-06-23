@@ -1,0 +1,10 @@
+Egy fogászati munkaösszesítőt szeretnék Reacttel készíteni. Lenne egy backendje mock funkciókkal mivel az úgy sem kerülhet pontozásra és extra meló (file parsing, stb...). A jövőben ez a program tényleges funkciót szolgál, ezért lenne szükség egy ilyen backendre. Szeretnék minél több funkcionalitást kliensoldalon megvalósítani a megfelelő komplexitáshoz.
+Ez a program egy ártábla alapján gyűjti össze ExoCAD munkafájlt. Az ártáblákat felhasználóbarát "programozható logikával" szeretném megvalósítani. Pl. ha a tag cirkon tömbből készült híd, akkor az ára legyen 5000ft. Ha a jegyzettömbben vannak karakterek, a munka manuális figyelmet igényel. Ha a munka PMMA-ból készül és implantátumos, a tétel invalid. Ezek frontenden pédául példányosítható komponenslista formájában lenne megjelenítve a felhasználóknak. Emellett lenne több page is implementálva. Pl. dashboard ahol exportálhatod Crtl+P-vel a végleges munkalapot, szabályszerkesztő, új fájlok importálása és meglévő munkák tárolása.
+
+Példa az elvárásokra:
+ - Funkcionalitás: ez nyilván végső bírálaton fog múlni hogy elvárt funkciókat teljesíti-e. Mivel ez egy igen komplex projekt, ezért kérem ezt a pontot elnézőbben tekintsék (pl. nem egy működő számológép appal egyenrangú)
+ - Komplexitás: Ez a projekt önmagában tulszárnyal egy mintraprogram projektet, emiatt ez szerintem meglesz, de ez is a bírálaton fog múlni
+ - Kódszervezés: ez is bírálaton fog múlni
+ - JS API-k: LocalStorage UI állapottároláshoz, IndexedDB a munkák fenntartásához, fetch a backenddel való kommunikációhoz
+ - Kommentek: bírálaton múlik
+ - Design: bírálaton múlik, de a projekt létezésének oka a monoton összesítések automatizált, átlátható és felhasználóbarát lebonyolítása, tehát ennek megfelelően szeretném megvalósítani az UI-t.

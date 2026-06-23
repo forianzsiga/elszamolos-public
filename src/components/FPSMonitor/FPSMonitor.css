@@ -1,0 +1,32 @@
+.fps-monitor-paper {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  padding: 8px;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  min-width: 80px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.fps-monitor-label {
+  opacity: 0.7;
+}
+
+.fps-monitor-value {
+  font-weight: bold;
+}
+
+.fps-monitor-value.high {
+  color: #4caf50;
+}
+
+.fps-monitor-value.medium {
+  color: #ff9800;
+}
+
+.fps-monitor-value.low {
+  color: #f44336;
+}

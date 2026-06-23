@@ -1,0 +1,32 @@
+{
+  "en": {
+    "date": "Date",
+    "status": "Status",
+    "state": "State",
+    "patient": "Patient",
+    "doctor": "Doctor",
+    "projectId": "Project ID",
+    "hash": "Hash",
+    "type": "Type",
+    "material": "Material",
+    "units": "Units",
+    "screw": "Screw",
+    "price": "Price",
+    "actions": "Actions"
+  },
+  "hu": {
+    "date": "Dátum",
+    "status": "Státusz",
+    "state": "Állapot",
+    "patient": "Páciens",
+    "doctor": "Orvos",
+    "projectId": "Projekt ID",
+    "hash": "Hash",
+    "type": "Típus",
+    "material": "Anyag",
+    "units": "Egységek",
+    "screw": "Csavar",
+    "price": "Ár",
+    "actions": "Műveletek"
+  }
+}

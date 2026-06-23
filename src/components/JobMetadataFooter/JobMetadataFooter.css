@@ -1,0 +1,51 @@
+.job-metadata-footer {
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.job-metadata-footer-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.job-metadata-footer-status-icon {
+    color: rgba(255, 255, 255, 0.38);
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.job-metadata-footer-status-icon.is-duplicate {
+    color: #ffd700;
+}
+
+.job-metadata-footer-status-icon.is-modified {
+    color: cyan;
+}
+
+.job-metadata-footer-status-text {
+    line-height: 1;
+}
+
+.job-metadata-footer-action {
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #90caf9;
+}
+
+.job-metadata-footer-monospace {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.job-metadata-footer-hash-monospace {
+    font-family: monospace;
+}

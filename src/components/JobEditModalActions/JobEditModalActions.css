@@ -1,0 +1,15 @@
+.job-edit-modal-actions {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  justify-content: flex-end;
+}
+
+.job-edit-modal-actions.has-delete {
+  justify-content: space-between;
+}
+
+.action-buttons-container {
+  display: flex;
+  gap: 8px;
+}

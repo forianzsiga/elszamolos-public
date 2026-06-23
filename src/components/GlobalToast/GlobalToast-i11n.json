@@ -1,0 +1,16 @@
+{
+  "en": {
+    "edit": "Edit",
+    "viewLog": "View Log",
+    "editTooltip": "Edit this rule",
+    "viewLogTooltip": "View log details",
+    "closeTooltip": "Close notification"
+  },
+  "hu": {
+    "edit": "Szerkesztés",
+    "viewLog": "Napló megtekintése",
+    "editTooltip": "Szabály szerkesztése",
+    "viewLogTooltip": "Napló részletek megtekintése",
+    "closeTooltip": "Értesítés bezárása"
+  }
+}

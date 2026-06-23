@@ -1,0 +1,30 @@
+{
+  "en": {
+    "title": "Tariff Rules",
+    "search": "Search rules...",
+    "recalculate": "Recalculate",
+    "recalculateTooltip": "Recalculate all rules",
+    "import": "Import",
+    "importTooltip": "Import rules from file",
+    "export": "Export",
+    "exportTooltip": "Export rules to file",
+    "exportUser": "User Export",
+    "exportSystem": "System Export",
+    "newRule": "New Rule",
+    "newRuleTooltip": "Create a new rule"
+  },
+  "hu": {
+    "title": "Tarifa szabályok",
+    "search": "Szabályok keresése...",
+    "recalculate": "Újraszámolás",
+    "recalculateTooltip": "Összes szabály újraszámolása",
+    "import": "Importálás",
+    "importTooltip": "Szabályok importálása fájlból",
+    "export": "Exportálás",
+    "exportTooltip": "Szabályok exportálása fájlba",
+    "exportUser": "Felhasználói export",
+    "exportSystem": "Rendszer export",
+    "newRule": "Új szabály",
+    "newRuleTooltip": "Új szabály létrehozása"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "en": {
+    "upToDate": "up to date",
+    "latest": "latest",
+    "updateAvailable": "update available",
+    "build": "Build"
+  },
+  "hu": {
+    "upToDate": "naprakész",
+    "latest": "legújabb",
+    "updateAvailable": "frissítés elérhető",
+    "build": "Build"
+  }
+}

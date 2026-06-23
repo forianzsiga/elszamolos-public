@@ -1,0 +1,16 @@
+{
+    "en": { 
+        "part1": "Load your data from ",
+        "jobs": "Jobs",
+        "part2": " or ",
+        "drive": "Google Drive",
+        "part3": " to start."
+    },
+    "hu": { 
+        "part1": "Töltsd be adataidat a ",
+        "jobs": "Feladatokból",
+        "part2": " vagy a ",
+        "drive": "Google Drive-ból",
+        "part3": "-ból a kezdéshez."
+    }
+}

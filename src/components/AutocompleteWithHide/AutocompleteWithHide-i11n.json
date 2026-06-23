@@ -1,0 +1,20 @@
+{
+    "en": {
+        "visibleGroup": "Visible",
+        "hiddenGroup": "Hidden",
+        "hiddenBadge": "hidden",
+        "hideTooltip": "Move to hidden list",
+        "restoreTooltip": "Restore to visible list",
+        "hideAriaLabel": "Hide option",
+        "restoreAriaLabel": "Restore option"
+    },
+    "hu": {
+        "visibleGroup": "Látható",
+        "hiddenGroup": "Rejtett",
+        "hiddenBadge": "rejtett",
+        "hideTooltip": "Áthelyezés a rejtett listába",
+        "restoreTooltip": "Visszahelyezés a látható listába",
+        "hideAriaLabel": "Opció elrejtése",
+        "restoreAriaLabel": "Opció visszaállítása"
+    }
+}

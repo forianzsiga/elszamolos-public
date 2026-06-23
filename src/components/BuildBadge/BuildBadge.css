@@ -1,0 +1,28 @@
+.build-badge {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.build-badge-hide-mobile {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .build-badge-hide-mobile {
+    display: flex;
+  }
+}
+
+.build-badge-latest-info {
+  color: #ed6c02;
+}
+
+.build-badge-status-outdated {
+  color: var(--mui-palette-warning-main);
+}
+
+.build-badge-status-uptodate {
+  color: var(--mui-palette-success-main);
+}

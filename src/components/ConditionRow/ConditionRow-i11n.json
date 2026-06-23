@@ -1,0 +1,38 @@
+{
+  "en": {
+    "field": "Field",
+    "operator": "Operator",
+    "loading": "Loading...",
+    "selectMultiple": "Select Multiple",
+    "selectOrType": "Select or Type",
+    "value": "Value",
+    "deleteCondition": "Delete condition",
+    "material": "Material",
+    "type": "Type",
+    "unitCount": "Unit Count",
+    "notes": "Notes",
+    "equals": "Equals",
+    "contains": "Contains",
+    "greaterThan": "Greater Than",
+    "lessThan": "Less Than",
+    "isOneOf": "Is One Of"
+  },
+  "hu": {
+    "field": "Mező",
+    "operator": "Operátor",
+    "loading": "Betöltés...",
+    "selectMultiple": "Többszörös választás",
+    "selectOrType": "Válassz vagy írj be",
+    "value": "Érték",
+    "deleteCondition": "Feltétel törlése",
+    "material": "Anyag",
+    "type": "Típus",
+    "unitCount": "Darabszám",
+    "notes": "Megjegyzés",
+    "equals": "Egyenlő",
+    "contains": "Tartalmazza",
+    "greaterThan": "Nagyobb, mint",
+    "lessThan": "Kisebb, mint",
+    "isOneOf": "Egyik a következőkből"
+  }
+}

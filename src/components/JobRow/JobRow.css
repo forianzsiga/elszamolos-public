@@ -1,0 +1,119 @@
+.job-row {
+  display: grid;
+  align-items: center;
+  transition: background-color 0.2s ease-in-out;
+  border-bottom: 1px solid rgba(224, 224, 224, 0.3);
+  grid-template-columns: var(--grid-template-columns);
+}
+
+.job-row.Mui-selected {
+  background-color: var(--mui-palette-action-selected);
+}
+
+.state-icon {
+    font-size: small;
+}
+
+.state-icon.duplicate {
+    color: #ffd700;
+}
+
+.state-icon.modified {
+    color: cyan;
+}
+
+.state-icon.original {
+    color: var(--mui-palette-action-disabled);
+}
+
+.expand-icon {
+  margin-right: 8px;
+}
+
+.threed-label {
+  padding: 0.8px 4.8px;
+  border-radius: 4px;
+  background-color: var(--mui-palette-primary-main);
+  color: var(--mui-palette-primary-contrastText);
+  font-size: 0.6rem;
+  font-weight: bold;
+  cursor: help;
+}
+
+.collapsible-container {
+  grid-column: 1 / -1;
+  width: 100%;
+  border-top: 1px dashed rgba(0,0,0,0.1);
+}
+
+.collapsible-content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+@media (min-width: 900px) {
+  .collapsible-content {
+    flex-direction: row;
+    gap: 32px;
+    padding: 16px;
+  }
+}
+@media (max-width: 899px) {
+  .collapsible-content {
+    padding: 8px;
+    gap: 16px;
+  }
+}
+
+.teeth-table-container {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+
+@media (min-width: 900px) {
+  .teeth-table-container {
+    max-height: 480px;
+  }
+}
+@media (max-width: 899px) {
+  .teeth-table-container {
+    max-height: 220px;
+  }
+}
+
+.visualizer-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart-title {
+  width: 100%;
+}
+
+.accordion-3d {
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.loading-3d {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.job-row .grid-cell-container {
+  border-right: none;
+}
