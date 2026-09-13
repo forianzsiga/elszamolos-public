@@ -1,0 +1,123 @@
+@startuml Use Case Overview
+!theme plain
+skinparam backgroundColor white
+skinparam actorStyle awesome
+skinparam linetype ortho
+skinparam nodesep 40
+skinparam ranksep 50
+skinparam usecase {
+    BackgroundColor<<core>> #C8E6C9
+    BackgroundColor<<advanced>> #B3E5FC
+    BackgroundColor<<dev>> #FFECB3
+}
+
+title DentalRaktar - Use Case Diagram
+
+left to right direction
+
+actor "Dental Technician" as Tech
+actor "Administrator" as Admin
+actor "Developer" as Dev
+
+rectangle "DentalRaktar System" {
+    
+    package "Job Management" {
+        usecase "Import .dentalProject files" as UC1 <<core>>
+        usecase "View job list" as UC2 <<core>>
+        usecase "Filter & search jobs" as UC3 <<core>>
+        usecase "Edit job details" as UC4 <<core>>
+        usecase "Discard duplicate jobs" as UC5 <<core>>
+        usecase "Delete jobs" as UC6 <<core>>
+        usecase "View teeth visualization" as UC7 <<core>>
+    }
+    
+    package "Pricing" {
+        usecase "Calculate job prices" as UC8 <<core>>
+        usecase "Create pricing rules" as UC9 <<core>>
+        usecase "Edit pricing rules" as UC10 <<core>>
+        usecase "Reorder rule priority" as UC11 <<core>>
+        usecase "Delete pricing rules" as UC12 <<core>>
+        usecase "Import rules from JSON" as UC13 <<advanced>>
+    }
+    
+    package "Invoicing" {
+        usecase "Create invoice" as UC14 <<core>>
+        usecase "Add jobs to invoice" as UC15 <<core>>
+        usecase "View invoice preview" as UC16 <<core>>
+        usecase "Print invoice" as UC17 <<core>>
+        usecase "Configure company details" as UC18 <<advanced>>
+    }
+    
+    package "Analytics" {
+        usecase "View dashboard statistics" as UC19 <<core>>
+        usecase "View revenue timeline" as UC20 <<advanced>>
+        usecase "View recent jobs" as UC21 <<core>>
+    }
+    
+    package "System" {
+        usecase "Sync to Google Drive" as UC22 <<advanced>>
+        usecase "Export database backup" as UC23 <<advanced>>
+        usecase "Import database backup" as UC24 <<advanced>>
+        usecase "View system logs" as UC25 <<dev>>
+        usecase "Toggle developer mode" as UC26 <<dev>>
+        usecase "Import mock data" as UC27 <<dev>>
+    }
+}
+
+' Technician use cases
+Tech --> UC1
+Tech --> UC2
+Tech --> UC3
+Tech --> UC4
+Tech --> UC5
+Tech --> UC7
+Tech --> UC8
+Tech --> UC14
+Tech --> UC15
+Tech --> UC16
+Tech --> UC17
+Tech --> UC19
+Tech --> UC21
+
+' Admin extends technician
+Admin --> UC6
+Admin --> UC9
+Admin --> UC10
+Admin --> UC11
+Admin --> UC12
+Admin --> UC13
+Admin --> UC18
+Admin --> UC20
+Admin --> UC22
+Admin --> UC23
+Admin --> UC24
+
+' Developer features
+Dev --> UC25
+Dev --> UC26
+Dev --> UC27
+
+' Layout hints to align packages vertically
+"Job Management" -[hidden]d- Pricing
+Pricing -[hidden]d- Invoicing
+Invoicing -[hidden]d- Analytics
+Analytics -[hidden]d- System
+
+' Relationships
+UC1 ..> UC8 : <<include>>
+UC8 ..> UC9 : <<include>>
+UC15 ..> UC8 : <<precondition>>\nstatus=Calculated
+UC14 ..> UC15 : <<include>>
+
+note right of UC8
+  Core business logic
+  implemented in
+  pricingEngine.ts
+end note
+
+note bottom of UC1
+  Uses File System
+  Access API
+end note
+
+@enduml

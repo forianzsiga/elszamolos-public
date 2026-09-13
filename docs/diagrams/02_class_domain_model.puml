@@ -1,0 +1,170 @@
+@startuml Domain Model
+!theme plain
+skinparam backgroundColor white
+skinparam classAttributeIconSize 0
+skinparam linetype ortho
+skinparam nodesep 60
+skinparam ranksep 60
+
+title DentalRaktar - Domain Model (Class Diagram)
+
+package "Core Domain" #FFFDE7 {
+    
+    class Job {
+        +id: string
+        +patientName: string
+        +doctorName: string
+        +fileName: string
+        +createdAt: string
+        +teeth: Tooth[]
+        +unitCount: number
+        +teethMatched?: number
+        +status: JobStatus
+        +price: number
+        +currency?: string
+        +notes: string
+        +projectId?: string
+        +originalHash?: string
+        +validationErrors?: string[]
+        +parentInvoiceId?: string
+    }
+    
+    class Tooth {
+        +number: number
+        +material: string
+        +type: string
+        +implantType?: string
+        +isScrewRetained?: boolean
+        --
+        +price?: number
+        +currency?: 'HUF' | 'EUR'
+        +status?: ToothStatus
+        +validationErrors?: string[]
+        +appliedRuleId?: string
+        +appliedRuleName?: string
+        +appliedRulePriority?: number
+        +parentInvoiceId?: string
+    }
+    
+    enum JobStatus {
+        Pending
+        Calculated
+        Review
+        Invalid
+        Discarded
+        Invoiced
+        Manual
+    }
+    
+    class Invoice {
+        +id: string
+        +invoiceNumber: string
+        +startDate: string
+        +endDate: string
+        +createdAt: string
+        +totalAmount: number
+        +currency: 'HUF' | 'EUR' | 'MIXED'
+        +jobCount: number
+    }
+    
+    Job "1" *-- "1..*" Tooth : contains
+    Job "0..*" --> "0..1" Invoice : belongs to
+    Tooth --> JobStatus : has status
+}
+
+package "Pricing Rules" #E3F2FD {
+    
+    class TariffRule {
+        +id: string
+        +name: string
+        +label: string
+        +priority: number
+        +conditions: TariffCondition[]
+        +action: TariffAction
+        +isSystem?: boolean
+        +isVisibleInInvoice?: boolean
+    }
+    
+    class TariffCondition {
+        +field: ConditionField
+        +operator: ConditionOperator
+        +value: string | number | string[] | boolean
+    }
+    
+    class TariffAction {
+        +type: TariffActionType
+        +value?: number
+        +currency?: 'HUF' | 'EUR'
+    }
+    
+    enum ConditionField {
+        material
+        type
+        unitCount
+        notes
+        doctorName
+        patientName
+        isScrewRetained
+    }
+    
+    enum ConditionOperator {
+        equals
+        notEquals
+        contains
+        notContains
+        greaterThan
+        lessThan
+        isOneOf
+        notOneOf
+    }
+    
+    enum TariffActionType {
+        setPricePerUnit
+        setFixedPrice
+        setInvalid
+        setReview
+    }
+    
+    TariffRule "1" *-- "1..*" TariffCondition
+    TariffRule "1" *-- "1" TariffAction
+    TariffCondition --> ConditionField
+    TariffCondition --> ConditionOperator
+    TariffAction --> TariffActionType
+}
+
+package "Settings" #F3E5F5 {
+    class PersonalDetails {
+        +companyName: string
+        +streetAddress: string
+        +cityStateZip: string
+        +phone: string
+        +fax: string
+        +website: string
+        +contactName: string
+        +contactPhone: string
+        +contactEmail: string
+        +taxRate: number
+    }
+    
+    class BackupData {
+        +version: number
+        +timestamp: string
+        +jobs: Job[]
+        +rules: TariffRule[]
+        +invoices: Invoice[]
+        +settings?: UserSettings
+    }
+}
+
+' Layout alignment
+"Core Domain" -[hidden]r- "Pricing Rules"
+"Core Domain" -[hidden]d- "Settings"
+
+' Cross-package relationships
+TariffRule ..> Tooth : evaluates against
+Invoice ..> PersonalDetails : uses for display
+BackupData o-- Job
+BackupData o-- TariffRule
+BackupData o-- Invoice
+
+@enduml

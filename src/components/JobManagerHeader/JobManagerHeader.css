@@ -1,0 +1,82 @@
+.job-manager-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+@media (min-width: 1200px) {
+    .job-manager-header {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.job-manager-header-title {
+    line-height: 1.1;
+}
+
+.job-manager-header-status {
+    margin-top: 8px;
+}
+
+.job-manager-header-actions {
+    display: grid;
+    gap: 8px;
+    align-items: stretch;
+    width: 100%;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 600px) {
+    .job-manager-header-actions {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 900px) {
+    .job-manager-header-actions {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1200px) {
+    .job-manager-header-actions {
+        width: auto;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .job-manager-header-actions.is-developer {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+}
+
+.job-manager-action-button {
+    width: 100%;
+    min-width: 0;
+    height: 46px;
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    justify-content: center;
+    text-overflow: ellipsis;
+    font-size: 0.78rem;
+}
+
+@media (min-width: 600px) {
+    .job-manager-action-button {
+        font-size: 0.85rem;
+    }
+}
+
+.job-manager-action-button .MuiButton-startIcon {
+    margin-left: 0;
+    margin-right: 6px;
+}
+
+.job-manager-action-button .MuiButton-startIcon + * {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

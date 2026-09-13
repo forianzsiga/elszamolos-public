@@ -1,0 +1,34 @@
+.material-cell-root {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  max-width: 100%;
+}
+
+.material-cell-value {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.material-cell-overflow-chip {
+  cursor: pointer;
+  flex-shrink: 0;
+  height: 18px;
+}
+
+.material-cell-overflow-chip .MuiChip-label {
+  font-size: 0.65rem;
+  padding: 0 6px;
+}
+
+.material-cell-tooltip-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.material-cell-tooltip-item {
+  font-size: 0.8125rem;
+  line-height: 1.6;
+}

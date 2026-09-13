@@ -1,0 +1,123 @@
+@startuml Component Architecture
+!theme plain
+skinparam componentStyle uml2
+skinparam backgroundColor white
+skinparam packagePadding 20
+skinparam componentPadding 10
+skinparam linetype ortho
+skinparam nodesep 50
+skinparam ranksep 50
+
+title DentalRaktar - Component Architecture
+
+package "React Application" {
+    
+    package "Context Layer (Stack)" <<Rectangle>> #E8F5E9 {
+        [ColorModeContext] as CMC
+        [DeveloperContext] as DC
+        [LanguageContext] as LC
+        [LogContext] as LogC
+        [JobContext] as JC
+        [TariffContext] as TC
+        [InvoiceContext] as IC
+        
+        ' Stack representation
+        CMC -[hidden]d- DC
+        DC -[hidden]d- LC
+        LC -[hidden]d- LogC
+        LogC -[hidden]d- JC
+        JC -[hidden]d- TC
+        TC -[hidden]d- IC
+    }
+    
+    package "Pages" <<Rectangle>> #E3F2FD {
+        [Dashboard] as Dash
+        [SyncSettings] as Sync
+        [JobManagerPage] as JMP
+        [TariffEditorPage] as TEP
+        [InvoicesPage] as InvP
+        [LogsPage] as LogP
+    }
+    
+    package "UI Components" <<Rectangle>> #FFF3E0 {
+        package "Job Components" {
+            [JobTable] as JT
+            [JobRow] as JR
+            [JobEditModal] as JEM
+            [TeethVisualizer] as TV
+        }
+        package "Tariff Components" {
+            [RuleList] as RL
+            [RuleEditor] as RE
+            [ConditionRow] as CR
+        }
+        package "Invoice Components" {
+            [InvoicePreview] as IPrev
+            [PrintableInvoice] as PI
+            [PersonalDetailsForm] as PDF
+        }
+        [MainLayout] as ML
+        [VirtualDataTable] as VDT
+    }
+}
+
+package "Services Layer" <<Rectangle>> #FFFDE7 {
+    [pricingEngine] as PE
+    [fileScanner] as FS
+    [dbService] as DB
+    [googleDrive] as GD
+}
+
+package "Browser APIs" <<Rectangle>> #ECEFF1 {
+    database "IndexedDB" as IDB
+    cloud "File System API" as FSA
+    cloud "Google Drive API" as GDA
+}
+
+' Layout hints
+"Context Layer (Stack)" -[hidden]r- Pages
+Pages -[hidden]d- "UI Components"
+
+' Relationships
+' Pages to Contexts
+Dash --> JC
+Dash --> TC
+JMP --> JC
+JMP --> TC
+JMP --> IC
+TEP --> TC
+InvP --> IC
+InvP --> JC
+Sync --> JC
+LogP --> LogC
+
+' Page to Components
+JMP --> JT
+JMP --> JEM
+JT --> VDT
+JT --> JR
+JR --> TV
+TEP --> RL
+TEP --> RE
+RE --> CR
+InvP --> IPrev
+InvP --> PI
+InvP --> PDF
+
+' Services
+JMP --> FS
+JMP --> PE
+Sync --> GD
+PE --> DB
+FS --> DB
+
+' Browser APIs
+DB --> IDB
+FS --> FSA
+GD --> GDA
+
+@enduml
+FS -d-> FSA
+GD -d-> GDA
+
+@enduml

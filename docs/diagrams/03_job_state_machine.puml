@@ -1,0 +1,97 @@
+@startuml Job State Machine
+!theme plain
+skinparam backgroundColor white
+skinparam linetype ortho
+skinparam nodesep 50
+skinparam ranksep 50
+skinparam state {
+    BackgroundColor<<pending>> #FFF9C4
+    BackgroundColor<<calculated>> #C8E6C9
+    BackgroundColor<<review>> #FFECB3
+    BackgroundColor<<invalid>> #FFCDD2
+    BackgroundColor<<discarded>> #CFD8DC
+    BackgroundColor<<invoiced>> #B3E5FC
+}
+
+title DentalRaktar - Job Lifecycle State Machine
+
+[*] --> Pending : File Imported
+
+state Pending <<pending>> {
+    Pending : No matching rules found
+    Pending : or not yet calculated
+}
+
+state Calculated <<calculated>> {
+    Calculated : All teeth matched rules
+    Calculated : Price determined
+}
+
+state Review <<review>> {
+    Review : Rule flagged for review
+    Review : (e.g., unknown material)
+}
+
+state Invalid <<invalid>> {
+    Invalid : Rule explicitly marked invalid
+    Invalid : or validation failed
+}
+
+state Discarded <<discarded>> {
+    Discarded : Manually discarded by user
+    Discarded : (duplicate, error, etc.)
+}
+
+state Invoiced <<invoiced>> {
+    Invoiced : Added to an invoice
+    Invoiced : Locked from editing
+}
+
+' Transitions from Pending
+Pending --> Calculated : calculateJobPrice()\n[all teeth matched]
+Pending --> Review : calculateJobPrice()\n[setReview action]
+Pending --> Invalid : calculateJobPrice()\n[setInvalid action]
+Pending --> Discarded : User discards job
+
+' Transitions from Calculated
+Calculated --> Pending : RESET_JOBS\n(recalculate)
+Calculated --> Review : Rule changed\n+ recalculate
+Calculated --> Invoiced : Add to Invoice
+Calculated --> Discarded : User discards job
+
+' Transitions from Review
+Review --> Calculated : Rule updated\n+ recalculate
+Review --> Pending : RESET_JOBS
+Review --> Discarded : User discards job
+Review --> Invoiced : Add to Invoice\n(force)
+
+' Transitions from Invalid
+Invalid --> Calculated : Rule updated\n+ recalculate
+Invalid --> Pending : RESET_JOBS
+Invalid --> Discarded : User discards job
+
+' Discarded is terminal for calculations but can be deleted
+Discarded --> [*] : DELETE_JOB
+
+' Invoiced preserves state
+Invoiced --> [*] : Invoice Finalized
+
+note right of Pending
+  **Entry Point**
+  Jobs enter here after
+  file import via FileScanner
+end note
+
+note right of Invoiced
+  **Terminal State**
+  Status preserved during
+  recalculations (protected)
+end note
+
+note left of Discarded
+  **Soft Delete**
+  Excluded from calculations
+  but retained in database
+end note
+
+@enduml

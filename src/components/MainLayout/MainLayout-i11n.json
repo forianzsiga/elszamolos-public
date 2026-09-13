@@ -1,0 +1,38 @@
+{
+  "en": {
+    "app.worktreeLabel": "Worktree:",
+    "menu.collapse": "Collapse menu",
+    "tooltip.darkMode": "Toggle dark mode",
+    "tooltip.developerMode": "Toggle developer mode",
+    "tooltip.openDrawer": "Open navigation menu",
+    "tooltip.dashboard": "Dashboard",
+    "tooltip.jobs": "Jobs",
+    "tooltip.tariffs": "Tariffs",
+    "tooltip.invoices": "Invoices",
+    "tooltip.logs": "Logs",
+    "tooltip.sync": "Sync",
+    "settings.borders": "Container Borders",
+    "tooltip.borders": "Toggle HTML container outlines",
+    "settings.reactHover": "React Hover",
+    "tooltip.reactHover": "Toggle React component hover inspector",
+    "settings.escExit": "Press Esc to exit React Hover Mode"
+  },
+  "hu": {
+    "app.worktreeLabel": "Worktree:",
+    "menu.collapse": "Menü összecsukása",
+    "tooltip.darkMode": "Sötét mód be/ki",
+    "tooltip.developerMode": "Fejlesztői mód be/ki",
+    "tooltip.openDrawer": "Navigációs menü megnyitása",
+    "tooltip.dashboard": "Vezérlőpult",
+    "tooltip.jobs": "Munkák",
+    "tooltip.tariffs": "Tarifák",
+    "tooltip.invoices": "Számlák",
+    "tooltip.logs": "Naplók",
+    "tooltip.sync": "Szinkronizálás",
+    "settings.borders": "Keretek megjelenítése",
+    "tooltip.borders": "HTML keretek körvonalának be/ki kapcsolása",
+    "settings.reactHover": "React elemvizsgáló",
+    "tooltip.reactHover": "React komponens vizsgáló be/ki kapcsolása",
+    "settings.escExit": "Nyomja meg az Esc-et a kilépéshez"
+  }
+}

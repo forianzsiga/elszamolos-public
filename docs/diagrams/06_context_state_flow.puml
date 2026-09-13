@@ -1,0 +1,105 @@
+@startuml Context State Flow
+!theme plain
+skinparam backgroundColor white
+skinparam linetype ortho
+skinparam nodesep 50
+skinparam ranksep 50
+
+title DentalRaktar - React Context & State Management (Communication Diagram)
+
+rectangle "User Interface" as UI #E3F2FD {
+    component "Dashboard" as Dash
+    component "JobManagerPage" as JMP
+    component "TariffEditorPage" as TEP
+    component "InvoicesPage" as InvP
+}
+
+rectangle "React Context Layer" as CTX #E8F5E9 {
+    
+    component "JobContext" as JC {
+        storage "JobState" as JS {
+            file "jobs: Job[]" as jobs
+            file "isLoading: boolean" as jLoad
+            file "error: string | null" as jErr
+        }
+    }
+    
+    component "TariffContext" as TC {
+        storage "TariffState" as TS {
+            file "rules: TariffRule[]" as rules
+            file "isLoading: boolean" as tLoad
+        }
+    }
+    
+    component "InvoiceContext" as IC {
+        storage "InvoiceState" as IS {
+            file "invoices: Invoice[]" as invs
+            file "personalDetails" as pd
+        }
+    }
+    
+    component "LogContext" as LC {
+        storage "logs: LogEntry[]" as logs
+    }
+}
+
+rectangle "Services" as SVC #FFFDE7 {
+    component "dbService" as DB
+    component "pricingEngine" as PE
+    component "fileScanner" as FS
+}
+
+database "IndexedDB" as IDB #CFD8DC
+
+' Layout hints
+UI -[hidden]d- CTX
+CTX -[hidden]r- SVC
+
+' UI to Context connections (useContext hooks)
+Dash ..> JC : useJobs()
+Dash ..> TC : useTariffs()
+JMP ..> JC : useJobs()
+JMP ..> TC : useTariffs()
+JMP ..> IC : useInvoices()
+JMP ..> LC : useLogs()
+TEP ..> TC : useTariffs()
+TEP ..> LC : useLogs()
+InvP ..> IC : useInvoices()
+InvP ..> JC : useJobs()
+
+' Context to Service connections
+JC -r-> DB : persist jobs
+TC -r-> DB : persist rules
+IC -r-> DB : persist invoices
+
+' Service interactions
+PE ..> TC : read rules
+FS -r-> DB : save parsed jobs
+
+' Persistence layer
+DB -d-> IDB
+
+' Action flow annotations
+note bottom of JC
+  **Actions:**
+  SET_JOBS | ADD_JOB | ADD_JOBS
+  UPDATE_JOB | UPDATE_JOBS
+  DELETE_JOB | DELETE_JOBS
+  RESET_JOBS
+end note
+
+note bottom of TC
+  **Actions:**
+  SET_RULES | ADD_RULE
+  UPDATE_RULE | DELETE_RULE
+  DELETE_RULES | REORDER_RULES
+end note
+
+note bottom of IC
+  **Actions:**
+  SET_INVOICES | ADD_INVOICE
+  UPDATE_INVOICE | DELETE_INVOICE
+  SET_PERSONAL_DETAILS
+end note
+
+@enduml

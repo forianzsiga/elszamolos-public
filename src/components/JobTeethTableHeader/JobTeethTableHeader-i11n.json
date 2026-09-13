@@ -1,0 +1,10 @@
+{
+  "en": {
+    "expand": "Expand",
+    "expandTooltip": "Expand table"
+  },
+  "hu": {
+    "expand": "Kibontás",
+    "expandTooltip": "Táblázat kibontása"
+  }
+}

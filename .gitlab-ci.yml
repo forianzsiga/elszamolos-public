@@ -1,0 +1,68 @@
+# .gitlab-ci.yml for Elszámolós
+stages:
+  - build-dev
+  - build-release
+  - sync-github
+
+variables:
+  DOCKER_DRIVER: overlay2
+  DOCKER_TLS_CERTDIR: ""
+  DOCKER_INSECURE_REGISTRY: "forianzsiga-nas.tail1e86f8.ts.net:5050"
+
+default:
+  image: docker:24.0.5
+  services:
+    - name: docker:24.0.5-dind
+      command: ["--insecure-registry=forianzsiga-nas.tail1e86f8.ts.net:5050"]
+
+build_dev:
+  stage: build-dev
+  only:
+    - main
+  script:
+    - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin "$CI_REGISTRY"
+    - SHORT_SHA=$(echo $CI_COMMIT_SHA | cut -c1-7)
+    - docker build --build-arg VITE_IDB_NAME=DentalRaktarDB_dev --build-arg VITE_APP_VERSION="$SHORT_SHA" -t "$CI_REGISTRY_IMAGE:dev" -t "$CI_REGISTRY_IMAGE:$SHORT_SHA" .
+    - docker push "$CI_REGISTRY_IMAGE:dev"
+    - docker push "$CI_REGISTRY_IMAGE:$SHORT_SHA"
+
+build_release:
+  stage: build-release
+  only:
+    - /^v[0-9]+\.[0-9]+\.[0-9]+/
+  script:
+    - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin "$CI_REGISTRY"
+    - TAG="$CI_COMMIT_TAG"
+    - docker build --build-arg VITE_IDB_NAME=DentalRaktarDB_prod --build-arg VITE_APP_VERSION="$TAG" -t "$CI_REGISTRY_IMAGE:latest" -t "$CI_REGISTRY_IMAGE:$TAG" .
+    - docker push "$CI_REGISTRY_IMAGE:latest"
+    - docker push "$CI_REGISTRY_IMAGE:$TAG"
+
+push_to_github:
+  stage: sync-github
+  image:
+    name: alpine/git:latest
+    entrypoint: [""]
+  services: []
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main" || $CI_COMMIT_TAG'
+  before_script:
+    - which ssh-agent || (apk add --no-cache openssh-client git-lfs)
+    - eval $(ssh-agent -s)
+    - echo "$GH_SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh && chmod 700 ~/.ssh
+    - ssh-keyscan -t rsa,ecdsa,ed25519 github.com >> ~/.ssh/known_hosts
+    - git config --global user.name "GitLab CI"
+    - git config --global user.email "gitlab-ci@forianzsiga-nas"
+  script:
+    - git remote add gh git@github.com:forianzsiga/elszamolos.git || git remote set-url gh git@github.com:forianzsiga/elszamolos.git
+    - |
+      if [ -n "$CI_COMMIT_BRANCH" ]; then
+        echo "Pushing branch $CI_COMMIT_BRANCH to GitHub..."
+        git push gh "HEAD:$CI_COMMIT_BRANCH"
+      fi
+      if [ -n "$CI_COMMIT_TAG" ]; then
+        echo "Pushing tag $CI_COMMIT_TAG to GitHub..."
+        git push gh "$CI_COMMIT_TAG"
+      fi
+
+

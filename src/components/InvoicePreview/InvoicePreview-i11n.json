@@ -1,0 +1,30 @@
+{
+  "en": {
+    "units": "Units:",
+    "jobExtraOnce": "Once",
+    "doctor": "Doctor",
+    "jobs": "jobs",
+    "patient": "Patient",
+    "jobDate": "Date:",
+    "id": "ID:",
+    "item": "Item",
+    "qty": "Qty",
+    "price": "Price",
+    "total": "Total",
+    "invoiceTotal": "Total"
+  },
+  "hu": {
+    "units": "Egységek:",
+    "jobExtraOnce": "Egyszeri",
+    "doctor": "Orvos",
+    "jobs": "munka",
+    "patient": "Páciens",
+    "jobDate": "Dátum:",
+    "id": "Azonosító:",
+    "item": "Tétel",
+    "qty": "Menny.",
+    "price": "Ár",
+    "total": "Összesen",
+    "invoiceTotal": "Összesen"
+  }
+}

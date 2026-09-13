@@ -1,0 +1,6 @@
+.add-unit-modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* 2 * 8px */
+    margin-top: 8px; /* 1 * 8px */
+}

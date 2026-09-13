@@ -1,0 +1,30 @@
+{
+  "en": {
+    "dashboard.recentActivity": "Recent Activity",
+    "jobs.column.date": "Date",
+    "jobs.column.status": "Status",
+    "jobs.column.state": "State",
+    "jobs.column.patient": "Patient",
+    "jobs.column.doctor": "Doctor",
+    "jobs.column.type": "Type",
+    "jobs.column.material": "Material",
+    "jobs.column.units": "Units",
+    "jobs.column.price": "Price",
+    "jobs.column.actions": "Actions",
+    "confirm.delete": "Delete this job?"
+  },
+  "hu": {
+    "dashboard.recentActivity": "Legutóbbi tevékenység",
+    "jobs.column.date": "Dátum",
+    "jobs.column.status": "Státusz",
+    "jobs.column.state": "Állapot",
+    "jobs.column.patient": "Páciens",
+    "jobs.column.doctor": "Orvos",
+    "jobs.column.type": "Típus",
+    "jobs.column.material": "Anyag",
+    "jobs.column.units": "Egységek",
+    "jobs.column.price": "Ár",
+    "jobs.column.actions": "Műveletek",
+    "confirm.delete": "Törli ezt a munkát?"
+  }
+}

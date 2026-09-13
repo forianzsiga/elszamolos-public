@@ -1,0 +1,30 @@
+{
+  "en": {
+    "pageTitle": "Logs",
+    "clear": "Clear Logs",
+    "search": "Search logs...",
+    "filterClear": "Clear Filters",
+    "filterHidden": "hidden",
+    "columns": "Columns",
+    "filterShowing": "Showing",
+    "filterResults": "results",
+    "details": "Details:",
+    "clearTooltip": "Clear all logs",
+    "filterClearTooltip": "Clear active filters",
+    "columnsTooltip": "Toggle visible columns"
+  },
+  "hu": {
+    "pageTitle": "Naplók",
+    "clear": "Naplók törlése",
+    "search": "Naplók keresése...",
+    "filterClear": "Szűrők törlése",
+    "filterHidden": "rejtett",
+    "columns": "Oszlopok",
+    "filterShowing": "Megjelenítve",
+    "filterResults": "találat",
+    "details": "Részletek:",
+    "clearTooltip": "Összes napló törlése",
+    "filterClearTooltip": "Aktív szűrők törlése",
+    "columnsTooltip": "Oszlopok láthatóságának váltása"
+  }
+}

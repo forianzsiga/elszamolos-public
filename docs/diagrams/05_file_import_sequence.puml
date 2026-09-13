@@ -1,0 +1,88 @@
+@startuml File Import Sequence
+!theme plain
+skinparam backgroundColor white
+skinparam sequenceMessageAlign center
+skinparam responseMessageBelowArrow true
+
+title DentalRaktar - File Import Sequence Diagram
+
+actor User
+participant "JobManagerPage" as JMP
+participant "fileScanner" as FS
+participant "pricingEngine" as PE
+participant "dbService" as DB
+participant "JobContext" as JC
+database "IndexedDB" as IDB
+participant "Browser\nFile System API" as FSA
+
+== Import Trigger ==
+User -> JMP: Click "Import" button
+activate JMP
+
+JMP -> FSA: showDirectoryPicker()
+activate FSA
+FSA --> User: Show folder dialog
+User -> FSA: Select folder
+FSA --> JMP: DirectoryHandle
+deactivate FSA
+
+== File Scanning ==
+JMP -> FS: scanAndParseFolder(handle)
+activate FS
+
+loop For each .dentalProject file
+    FS -> FSA: getFile()
+    FSA --> FS: File content
+    
+    FS -> FS: parseDentalProject(xml)
+    note right: Parse XML structure\nExtract patient, doctor,\nteeth details
+    
+    FS -> FS: generateJobHash()
+    note right: Create hash for\nduplicate detection
+end
+
+FS --> JMP: Job[] (parsed jobs)
+deactivate FS
+
+== Duplicate Detection ==
+JMP -> JMP: Check for duplicates\n(compare originalHash)
+
+alt Duplicates found
+    JMP --> User: Show warning notification
+end
+
+== Price Calculation ==
+JMP -> PE: calculateJobPrice(job, rules)
+activate PE
+
+loop For each tooth
+    PE -> PE: evaluateCondition()
+    PE -> PE: Apply matching rule
+end
+
+PE --> JMP: Job with prices
+deactivate PE
+
+== Persistence ==
+JMP -> DB: addJobs(jobs)
+activate DB
+DB -> IDB: put(jobs)
+IDB --> DB: Success
+DB --> JMP: Success
+deactivate DB
+
+JMP -> DB: updateMetadata(materials)
+JMP -> DB: updateMetadata(types)
+
+== State Update ==
+JMP -> JC: dispatch({ type: 'ADD_JOBS', payload })
+activate JC
+JC -> JC: jobReducer()
+JC --> JMP: State updated
+deactivate JC
+
+JMP --> User: Show success notification\n"Imported X jobs"
+
+deactivate JMP
+
+@enduml

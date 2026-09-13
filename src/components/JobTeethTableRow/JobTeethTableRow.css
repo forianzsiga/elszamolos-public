@@ -1,0 +1,274 @@
+.job-teeth-table-row {
+    display: grid;
+    align-items: stretch;
+    transition: all 70ms ease-in-out;
+    cursor: default;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    animation: none;
+    position: relative;
+    grid-template-columns: var(--row-grid-columns);
+    background-color: var(--row-background);
+    opacity: var(--row-opacity, 1);
+    min-height: 50px;
+}
+
+.job-teeth-table-row.is-excluded {
+    /* pointer-events: none; */
+}
+
+.job-teeth-table-row.is-excluded::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 56px;
+    right: 0;
+    background: rgba(128, 128, 128, 0.3);
+    z-index: 5;
+    pointer-events: none;
+}
+
+.job-teeth-table-row.is-job-extra {
+    background-color: rgba(255, 255, 255, 0.04);
+    font-style: italic;
+}
+
+.job-teeth-table-row.is-extra-row {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.flex-cell {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    flex-shrink: 0;
+    border-bottom: none;
+    border-right: none;
+    align-self: stretch;
+    min-height: 50px;
+}
+
+.chevron-cell {
+    padding: 0;
+    justify-content: center;
+    width: 48px;
+    min-width: 48px;
+    max-width: 48px;
+}
+
+.expand-chevron {
+    padding: 0;
+    color: text.secondary;
+}
+
+.expand-chevron-placeholder {
+    width: 48px;
+    height: 24px;
+}
+
+.row-cell {
+    padding: 0 16px;
+    justify-content: var(--cell-justify);
+    color: var(--cell-color);
+}
+
+.row-cell.is-number-col {
+    padding: 0 0 0 8px;
+}
+
+.inner-content {
+    display: inline-block;
+    min-width: 0;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.inner-content.is-strikethrough {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+/* Chevron expansion panel. Sits directly below the row; the parent
+ * VirtualDataTable's row wrapper is a block container so the Collapse
+ * stacks naturally underneath the grid row. The panel is darkened
+ * against the row surface so the individual bullets (which keep the
+ * default surface) read as light rows on a dark background — gives the
+ * "secondary content beneath the main row" affordance without an
+ * extra border on every bullet. */
+.applied-rules-chevron-content {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    position: relative;
+}
+
+/* Vertical indent guide line. Drawn on the chevron-content wrapper
+ * (the natural place per the design notes) so it spans the full height
+ * of the panel — clearly belonging to the parent row above, not a
+ * free-floating decoration. The line sits at the right edge of the
+ * 48px chevron column, matching the leadingColumnWidth of the table
+ * grid. Neutral white-alpha — no color accent: colors are reserved
+ * for teeth (in the chart) and chips (universal list affordances). */
+.applied-rules-chevron-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 48px;
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.18);
+    pointer-events: none;
+}
+
+/* The panel's left padding needs enough room for the indent line (at
+ * left:48px) AND the bullet marker to breathe. At 56px the marker
+ * sat 6px from the line — visually merging. 72px gives the marker a
+ * 22px buffer from the line, with the indent line still anchored to
+ * the right edge of the 48px chevron column. */
+.applied-rules-panel {
+    padding: 8px 16px 8px 72px;
+    background-color: transparent;
+}
+
+.applied-rules-empty {
+    padding: 4px 0;
+    font-style: italic;
+}
+
+.applied-rules-list {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.applied-rule-bullet {
+    padding: 4px 0;
+    border-radius: 4px;
+    /* Each bullet is a light row on the dark panel — the contrast reads
+     * as a distinct list item, not as a continuation of the panel. */
+    background-color: rgba(255, 255, 255, 0.03);
+    margin: 2px 0;
+}
+
+/* Visible horizontal separator BETWEEN bullets (raw CSS border, not
+ * MUI Divider, because the project's custom theme does not populate
+ * `--mui-palette-divider` with a visible color). The adjacent-sibling
+ * selector means the last bullet does not get a trailing border.
+ * White-alpha so it reads on the panel's tinted background — no color
+ * accent, just structural separation. */
+.applied-rule-bullet + .applied-rule-bullet {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* When a rule is excluded, the entire entry (name, chip, cost) reads
+ * as struck-through and faded — not just the name. The exclusion is a
+ * unit-level decision that affects the whole row, so the visual should
+ * too. The action buttons (pencil, deny, arrow) stay full-opacity and
+ * in their normal color so the user can still reinclude the rule. */
+.applied-rule-bullet.is-excluded .applied-rule-name,
+.applied-rule-bullet.is-excluded .applied-rule-cost,
+.applied-rule-bullet.is-excluded .applied-rule-bullet-marker,
+.applied-rule-bullet.is-excluded .applied-rule-kind-chip,
+.applied-rule-bullet.is-excluded .applied-rule-scope-chip {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+/* But NOT the action icons — they must stay interactive and at full
+ * opacity so the user can reincluded an excluded rule. */
+.applied-rule-bullet.is-excluded .applied-rule-action-button {
+    text-decoration: none;
+    opacity: 1;
+}
+
+/* Bullet marker. Small, neutral, no color accent — color is reserved
+ * for teeth (chart) and chips (universal list affordances). The marker
+ * reinforces the "this is a list item" semantic that the indent line
+ * already implies, but with a different shape (dot vs line) so the
+ * two don't merge visually. The marker is a 6px dot, but its visible
+ * hit area is larger via padding so it has clear breathing room on
+ * both sides — no margin collapsing, no dot touching text. */
+.applied-rule-bullet-marker {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 4px;
+    box-sizing: content-box;
+    background-clip: content-box;
+    flex-shrink: 0;
+}
+
+.applied-rule-bullet-primary {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: nowrap;
+    min-width: 0;
+    flex: 1 1 auto;
+}
+
+.applied-rule-name {
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
+}
+
+.applied-rule-name.is-excluded {
+    text-decoration: line-through;
+}
+
+.applied-rule-kind-chip,
+.applied-rule-scope-chip {
+    height: 20px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+/* Cost lives on the same single line as the name + chips, pushed to
+ * the right edge of the primary row by `margin-left: auto`. It
+ * therefore sits between the chips and the secondaryAction icons. */
+.applied-rule-cost {
+    color: text.secondary;
+    margin-left: auto;
+    padding-left: 8px;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+/* Actions sit on the right edge of the bullet via ListItem's
+ * secondaryAction. Without right padding the last icon (the green
+ * reinclude arrow) sat flush against the bullet's right border. */
+.applied-rule-actions {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding-right: 8px;
+}
+
+.applied-rule-action-button {
+    padding: 4px;
+}
+
+.applied-rule-edit.applied-rule-action-button {
+    color: var(--mui-palette-primary-main, #1976d2);
+}
+
+.applied-rule-exclude.applied-rule-action-button {
+    color: var(--mui-palette-warning-main, #ed6c02);
+}
+
+/* Reinclude (green arrow) was using the default MUI success-main
+ * (#2e7d32), a dark green that's nearly invisible on the dark
+ * panel. Bumped to Material Green 400 (#66bb6a) which reads on both
+ * light and dark surfaces without relying on the custom theme's
+ * success-main CSS variable. */
+.applied-rule-reinclude.applied-rule-action-button {
+    color: #66bb6a;
+}

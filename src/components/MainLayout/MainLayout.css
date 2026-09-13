@@ -1,0 +1,54 @@
+.main-layout-root {
+    display: flex;
+}
+
+.main-layout-app-bar {
+    /* z-index is handled inline because it depends on theme.zIndex.drawer */
+}
+
+.drawer-content-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.drawer-header-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.drawer-menu-item {
+    margin-bottom: 4px;
+}
+
+.drawer-menu-text {
+    font-weight: 500;
+}
+
+.drawer-collapse-item {
+    margin-bottom: 8px;
+}
+
+.app-bar-title {
+    flex-grow: 1;
+}
+
+.drawer-language-text {
+    font-weight: 500;
+}
+
+.app-bar-worktree-label {
+    font-weight: 500;
+    opacity: 0.85;
+    font-size: 0.85rem;
+    margin-right: 4px;
+}
+
+.app-bar-divider {
+    background-color: var(--mui-palette-divider, rgba(255, 255, 255, 0.15));
+    margin: 0 8px;
+    height: 20px;
+    align-self: center;
+}

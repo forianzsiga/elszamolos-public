@@ -1,0 +1,20 @@
+{
+  "en": {
+    "dateIssue": "Date of Issue",
+    "footerMockData": "MOCK DATA",
+    "description": "Description",
+    "qty": "Qty",
+    "unitPrice": "Unit Price",
+    "total": "Total",
+    "jobExtraOnce": "Job Extra (once)"
+  },
+  "hu": {
+    "dateIssue": "Kiállítás dátuma",
+    "footerMockData": "MINTA ADAT",
+    "description": "Megnevezés",
+    "qty": "Menny.",
+    "unitPrice": "Egységár",
+    "total": "Összesen",
+    "jobExtraOnce": "Egyéb költség (egyszeri)"
+  }
+}

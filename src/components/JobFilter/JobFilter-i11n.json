@@ -1,0 +1,20 @@
+{
+  "en": {
+    "search": "Search",
+    "clear": "Clear",
+    "clearTooltip": "Clear filters",
+    "delete": "Delete",
+    "deleteTooltip": "Delete selected items",
+    "columns": "Columns",
+    "columnsTooltip": "Manage columns"
+  },
+  "hu": {
+    "search": "Keresés",
+    "clear": "Törlés",
+    "clearTooltip": "Szűrők törlése",
+    "delete": "Törlés",
+    "deleteTooltip": "Kijelölt elemek törlése",
+    "columns": "Oszlopok",
+    "columnsTooltip": "Oszlopok kezelése"
+  }
+}

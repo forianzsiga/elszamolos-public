@@ -1,0 +1,18 @@
+.timeline-chart-container {
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.timeline-chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.timeline-chart-slider-box {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 16px;
+}

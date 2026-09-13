@@ -1,0 +1,16 @@
+{
+  "en": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "title": "Confirm",
+    "confirmTooltip": "Confirm action",
+    "cancelTooltip": "Cancel action"
+  },
+  "hu": {
+    "confirm": "Megerősítés",
+    "cancel": "Mégse",
+    "title": "Megerősítés",
+    "confirmTooltip": "Művelet megerősítése",
+    "cancelTooltip": "Művelet megszakítása"
+  }
+}

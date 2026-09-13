@@ -1,0 +1,13 @@
+.recent-jobs-paper {
+    padding: 16px;
+    position: relative;
+    overflow: hidden;
+}
+
+.recent-jobs-table-container {
+    overflow-x: auto;
+}
+
+.recent-jobs-table {
+    min-width: 950px;
+}

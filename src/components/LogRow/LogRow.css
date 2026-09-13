@@ -1,0 +1,17 @@
+.log-row {
+  display: grid;
+  align-items: center;
+  transition: background-color 0.2s ease-in-out;
+  border-bottom: 1px solid rgba(224, 224, 224, 0.3);
+  grid-template-columns: var(--grid-template-columns);
+}
+
+.log-row .grid-cell-container {
+  border-right: none;
+}
+
+.severity-chip {
+  height: 20px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}

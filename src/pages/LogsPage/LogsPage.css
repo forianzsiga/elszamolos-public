@@ -1,0 +1,41 @@
+.logs-page-container {
+    padding: 16px;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.logs-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logs-page-filter-paper {
+    padding: 16px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logs-page-search-field {
+    flex-grow: 1;
+    min-width: 200px;
+    max-width: 400px;
+}
+
+.logs-page-spacer {
+    flex-grow: 1;
+}
+
+.logs-page-alert {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.logs-page-table-container {
+    flex-grow: 1;
+    overflow: hidden;
+}

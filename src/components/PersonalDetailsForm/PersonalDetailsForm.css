@@ -1,0 +1,13 @@
+.personal-details-form-container {
+  padding: 24px;
+}
+.personal-details-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.button-container {
+  display: flex;
+  gap: 8px;
+}

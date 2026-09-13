@@ -1,0 +1,37 @@
+.floating-dev-toolbar-container {
+    position: fixed;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20000000;
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+    border-radius: 12px;
+    background-color: var(--mui-palette-background-paper);
+    border: 1px solid var(--mui-palette-divider);
+    opacity: 0.9;
+    transition: opacity 0.2s, transform 0.2s;
+    box-shadow: var(--mui-shadows-16, 0px 8px 28px rgba(0, 0, 0, 0.28)) !important;
+}
+
+.floating-dev-toolbar-container:hover {
+    opacity: 1;
+}
+
+.floating-dev-toolbar-container .MuiIconButton-root {
+    width: 48px;
+    height: 48px;
+}
+
+.floating-dev-toolbar-container .MuiSvgIcon-root {
+    font-size: 1.875rem !important;
+}
+
+.dev-toolbar-button-active {
+    background-color: var(--mui-palette-action-selected) !important;
+}
+
+.dev-toolbar-button-active:hover {
+    background-color: var(--mui-palette-action-hover) !important;
+}

@@ -1,0 +1,12 @@
+{
+  "en": {
+    "tooltip.open": "Switch worktree",
+    "tooltip.select": "Switch to this worktree",
+    "menu.header": "Worktrees"
+  },
+  "hu": {
+    "tooltip.open": "Worktree váltása",
+    "tooltip.select": "Váltás erre a worktree-re",
+    "menu.header": "Worktree-k"
+  }
+}

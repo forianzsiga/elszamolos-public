@@ -1,0 +1,34 @@
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 16px;
+}
+
+@media (max-width: 899px) {
+  .dashboard-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.dashboard-header-title {
+  margin-top: 8px;
+}
+
+.dashboard-filter-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 16px;
+  align-items: center;
+}
+
+.dashboard-filter-input {
+  flex-grow: 1;
+}
+
+.stats-grid {
+  margin-top: 24px;
+}

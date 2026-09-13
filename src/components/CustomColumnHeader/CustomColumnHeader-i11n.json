@@ -1,0 +1,12 @@
+{
+  "en": {
+    "sortButton": "Sort column",
+    "filterContainer": "Filter",
+    "clickToSort": "Click to sort"
+  },
+  "hu": {
+    "sortButton": "Oszlop rendezése",
+    "filterContainer": "Szűrő",
+    "clickToSort": "Kattintson a rendezéshez"
+  }
+}

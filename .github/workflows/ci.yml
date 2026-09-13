@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main, 'wt/**']
+  pull_request:
+    branches: [main]
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: TypeScript (tsc -b)
+        run: npx tsc -b
+      - name: Tests (vitest)
+        run: npm test
+      - name: Lint (eslint)
+        run: npx eslint .
+      - name: Compliance gates (report-only — mirrors deploy.yml)
+        continue-on-error: true
+        run: python3 tools/run_compliance_parallel.py

@@ -1,0 +1,16 @@
+.job-teeth-table-header {
+    padding: 8px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.12);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-teeth-table-title {
+    margin-left: 8px;
+}
+
+.job-teeth-table-actions {
+    display: flex;
+    gap: 8px;
+}

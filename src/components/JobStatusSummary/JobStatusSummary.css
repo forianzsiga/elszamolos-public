@@ -1,0 +1,14 @@
+.job-status-summary-container {
+    display: flex;
+    gap: 8px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-width: 100%;
+    padding-bottom: 4px;
+    padding-right: 4px;
+}
+
+.job-status-summary-container::-webkit-scrollbar {
+    height: 6px;
+}

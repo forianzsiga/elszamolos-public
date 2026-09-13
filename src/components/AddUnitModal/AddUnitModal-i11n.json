@@ -1,0 +1,38 @@
+{
+  "en": {
+    "editUnit": "Edit Unit",
+    "addUnit": "Add Unit",
+    "isJobLevel": "Is Job Level",
+    "toothNumber": "Tooth Number",
+    "invalidToothNumber": "Invalid tooth number",
+    "material": "Material",
+    "type": "Type",
+    "screw": "Screw Retained",
+    "cancel": "Cancel",
+    "save": "Save Changes",
+    "add": "Add",
+    "tooltipCancel": "Cancel action",
+    "tooltipAdd": "Add new unit",
+    "tooltipSave": "Save changes",
+    "tooltipIsJobLevel": "Toggle if this is a job level unit",
+    "tooltipScrew": "Toggle if this is screw retained"
+  },
+  "hu": {
+    "editUnit": "Egység szerkesztése",
+    "addUnit": "Egység hozzáadása",
+    "isJobLevel": "Munka szintű",
+    "toothNumber": "Fogszám",
+    "invalidToothNumber": "Érvénytelen fogszám",
+    "material": "Anyag",
+    "type": "Típus",
+    "screw": "Csavarozott",
+    "cancel": "Mégse",
+    "save": "Mentés",
+    "add": "Hozzáadás",
+    "tooltipCancel": "Művelet megszakítása",
+    "tooltipAdd": "Új egység hozzáadása",
+    "tooltipSave": "Változások mentése",
+    "tooltipIsJobLevel": "Munka szintű kapcsolása",
+    "tooltipScrew": "Csavarozott kapcsolása"
+  }
+}

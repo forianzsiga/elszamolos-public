@@ -1,0 +1,22 @@
+{
+  "en": {
+    "actionType": "Action Type",
+    "priceValue": "Price Value",
+    "currency": "Currency",
+    "priceIsZero": "Price is 0",
+    "selectAction": "Select action",
+    "selectCurrency": "Select currency",
+    "hufTooltip": "Hungarian Forint",
+    "eurTooltip": "Euro"
+  },
+  "hu": {
+    "actionType": "Művelet típusa",
+    "priceValue": "Ár értéke",
+    "currency": "Valuta",
+    "priceIsZero": "Az ár 0",
+    "selectAction": "Válasszon műveletet",
+    "selectCurrency": "Válasszon valutát",
+    "hufTooltip": "Magyar Forint",
+    "eurTooltip": "Euró"
+  }
+}

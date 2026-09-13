@@ -1,0 +1,16 @@
+{
+  "en": {
+    "logs.column.timestamp": "Timestamp",
+    "logs.column.severity": "Severity",
+    "logs.column.message": "Message",
+    "logs.column.details": "Details",
+    "logs.column.copy": "Copy"
+  },
+  "hu": {
+    "logs.column.timestamp": "Időbélyeg",
+    "logs.column.severity": "Súlyosság",
+    "logs.column.message": "Üzenet",
+    "logs.column.details": "Részletek",
+    "logs.column.copy": "Másolás"
+  }
+}

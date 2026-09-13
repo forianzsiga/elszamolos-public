@@ -1,0 +1,18 @@
+{
+  "en": {
+    "copyTooltip": "Copy",
+    "noDetails": "-",
+    "severity.error": "Error",
+    "severity.warning": "Warning",
+    "severity.success": "Success",
+    "severity.info": "Info"
+  },
+  "hu": {
+    "copyTooltip": "Másolás",
+    "noDetails": "-",
+    "severity.error": "Hiba",
+    "severity.warning": "Figyelmeztetés",
+    "severity.success": "Siker",
+    "severity.info": "Info"
+  }
+}

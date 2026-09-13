@@ -1,0 +1,20 @@
+{
+  "en": {
+    "teethTableTitle": "Teeth",
+    "addUnit": "Add Unit",
+    "addUnitTooltip": "Add new unit",
+    "delete": "Delete",
+    "deleteTooltip": "Delete selected units",
+    "noDetails": "No individual unit details available.",
+    "hiddenItems": "Hidden Items"
+  },
+  "hu": {
+    "teethTableTitle": "Fogak",
+    "addUnit": "Egység hozzáadása",
+    "addUnitTooltip": "Új egység hozzáadása",
+    "delete": "Törlés",
+    "deleteTooltip": "Kiválasztott egységek törlése",
+    "noDetails": "Nincsenek elérhető részletek az egyes egységekről.",
+    "hiddenItems": "Rejtett elemek"
+  }
+}

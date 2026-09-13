@@ -1,0 +1,26 @@
+.job-table-header {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0 16px;
+  flex-shrink: 0;
+  border-bottom: none;
+  border-right: none;
+  height: 100%;
+  font-weight: bold;
+  justify-content: center;
+  background-color: var(--mui-palette-background-paper);
+}
+
+/* Width classes for dynamic prop values as suggested by compliance rules */
+.job-table-header.width-60 { width: 60px; }
+.job-table-header.width-80 { width: 80px; }
+.job-table-header.width-100 { width: 100px; }
+.job-table-header.width-120 { width: 120px; }
+.job-table-header.width-140 { width: 140px; }
+.job-table-header.width-150 { width: 150px; }
+.job-table-header.width-180 { width: 180px; }
+.job-table-header.width-200 { width: 200px; }
+.job-table-header.width-250 { width: 250px; }
+.job-table-header.width-300 { width: 300px; }

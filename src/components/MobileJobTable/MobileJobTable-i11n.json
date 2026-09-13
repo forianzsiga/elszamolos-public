@@ -1,0 +1,18 @@
+{
+  "en": {
+    "archMap": "ARCH MAP",
+    "units": "units",
+    "edit": "Edit",
+    "delete": "Delete",
+    "editJobTooltip": "Edit job",
+    "deleteJobTooltip": "Delete job"
+  },
+  "hu": {
+    "archMap": "FOGÁSZATI TÉRKÉP",
+    "units": "egység",
+    "edit": "Szerkesztés",
+    "delete": "Törlés",
+    "editJobTooltip": "Munka szerkesztése",
+    "deleteJobTooltip": "Munka törlése"
+  }
+}

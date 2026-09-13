@@ -1,0 +1,17 @@
+.job-status-chip {
+  border: 1px solid var(--chip-border-color, transparent);
+  background: var(--chip-bg, transparent);
+  color: var(--chip-color, inherit);
+  font-weight: 500;
+}
+
+.job-status-chip .MuiChip-icon {
+  color: inherit;
+}
+
+.job-status-chip-filled {
+  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+  color: white;
+  background: var(--chip-bg, transparent);
+  border-color: var(--chip-border-color, transparent);
+}

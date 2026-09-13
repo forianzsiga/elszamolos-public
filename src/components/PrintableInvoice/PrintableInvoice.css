@@ -1,0 +1,165 @@
+.invoice-page {
+  font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  background-color: #fff;
+  color: #1f2937;
+  padding: 24px;
+  max-width: 210mm;
+  min-height: 297mm;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.header-container {
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.doc-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.doc-meta {
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.job-container {
+  margin-bottom: 16px;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.job-header {
+  background-color: #f1f5f9;
+  padding: 8px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom: 1px solid #cbd5e1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-title {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #0f172a;
+}
+
+.table-header-cell {
+  padding: 4px 8px;
+  font-weight: bold;
+  color: #64748b;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.item-cell {
+  padding: 4px 8px;
+  font-size: 0.85rem;
+  color: #334155;
+  border-bottom: 1px solid #f8fafc;
+}
+
+.item-subtext {
+  font-size: 0.7rem;
+  color: #94a3b8;
+  display: block;
+}
+
+.invoice-item-row {
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.priority-caption {
+  font-size: 0.65rem;
+}
+
+.item-cell-bold {
+  font-weight: bold;
+}
+
+.page-break-before {
+  page-break-before: always;
+}
+
+.header-right {
+  text-align: right;
+}
+
+.header-sub-caption {
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.7rem;
+}
+
+.job-filename {
+  font-size: 0.75rem;
+  font-family: monospace;
+  color: #64748b;
+}
+
+.items-table-container {
+  border: 1px solid #e2e8f0;
+  border-top: none;
+}
+
+.items-table {
+  width: 100%;
+}
+
+.table-header-row {
+  background-color: #f8fafc;
+}
+
+.col-width-60 {
+  width: 60%;
+}
+
+.col-width-10 {
+  width: 10%;
+}
+
+.col-width-15 {
+  width: 15%;
+}
+
+@media print {
+  .invoice-page {
+    background-color: #ffffff !important;
+    color: #1f2937 !important;
+  }
+  .table-header-row {
+    background-color: #f8fafc !important;
+  }
+  .table-header-cell {
+    color: #64748b !important;
+  }
+  .item-cell {
+    color: #334155 !important;
+  }
+  .job-header {
+    background-color: #f1f5f9 !important;
+  }
+  .priority-caption {
+    color: #cbd5e1 !important;
+  }
+  .item-subtext {
+    color: #94a3b8 !important;
+  }
+  .grandTotalBox {
+    color: #0f172a !important;
+  }
+  .disclaimer {
+    color: #94a3b8 !important;
+  }
+}
+

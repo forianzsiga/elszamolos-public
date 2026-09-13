@@ -1,0 +1,68 @@
+.invoice-preview-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.doctor-paper {
+  padding: 16px;
+  background-color: var(--mui-palette-background-default);
+}
+
+.doctor-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--mui-palette-primary-main);
+}
+
+.patient-paper {
+  overflow: hidden;
+}
+
+.patient-header {
+  padding: 8px 16px;
+  border-bottom: 1px solid var(--mui-palette-divider);
+  background-color: var(--mui-palette-action-hover);
+}
+
+.job-header {
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--mui-palette-background-paper);
+}
+
+.job-id {
+  font-family: monospace;
+  color: var(--mui-palette-text-disabled);
+}
+
+.table-container {
+  padding: 0 16px 16px 16px;
+}
+
+.table-cell-no-border {
+  border: none;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.table-cell-align-top {
+  vertical-align: top;
+}
+
+.table-head-cell {
+  border-bottom: 1px solid var(--mui-palette-divider);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: var(--mui-palette-text-secondary);
+}
+
+.total-container {
+  padding: 0 16px 16px 16px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}

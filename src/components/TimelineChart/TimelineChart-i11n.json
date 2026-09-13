@@ -1,0 +1,10 @@
+{
+  "en": {
+    "timelineTitle": "Timeline",
+    "timelineCaption": "Visualizing job status over time"
+  },
+  "hu": {
+    "timelineTitle": "Idővonal",
+    "timelineCaption": "Munkák állapotának vizualizálása időben"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "en": {
+    "changeLanguage": "change language",
+    "english": "English",
+    "magyar": "Magyar",
+    "selectEnglish": "Select English",
+    "selectMagyar": "Select Magyar",
+    "debug": "DEBUG (Keys)",
+    "selectDebug": "Select Translation Keys Mode"
+  },
+  "hu": {
+    "changeLanguage": "nyelvváltás",
+    "english": "Angol",
+    "magyar": "Magyar",
+    "selectEnglish": "Angol kiválasztása",
+    "selectMagyar": "Magyar kiválasztása",
+    "debug": "DEBUG (Kulcsok)",
+    "selectDebug": "Fordítási Kulcsok Mód Kiválasztása"
+  }
+}

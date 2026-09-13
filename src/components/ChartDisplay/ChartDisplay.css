@@ -1,0 +1,20 @@
+.chart-container {
+  height: 250px;
+  width: 100%;
+}
+
+.tooltip-paper {
+  padding: 16px;
+}
+
+.tooltip-invoiced {
+  color: var(--mui-palette-custom-invoiced);
+}
+
+.tooltip-applied {
+  color: var(--mui-palette-custom-applied);
+}
+
+.tooltip-pending {
+  color: var(--mui-palette-custom-pending);
+}
